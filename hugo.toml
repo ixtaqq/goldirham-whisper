@@ -10,8 +10,10 @@ disableHugoGeneratorInject = true
   author = "The Goldirham Whisper"
 
 [minify]
-  # The SPA home page uses literal {{ }} binding syntax (DC runtime) — Hugo's
-  # template-aware HTML minifier would try to parse it. Everything else minifies.
+  # Legacy from the old DC-runtime SPA (removed) which used literal {{ }} as
+  # its own binding syntax, which Hugo's HTML minifier tried to parse as Go
+  # template actions. layouts/partials/app.html no longer does this, so this
+  # could likely be re-enabled — just hasn't been tested.
   disableHTML = true
 
 [markup.goldmark.renderer]

@@ -6,8 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Goldirham Whisper — a static Hugo site tracking obscure economic releases and
 exchange infrastructure dates ("dates that move markets first"). No build
-tooling beyond Hugo itself: Tailwind and Alpine.js are loaded from CDN, there
-is no `package.json`, and there are no automated tests.
+tooling beyond Hugo itself: fonts are loaded from a CDN, the main app is
+vanilla JS, the not-yet-unified `/event/`/`/search/`/`/about/` pages still
+load Tailwind and Alpine.js from CDN — there is no `package.json`, and no
+automated tests.
 
 ## Commands
 
@@ -58,57 +60,48 @@ data/manual_events.json ────┼──▶ scripts/aggregator.py ──▶
   work but need the `keywords` relevance filter (per-source in
   `config.yaml`) to strip HR/PR noise from real statistical content. Don't
   re-add a "obviously free" calendar URL without live-testing it first.
-- `GW_FLAGS` (source-name substring → flag emoji) exists in **three**
-  independent places that must be kept in sync by hand: `aggregator.py`,
-  `layouts/partials/store.html`, and the generated
-  `static/data/flags-data.js`. There is no shared source of truth for this
-  mapping.
+- `GW_FLAGS` (source-name substring → flag emoji) exists in **two**
+  independent places that must be kept in sync by hand: `aggregator.py` and
+  the generated `static/data/flags-data.js`. There is no shared source of
+  truth for this mapping.
 
-## Two parallel frontend implementations — know which one you're editing
+## Frontend architecture
 
-This is the single most important architectural fact in the repo. The site
-was rebuilt once but the old implementation was never deleted, and both are
-live in production simultaneously on different routes:
+The main app — calendar, exchanges, economics, search, about — is one
+self-contained document, `layouts/partials/app.html` (vanilla JS, no
+framework; inline CSS design tokens; ambient canvas background). It's
+included from three thin Hugo templates, each passing which view should be
+active on load:
 
-1. **`layouts/index.html`** — the one actually used when navigating the site
-   normally. A fully self-contained HTML document (bypasses
-   `_default/baseof.html` entirely) built on a small custom component runtime
-   in `static/support.js` (custom elements `<x-dc>`, `<sc-if>`, `<sc-for>`,
-   `<dc-import>`, a `DCLogic`/`Component` base class). It owns **every**
-   view — calendar, exchanges, economics, search, about — as client-side
-   state (`view: 'calendar' | 'exchanges' | ...`) on a single page at `/`.
-   Clicking nav links here never changes the URL. `static/EventRow.dc.html`
-   is a shared row component imported via `<dc-import>`.
-2. **`layouts/_default/baseof.html`** + partials (`head`, `ticker`, `header`,
-   `footer`, `data`, `store`) + per-section templates
-   (`layouts/economics/list.html`, `exchanges/list.html`, `event/list.html`,
-   `search/list.html`, `_default/single.html`) — an older Alpine.js +
-   Tailwind (CDN) implementation, internally called "GW" (`$store.gw`,
-   `gwEconomics()`, `gwTicker()`, etc. in `layouts/partials/store.html`).
-   This is what actually renders if you (or a search engine, or a shared
-   link) hit `/economics/`, `/exchanges/`, `/event/`, `/search/`, or
-   `/about/` **directly** — verified by curling those routes; they contain
-   `x-data="gwEconomics()"` etc., not the DC runtime.
+- `layouts/index.html` → `{{ partial "app.html" (dict "view" "calendar" "page" .) }}`
+- `layouts/economics/list.html` → `... "view" "economics" ...`
+- `layouts/exchanges/list.html` → `... "view" "exchanges" ...`
 
-Both read from the same `data/events.json` (the Alpine version embeds it
-inline via `layouts/partials/data.html`; the SPA imports
-`static/data/events-data.js`), but the markup, styling, and JS are entirely
-separate codebases implementing the same features twice. Before "fixing a
-bug on the economics page," check which implementation the user actually
-means — a fix in one will not affect the other. `_default/list.html` is an
-unused fallback (comment in the file says so).
+All three render the *identical* app; only the initial `S.view` (and the
+server-rendered `<title>`/description/canonical, sourced from `.page.Title`
+etc.) differ. Client-side nav clicks (`data-act="nav"`) just flip `S.view`
+and re-render `#app` — no URL change, no page reload. Data loads once via a
+dynamic `import()` of `static/data/events-data.js` + `flags-data.js`
+(deferred into `boot()`), not from any Hugo template variable.
 
-`hugo.toml` sets `[minify] disableHTML = true` specifically because
-`layouts/index.html` uses literal `{{ }}` as its own template syntax (the DC
-runtime's binding syntax, e.g. `onClick="{{ event.onClick }}"` inside
-`EventRow.dc.html`), which Hugo's HTML-aware minifier would otherwise try to
-parse as Go template actions.
+**`/event/`, `/search/`, and `/about/` are not yet unified** — they still
+render a separate, older Alpine.js + Tailwind (CDN) implementation via
+`layouts/_default/baseof.html` + partials (`head`, `ticker`, `header`,
+`footer`, `data`, `store`) + `layouts/event/list.html`, `search/list.html`,
+`_default/single.html`. That implementation embeds `data/events.json`
+inline (`layouts/partials/data.html`) and uses its own Alpine store
+(`$store.gw`, `gwSearch()`, etc. in `layouts/partials/store.html`) —
+completely separate code from `app.html`. If asked to unify these too, add
+matching one-line wrappers around `app.html` the same way economics/exchanges
+were done, then confirm nothing else still depends on `_default/list.html`,
+`event/list.html`, or `search/list.html` before deleting them.
+
+`hugo.toml` sets `[minify] disableHTML = true`; the comment there explains
+this was needed for the now-deleted DC-runtime SPA and could likely be
+re-enabled, just hasn't been tested.
 
 ## Other things worth knowing
 
-- `static/app.html` is an orphaned draft landing page under old branding
-  ("HIDDEN HAND — Market Ops Sync") with a completely different visual
-  design. Nothing links to it; it's not part of either frontend above.
 - `scripts/digest.py` is a separate pipeline from the aggregator: it reads
   `data/events.json` and writes `static/digest.xml`, meant to be piped
   through a free Mailchimp RSS-to-email campaign. Its `SITE_URL` is still a

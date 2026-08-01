@@ -8,39 +8,68 @@
 # keep curation in data/manual_events.json (see scripts/aggregator.py) and
 # add iCal/HTML sources here only once you have confirmed the URL with:
 #   python scripts/aggregator.py
+#
+# NOTE (verified 2026-08, second pass): live-tested a broad set of "release
+# calendar" candidates (FRED, BLS ICS, Treasury RSS, CME/CBOE/Eurex/SIX ICS,
+# IMF, BIS, Eurostat, Destatis, StatCan, ABS) — all dead, 403, or timed out.
+# Two real additions survived: ONS UK's release calendar (genuine second-tier
+# stats, see below) and a bespoke JPX holiday-table parser (see exchanges).
+# `keywords` on an RSS source is an optional relevance filter — the generic
+# BoE/BoC/ECB/SEC feeds mix real statistical releases with HR/PR noise
+# ("names new COO", "hosts virtual roundtable"); only entries whose title or
+# summary match a keyword are kept.
 
 # Economic release RSS feeds (verified live — free, no keys)
 economics:
   - name: "Bank of England"
     url: "https://www.bankofengland.co.uk/rss/news"
     type: "rss"
+    keywords: ["minutes", "record", "statistic", "statistical", "survey",
+      "index", "report", "data", "release", "decision", "rate", "bulletin",
+      "review", "estimate", "forecast", "inflation", "notice", "levy"]
   - name: "Bank of Canada"
     url: "https://www.bankofcanada.ca/feed/"
     type: "rss"
+    keywords: ["minutes", "record", "statistic", "statistical", "survey",
+      "index", "report", "data", "release", "decision", "rate", "bulletin",
+      "review", "estimate", "forecast", "inflation"]
   - name: "ECB Press Releases"
     url: "https://www.ecb.europa.eu/rss/press.html"
     type: "rss"
+    keywords: ["minutes", "record", "statistic", "statistical", "survey",
+      "index", "report", "data", "release", "decision", "rate", "bulletin",
+      "review", "estimate", "forecast", "inflation", "governing council"]
   - name: "SEC Press Releases"
     url: "https://www.sec.gov/rss/news/press.xml"
     type: "rss"
+    keywords: ["rule", "filing", "data", "report", "statistic", "release",
+      "adopt", "propose", "order", "index", "requirement"]
+  - name: "ONS UK Release Calendar"
+    url: "https://www.ons.gov.uk/releasecalendar?rss"
+    type: "rss"
+    # Genuinely on-theme as-is (house-building indicators, workless
+    # households, business demography) — no keyword filter needed.
 
-# Exchange calendars — historical examples only. Verify each URL before use;
-# most of these died with the switch to JS-hosted calendar apps.
+# Exchange calendars — most died with the switch to JS-hosted calendar apps
+# (see NOTE above for what was actually tested). JPX is the one confirmed
+# survivor: real server-rendered <table> per year, parsed by
+# aggregator.parse_jpx_holidays (type: jpx_holidays). Everything else stays
+# curated by hand in data/manual_events.json.
 exchanges:
   - name: "JPX / TSE"
     country: "Japan"
-    type: "html"
+    type: "jpx_holidays"
     url: "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/"
-  - name: "Nasdaq Holiday Calendar"
-    country: "US"
-    type: "html"
-    url: "https://www.nasdaqtrader.com/Trader.aspx?id=MarketHolCal"
-  # iCal-style examples (re-check the host's current "download .ics" link):
-  # NYSE   : https://www.nyse.com/markets/hours-calendars.ics       (404 as of 2026-08)
-  # LSE    : https://www.londonstockexchange.com/static/calendars/trading-calendar.ics (redirects to JS app)
-  # TSE    : https://www.jpx.co.jp/english/corporate/about-jpx/calendar/cal2026.ics (404 as of 2026-08)
-  # HKEX   : https://www.hkex.com.hk/eng/market/calendar/calendardownload.ics (404 as of 2026-08)
-  # ASX    : https://www.asx.com.au/data/trt/Calendar.ics           (returns HTML, not iCal)
+  # Dead as of 2026-08 (200 but "Page Not Available" body):
+  #   Nasdaq Holiday Calendar: https://www.nasdaqtrader.com/Trader.aspx?id=MarketHolCal
+  # Also dead/blocked in the second pass:
+  #   NYSE   : https://www.nyse.com/markets/hours-calendars.ics       (404)
+  #   LSE    : https://www.londonstockexchange.com/static/calendars/trading-calendar.ics (redirects to JS app)
+  #   HKEX   : https://www.hkex.com.hk/eng/market/calendar/calendardownload.ics (404)
+  #   ASX    : https://www.asx.com.au/data/trt/Calendar.ics           (returns HTML, not iCal)
+  #   CME    : holiday-calendar.ics (read timeout)
+  #   CBOE   : CBOE_Holiday_Calendar.ics (403 Access Denied)
+  #   Eurex/SIX trading-calendar pages (404 — JS-rendered)
 
 # Community submissions via a published Google Sheet.
 # 1) Google Form → Google Sheet. 2) In Sheets: File > Share > Publish to web >

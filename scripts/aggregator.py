@@ -162,8 +162,14 @@ def parse_ical(content, source_name, source_type="exchange"):
     return events
 
 
-def parse_rss(content, source_name, source_type="economics"):
-    """Extract items from RSS/Atom feed."""
+def parse_rss(content, source_name, source_type="economics", keywords=None):
+    """Extract items from RSS/Atom feed.
+
+    Many free central-bank/regulator feeds mix real statistical releases with
+    HR announcements and PR fluff ("names new COO", "hosts virtual roundtable").
+    If `keywords` is given, only entries whose title or summary contain at
+    least one keyword are kept — a relevance filter, not a topic restriction.
+    """
     events = []
     try:
         feed = feedparser.parse(content)
@@ -184,13 +190,18 @@ def parse_rss(content, source_name, source_type="economics"):
             if not in_window(event_date):
                 continue
             title = (entry.get("title") or f"{source_name} release").strip()
+            summary = entry.get("summary") or ""
+            if keywords:
+                haystack = (title + " " + summary).lower()
+                if not any(k in haystack for k in keywords):
+                    continue
             events.append(
                 {
                     "date": event_date.isoformat(),
                     "title": title,
                     "source": source_name,
                     "type": source_type,
-                    "description": (entry.get("summary") or "")[:500],
+                    "description": summary[:500],
                     "url": entry.get("link", ""),
                     "tags": [source_name.lower(), source_type, "economics"],
                 }
@@ -237,6 +248,64 @@ def parse_html_calendar(content, source_name, source_type="exchange"):
     return events
 
 
+MONTH_NUM = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+def parse_jpx_holidays(content, source_name, source_type="exchange"):
+    """JPX's market-holiday page (jpx.co.jp/.../calendar/) is one of the few
+    exchange calendars still served as plain server-rendered HTML. Each year
+    is an <h2 class="heading-title"><span>YYYY</span></h2> followed by a
+    <table class="overtable"> of rows like ["Jan. 1 (Thu.)", "New Year's Day"].
+    Generic tr/td scraping (parse_html_calendar) finds no ISO dates here, so
+    this walks the DOM tracking the current year heading per table."""
+    events = []
+    try:
+        soup = BeautifulSoup(content, "lxml")
+        current_year = None
+        for el in soup.find_all(["h2", "table"]):
+            if el.name == "h2" and "heading-title" in (el.get("class") or []):
+                text = el.get_text(strip=True)
+                m = re.match(r"(\d{4})", text)
+                if m:
+                    current_year = int(m.group(1))
+                continue
+            if el.name == "table" and current_year:
+                for row in el.select("tr"):
+                    cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
+                    if len(cells) < 2:
+                        continue
+                    dm = re.match(r"^([A-Za-z]{3})\.?\s*(\d{1,2})", cells[0])
+                    if not dm:
+                        continue
+                    month = MONTH_NUM.get(dm.group(1).lower())
+                    if not month:
+                        continue
+                    try:
+                        event_date = date(current_year, month, int(dm.group(2)))
+                    except ValueError:
+                        continue
+                    if not in_window(event_date):
+                        continue
+                    title = re.sub(r"\s*\d+$", "", cells[1]).strip()  # strip footnote markers
+                    events.append(
+                        {
+                            "date": event_date.isoformat(),
+                            "title": f"Market holiday — {title}",
+                            "source": source_name,
+                            "type": source_type,
+                            "description": f"{source_name} closed for {title}. Settlement and expiry cycles roll to the next session.",
+                            "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+                            "tags": [source_name.lower(), source_type, "holiday"],
+                        }
+                    )
+    except Exception as e:
+        logging.error("Error parsing JPX calendar from %s: %s", source_name, e)
+    return events
+
+
 def process_source(source, source_type):
     logging.info("Processing %s (%s)", source["name"], source["type"])
     content = fetch_content(source["url"])
@@ -245,6 +314,7 @@ def process_source(source, source_type):
     parser = {
         "ical": parse_ical,
         "rss": parse_rss,
+        "jpx_holidays": parse_jpx_holidays,
     }.get(source["type"], parse_html_calendar)
     if source["type"] in ("ical", "rss") and not looks_like(content, source["type"]):
         logging.warning(
@@ -252,7 +322,10 @@ def process_source(source, source_type):
             source["name"], source["type"].upper(),
         )
         return []
-    return parser(content, source["name"], source_type=source_type)
+    kwargs = {"source_type": source_type}
+    if source["type"] == "rss" and source.get("keywords"):
+        kwargs["keywords"] = [k.strip().lower() for k in source["keywords"] if k.strip()]
+    return parser(content, source["name"], **kwargs)
 
 
 def load_manual_events():

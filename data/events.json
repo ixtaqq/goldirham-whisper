@@ -6,7 +6,52 @@
     "type": "exchange",
     "description": "DDoS-simulation rehearsal across the Globex core. Early-session slippage expected while trading-floor bars accept cloned connectivity.",
     "url": "https://www.cmegroup.com/tools-information/holiday-calendar.html",
-    "tags": ["cme group", "exchange", "failover", "drill"]
+    "tags": [
+      "cme group",
+      "exchange",
+      "failover",
+      "drill"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Financial Policy Committee Record – July 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.",
+    "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Minutes of the UK Money Markets Code Sub-Committee – June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+    "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-08",
@@ -15,7 +60,26 @@
     "type": "economics",
     "description": "The quiet survey with the loud revisions. Watch the quits rate, not the opening headlines.",
     "url": "https://www.bls.gov/jlt/",
-    "tags": ["bls", "economics", "jolts", "labor"]
+    "tags": [
+      "bls",
+      "economics",
+      "jolts",
+      "labor"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission’s Office of Municipal Securities today announced it has updated its Registration of Municipal Advisors FAQs webpage to offer more clarity on municipal advisor registration and recordkeeping requirements.&nbsp;The…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-10",
@@ -24,7 +88,26 @@
     "type": "exchange",
     "description": "Nightly batch replication switched to the Chicago market center. Expect confirms to run late across every custodian.",
     "url": "https://www.dtcc.com/",
-    "tags": ["dtcc", "exchange", "failover", "settlement"]
+    "tags": [
+      "dtcc",
+      "exchange",
+      "failover",
+      "settlement"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "Minutes of the Money Market Committee meeting – June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minutes-june-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-14",
@@ -33,7 +116,26 @@
     "type": "economics",
     "description": "Note and bond auction salts set for the quarter. Dealer demand prints decide the long-end tone.",
     "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives",
-    "tags": ["us treasury", "economics", "debt", "auction"]
+    "tags": [
+      "us treasury",
+      "economics",
+      "debt",
+      "auction"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission today&nbsp;proposed Regulation E-Delivery, a new rule that would expand the ability of issuers, broker-dealers, investment advisers, and others to use electronic delivery to satisfy information delivery requirements…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-17",
@@ -42,7 +144,64 @@
     "type": "exchange",
     "description": "Standard expiry cascade; watch the 13:00 CET settling auctions for gamma pinning.",
     "url": "https://www.eurex.com/ex-en/",
-    "tags": ["eurex", "exchange", "expiry"]
+    "tags": [
+      "eurex",
+      "exchange",
+      "expiry"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "Market holiday — Marine Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Marine Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "title": "PRA fines HDI Global SE £4,165,000 for inaccurate reporting of FSCS Liabilities and FSCS Fee Tariff data",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Prudential Regulation Authority (PRA) has imposed a financial penalty of £4,165,000 on HDI Global SE in connection with the submission of incorrect data to the PRA.",
+    "url": "https://www.bankofengland.co.uk/news/2026/july/pra-fines-hdi-global-se-4165000-for-inaccurate-reporting",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "title": "July 2026 euro area bank lending survey",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-22",
@@ -51,7 +210,155 @@
     "type": "economics",
     "description": "Off-consensus leading gauge for the EU household block; a canary for the HICP path.",
     "url": "https://ec.europa.eu/eurostat/cache/data/ei_bscn_m.html",
-    "tags": ["eurostat", "economics", "confidence"]
+    "tags": [
+      "eurostat",
+      "economics",
+      "confidence"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "title": "Monetary policy decisions",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "ECB to extend use of climate factors in Eurosystem collateral framework to non-financial corporate credit claims",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "Results of the ECB Survey of Professional Forecasters for the third quarter of 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "title": "ECB Consumer Expectations Survey results – June 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_1~fa277eb6fe.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s&nbsp;45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "title": "Workless households for regions across the UK: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual information at a local level about households and the adults and children living in them, by their economic activity status.",
+    "url": "https://www.ons.gov.uk/releases/worklesshouseholdsforregionsacrosstheuk2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 17 July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending17july2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "title": "The impact of hospitalisation for sepsis on employee earnings and employment status, England: April 2014 to December 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The change in employee earnings and employment after hospitalisation for sepsis, compared with 12 to 24 months before hospitalisation.",
+    "url": "https://www.ons.gov.uk/releases/theimpactofhospitalisationforsepsisonemployeeearningsandemploymentstatusenglandapril2014tomarch2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-29",
@@ -60,7 +367,103 @@
     "type": "economics",
     "description": "Policy statement plus SEP and dot plot. Front of the tape, but the presser transcripts carry the real clues.",
     "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-    "tags": ["federal reserve", "economics", "fomc"]
+    "tags": [
+      "federal reserve",
+      "economics",
+      "fomc"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Digital euro app to incorporate highest accessibility standards",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Business demography, quarterly, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
+    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Economic activity and social change in the UK, real-time indicators: 30 July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators30july2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Health state life expectancy estimates for Middle layer Super Output Areas, England and Wales: 2019 to 2023",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of health expectancy at birth for small area populations based on self-assessed health and self-assessed activity limitation.",
+    "url": "https://www.ons.gov.uk/releases/healthstatelifeexpectancyestimatesformiddlelayersuperoutputareasmsoasenglandandwales2019to2023",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Comparing ONS UK economic growth data with diffusion indices: 2012 to 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Comparing ONS short-term UK economic data and S&amp;P Global Purchasing Managers’ Index surveys (PMI). These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/comparingonsukeconomicdatawithpurchasingmanagersindexsurveys2012to2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-07-30",
@@ -69,7 +472,52 @@
     "type": "economics",
     "description": "Core PCE m/m. The inflation print desks actually hedge with before the headline reverts.",
     "url": "https://www.bea.gov/data/income-saving/personal-income",
-    "tags": ["bea", "economics", "pce", "inflation"]
+    "tags": [
+      "bea",
+      "economics",
+      "pce",
+      "inflation"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "Population estimates by marital status and living arrangements, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual estimates of population by legal marital status and cohabitation status by age and sex for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/populationestimatesbymaritalstatusandlivingarrangementsenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "title": "Indicators of house building, UK: permanent dwellings started and completed by country, July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Starts and completions of new build dwellings in the UK, on a quarterly and annual basis, time series data.",
+    "url": "https://www.ons.gov.uk/releases/indicatorsofhousebuildingukpermanentdwellingsstartedandcompletedbycountryjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "title": "Update on reinstating quarterly regional GDP estimates for England and Wales: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "First update on reinstating quarterly regional gross domestic product (GDP) estimates for England and Wales, including recent data and methods changes to produce seasonally adjusted current price estimates and a new indicative regional dataset and data catalogue. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/reinstatingquarterlyregionalgdpestimates",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-01",
@@ -78,7 +526,12 @@
     "type": "economics",
     "description": "August read leaks pre-session; the Caixin shadow lands Monday. Both matter for the industrial complex.",
     "url": "http://www.stats.gov.cn/english/",
-    "tags": ["china nbs", "economics", "pmi"]
+    "tags": [
+      "china nbs",
+      "economics",
+      "pmi"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-01",
@@ -87,7 +540,13 @@
     "type": "exchange",
     "description": "Rehearsal for the next release train. No fills in the 05:00-08:00 JST Saturday window.",
     "url": "https://www.jpx.co.jp/english/corporate/news/index.html",
-    "tags": ["tokyo stock exchange", "exchange", "maintenance", "arrowhead"]
+    "tags": [
+      "tokyo stock exchange",
+      "exchange",
+      "maintenance",
+      "arrowhead"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-03",
@@ -96,7 +555,13 @@
     "type": "economics",
     "description": "The supply-managers truth serum; the new-orders subindex is the tell desks trade.",
     "url": "https://www.ismworld.org/supply-management-news-and-reports/",
-    "tags": ["ism", "economics", "pmi", "manufacturing"]
+    "tags": [
+      "ism",
+      "economics",
+      "pmi",
+      "manufacturing"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-07",
@@ -105,7 +570,13 @@
     "type": "exchange",
     "description": "Roll advisories reprice the curves mechanically; spreads widen into first-notice.",
     "url": "https://www.theice.com/marketdata/reports",
-    "tags": ["ice futures u.s.", "exchange", "roll", "softs"]
+    "tags": [
+      "ice futures u.s.",
+      "exchange",
+      "roll",
+      "softs"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-07",
@@ -114,7 +585,12 @@
     "type": "economics",
     "description": "Mexican inflation with heavy Banxico path sensitivity; MXN proxy flow.",
     "url": "https://www.inegi.org.mx/en/",
-    "tags": ["inegi", "economics", "cpi"]
+    "tags": [
+      "inegi",
+      "economics",
+      "cpi"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-08",
@@ -123,7 +599,13 @@
     "type": "exchange",
     "description": "Intraday flag test on the SGX data-link; thin-book gaps possible at the 15:00 SGT window.",
     "url": "https://www.sgx.com/securities/products",
-    "tags": ["singapore exchange", "exchange", "test", "a50"]
+    "tags": [
+      "singapore exchange",
+      "exchange",
+      "test",
+      "a50"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-10",
@@ -132,7 +614,25 @@
     "type": "exchange",
     "description": "New uncrossing percentages effective from this session's open.",
     "url": "https://www.londonstockexchange.com/",
-    "tags": ["london stock exchange", "exchange", "auction"]
+    "tags": [
+      "london stock exchange",
+      "exchange",
+      "auction"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Market holiday — Mountain Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Mountain Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   },
   {
     "date": "2026-08-11",
@@ -141,7 +641,12 @@
     "type": "economics",
     "description": "Brazilian inflation acceleration gauge that sets Copom pricing.",
     "url": "https://www.ibge.gov.br/en/",
-    "tags": ["ibge", "economics", "cpi"]
+    "tags": [
+      "ibge",
+      "economics",
+      "cpi"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-12",
@@ -150,7 +655,13 @@
     "type": "exchange",
     "description": "Two-week add window before the effective date; track proforma float adjustments.",
     "url": "https://www.msci.com/index-reviews",
-    "tags": ["msci", "exchange", "index", "rebalance"]
+    "tags": [
+      "msci",
+      "exchange",
+      "index",
+      "rebalance"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-13",
@@ -159,7 +670,13 @@
     "type": "exchange",
     "description": "8/15/20% halt sequence tested on a live-style respawn. Drill days are volatility days.",
     "url": "http://global.krx.co.kr/",
-    "tags": ["korea exchange", "exchange", "drill", "circuit breaker"]
+    "tags": [
+      "korea exchange",
+      "exchange",
+      "drill",
+      "circuit breaker"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-15",
@@ -168,7 +685,13 @@
     "type": "exchange",
     "description": "FIX session reboot 09:30-10:30 CET; inbound orders dropped during the window.",
     "url": "https://www.eurex.com/ex-en/",
-    "tags": ["eurex", "exchange", "maintenance", "fix"]
+    "tags": [
+      "eurex",
+      "exchange",
+      "maintenance",
+      "fix"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-16",
@@ -177,7 +700,13 @@
     "type": "exchange",
     "description": "SCRIAPS settlement batch offline Sat 12:00-18:00 HKT; confirmations queue overnight.",
     "url": "https://www.hkex.com.hk/Services/Clearing-and-Settlement/Frequency-of-CCASS-Services?sc_lang=en",
-    "tags": ["hkex", "exchange", "maintenance", "ccass"]
+    "tags": [
+      "hkex",
+      "exchange",
+      "maintenance",
+      "ccass"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-17",
@@ -186,7 +715,13 @@
     "type": "economics",
     "description": "Net foreign purchases of USTs; the hidden demand read for the long end.",
     "url": "https://home.treasury.gov/data/tic-accounts",
-    "tags": ["us treasury", "economics", "tic", "flows"]
+    "tags": [
+      "us treasury",
+      "economics",
+      "tic",
+      "flows"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-19",
@@ -195,7 +730,13 @@
     "type": "exchange",
     "description": "Simulated exchange-wide halt; brokers test disaster-recovery failover paths.",
     "url": "https://www.nseindia.com/",
-    "tags": ["nse india", "exchange", "drill", "outage"]
+    "tags": [
+      "nse india",
+      "exchange",
+      "drill",
+      "outage"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-20",
@@ -204,7 +745,13 @@
     "type": "economics",
     "description": "PBoC loan-prime fixing; the 5-yr tenor trails the 1-yr. Watch the fix, not the presser.",
     "url": "http://www.pbc.gov.cn/en/",
-    "tags": ["pboc", "economics", "lpr", "rates"]
+    "tags": [
+      "pboc",
+      "economics",
+      "lpr",
+      "rates"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-20",
@@ -213,7 +760,13 @@
     "type": "exchange",
     "description": "Contingency drill: reference-rate print delayed 90 seconds to simulate a vendor scramble.",
     "url": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange.html",
-    "tags": ["six swiss exchange", "exchange", "saron", "test"]
+    "tags": [
+      "six swiss exchange",
+      "exchange",
+      "saron",
+      "test"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-21",
@@ -222,7 +775,13 @@
     "type": "exchange",
     "description": "Zero-day expiry cycle; pinning risk concentrates in single-stock gamma.",
     "url": "https://www.cboe.com/us/options/symboldir/expiration_calendar/",
-    "tags": ["cboe", "exchange", "opex", "expiry"]
+    "tags": [
+      "cboe",
+      "exchange",
+      "opex",
+      "expiry"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-21",
@@ -231,7 +790,13 @@
     "type": "economics",
     "description": "First-estimate activity for the services block; the inflation-of-inputs subindex is the tell.",
     "url": "https://www.pmi.spglobal.com/",
-    "tags": ["s&p global", "economics", "pmi", "eurozone"]
+    "tags": [
+      "s&p global",
+      "economics",
+      "pmi",
+      "eurozone"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-21",
@@ -240,7 +805,13 @@
     "type": "economics",
     "description": "Regional Fed-survey stand-in; an ISM-adjacent canary for the manufacturing complex.",
     "url": "https://www.mni-indicators.com/",
-    "tags": ["mni", "economics", "chicago", "sentiment"]
+    "tags": [
+      "mni",
+      "economics",
+      "chicago",
+      "sentiment"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-22",
@@ -249,7 +820,13 @@
     "type": "exchange",
     "description": "Saturday code deploy to the Pillar core; late tapes possible in the Monday close cycle.",
     "url": "https://www.nyse.com/markets/hours-calendars",
-    "tags": ["new york stock exchange", "exchange", "maintenance", "pillar"]
+    "tags": [
+      "new york stock exchange",
+      "exchange",
+      "maintenance",
+      "pillar"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-23",
@@ -258,7 +835,13 @@
     "type": "exchange",
     "description": "Technology trial of the after-hours session window; no real trading printed.",
     "url": "https://www.tmx.com/",
-    "tags": ["tsx", "exchange", "test", "extended hours"]
+    "tags": [
+      "tsx",
+      "exchange",
+      "test",
+      "extended hours"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-24",
@@ -267,7 +850,13 @@
     "type": "economics",
     "description": "German sentiment thermometer; the expectations-vs-current gap is what repositioning trades on.",
     "url": "https://www.ifo.de/en",
-    "tags": ["ifo institute", "economics", "germany", "ifo"]
+    "tags": [
+      "ifo institute",
+      "economics",
+      "germany",
+      "ifo"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-24",
@@ -276,7 +865,12 @@
     "type": "exchange",
     "description": "New front-month list takes over Sunday; roll spreads bleed wide into settlement.",
     "url": "https://www.cmegroup.com/trading/cme-group-holidays.html",
-    "tags": ["cme group", "exchange", "roll"]
+    "tags": [
+      "cme group",
+      "exchange",
+      "roll"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-26",
@@ -285,7 +879,13 @@
     "type": "exchange",
     "description": "Sub-register migration dry run; broker confirmations get rerouted to the new stack.",
     "url": "https://www.asx.com.au/",
-    "tags": ["asx", "exchange", "rehearsal", "chess"]
+    "tags": [
+      "asx",
+      "exchange",
+      "rehearsal",
+      "chess"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-27",
@@ -294,7 +894,13 @@
     "type": "exchange",
     "description": "Post-close allocation and confirm test across custodians ahead of the next cutover rehearsal.",
     "url": "https://www.dtcc.com/settlement-asset-services",
-    "tags": ["dtcc", "exchange", "test", "settlement"]
+    "tags": [
+      "dtcc",
+      "exchange",
+      "test",
+      "settlement"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-28",
@@ -303,7 +909,13 @@
     "type": "exchange",
     "description": "Vendor parsers must ship the new header; expect one feed-id mismatch in stale clients.",
     "url": "https://www.nasdaq.com/",
-    "tags": ["nasdaq nordic", "exchange", "itch", "protocol"]
+    "tags": [
+      "nasdaq nordic",
+      "exchange",
+      "itch",
+      "protocol"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-29",
@@ -312,7 +924,12 @@
     "type": "economics",
     "description": "Tokyo read as the national canary; services ex-fresh-food is the number that matters.",
     "url": "https://www.boj.or.jp/en/statistics/pi/cpi/index.htm",
-    "tags": ["bank of japan", "economics", "cpi"]
+    "tags": [
+      "bank of japan",
+      "economics",
+      "cpi"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-29",
@@ -321,7 +938,12 @@
     "type": "exchange",
     "description": "Occupancy trial for the night window on the OSE derivatives link.",
     "url": "https://www.jpx.co.jp/english/derivatives/",
-    "tags": ["tokyo stock exchange", "exchange", "test"]
+    "tags": [
+      "tokyo stock exchange",
+      "exchange",
+      "test"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-08-31",
@@ -330,7 +952,13 @@
     "type": "economics",
     "description": "First-guess eurozone inflation; the core figure sets the ECB's tone for the next month.",
     "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators",
-    "tags": ["eurostat", "economics", "hicp", "inflation"]
+    "tags": [
+      "eurostat",
+      "economics",
+      "hicp",
+      "inflation"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-01",
@@ -339,7 +967,12 @@
     "type": "economics",
     "description": "Board cash-rate call; the statement's tightening bias is what FX hedges reprice.",
     "url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
-    "tags": ["rba", "economics", "rates"]
+    "tags": [
+      "rba",
+      "economics",
+      "rates"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-01",
@@ -348,7 +981,26 @@
     "type": "exchange",
     "description": "New collateral rules effective for program accounts; broker risk engines re-jiggered overnight.",
     "url": "http://english.sse.com.cn/",
-    "tags": ["shanghai stock exchange", "exchange", "margin"]
+    "tags": [
+      "shanghai stock exchange",
+      "exchange",
+      "margin"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "ICC arbitration calendar — Q4 hearing schedule",
+    "source": "Community",
+    "type": "economics",
+    "description": "Dispute-resolution calendar used by commodities desks; hearing gaps hint at case-flow delays.",
+    "url": "https://iccwbo.org/",
+    "tags": [
+      "community",
+      "arbitration",
+      "legal"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-04",
@@ -357,7 +1009,12 @@
     "type": "exchange",
     "description": "Constituent weights lock at close; closing-auction volume spikes into the recast.",
     "url": "https://www.b3.com.br/en_us/",
-    "tags": ["b3 (brasil)", "exchange", "rebalance"]
+    "tags": [
+      "b3 (brasil)",
+      "exchange",
+      "rebalance"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-05",
@@ -366,7 +1023,13 @@
     "type": "exchange",
     "description": "New volatility-auction parameters ship in this release; phased rollout across the venue.",
     "url": "https://www.deutsche-boerse.com/dbg-en/",
-    "tags": ["deutsche börse", "exchange", "release", "t7"]
+    "tags": [
+      "deutsche börse",
+      "exchange",
+      "release",
+      "t7"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-08",
@@ -375,7 +1038,12 @@
     "type": "exchange",
     "description": "Milan evening-session logic tweak on the unified Euronext stack.",
     "url": "https://www.borsaitaliana.it/",
-    "tags": ["borsa italiana", "exchange", "after-hours"]
+    "tags": [
+      "borsa italiana",
+      "exchange",
+      "after-hours"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-10",
@@ -384,7 +1052,12 @@
     "type": "economics",
     "description": "Policy decision plus presser; the subtle repo-parameter shifts move more than the headline rate.",
     "url": "https://www.ecb.europa.eu/press/govcdec/html/index.en.html",
-    "tags": ["ecb", "economics", "rates"]
+    "tags": [
+      "ecb",
+      "economics",
+      "rates"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-12",
@@ -393,7 +1066,28 @@
     "type": "exchange",
     "description": "Spanish book-entry migration continues; settlement confirm field names change overnight.",
     "url": "https://www.bme.es/ing/",
-    "tags": ["bme", "exchange", "iso20022", "settlement"]
+    "tags": [
+      "bme",
+      "exchange",
+      "iso20022",
+      "settlement"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Freightos Baltic Index (FBX) — weekly print",
+    "source": "Community",
+    "type": "economics",
+    "description": "Container-freight canary; a hidden input into shipping-cost inflation desks usually skip.",
+    "url": "https://fbx.freightos.com/",
+    "tags": [
+      "community",
+      "freight",
+      "shipping",
+      "economics"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-17",
@@ -402,7 +1096,12 @@
     "type": "economics",
     "description": "Bank Rate call; the voting split in the minutes carries the hawk/dove signal.",
     "url": "https://www.bankofengland.co.uk/monetary-policy",
-    "tags": ["bank of england", "economics", "rates"]
+    "tags": [
+      "bank of england",
+      "economics",
+      "rates"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-18",
@@ -411,7 +1110,12 @@
     "type": "exchange",
     "description": "Constituent and float changes lock at close; tracking flows concentrate in the final auction.",
     "url": "https://www.londonstockexchange.com/indices",
-    "tags": ["london stock exchange", "exchange", "rebalance"]
+    "tags": [
+      "london stock exchange",
+      "exchange",
+      "rebalance"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-18",
@@ -420,7 +1124,13 @@
     "type": "exchange",
     "description": "Biggest OPEX of the quarter; the quarterly piece pops the month's biggest pins.",
     "url": "https://www.cboe.com/us/options/",
-    "tags": ["cboe", "exchange", "opex", "expiry"]
+    "tags": [
+      "cboe",
+      "exchange",
+      "opex",
+      "expiry"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-19",
@@ -429,7 +1139,52 @@
     "type": "exchange",
     "description": "Realistic clearing-outage simulation across the Tadawul stack. Young platforms test hardest.",
     "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/home",
-    "tags": ["saudi exchange", "exchange", "drill", "clearing"]
+    "tags": [
+      "saudi exchange",
+      "exchange",
+      "drill",
+      "clearing"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Market holiday — Respect for the Aged Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Respect for the Aged Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Market holiday — Holiday",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Holiday. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Market holiday — Autumnal Equinox",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Autumnal Equinox. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   },
   {
     "date": "2026-09-24",
@@ -438,7 +1193,12 @@
     "type": "economics",
     "description": "Annual vintage revision; component recasts quietly move trend-growth calls.",
     "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
-    "tags": ["bea", "economics", "gdp"]
+    "tags": [
+      "bea",
+      "economics",
+      "gdp"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-25",
@@ -447,7 +1207,13 @@
     "type": "exchange",
     "description": "Final cash-settlement prints set the calendar-quarter benchmark for the complex.",
     "url": "https://www.cmegroup.com/markets/energy.html",
-    "tags": ["cme group", "exchange", "soq", "settlement"]
+    "tags": [
+      "cme group",
+      "exchange",
+      "soq",
+      "settlement"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-09-26",
@@ -456,7 +1222,13 @@
     "type": "exchange",
     "description": "Last country lands on the unified Optiq core; watch for cross-venue latency blips at the open.",
     "url": "https://www.euronext.com/en/about-us/business-model",
-    "tags": ["euronext", "exchange", "migration", "optiq"]
+    "tags": [
+      "euronext",
+      "exchange",
+      "migration",
+      "optiq"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-10-01",
@@ -465,7 +1237,13 @@
     "type": "economics",
     "description": "Large-manufacturer diffusion index; the quietest tier-1 sentiment print of the year.",
     "url": "https://www.boj.or.jp/en/statistics/outline/exp/tk/index.htm",
-    "tags": ["bank of japan", "economics", "tankan", "sentiment"]
+    "tags": [
+      "bank of japan",
+      "economics",
+      "tankan",
+      "sentiment"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-10-07",
@@ -474,7 +1252,12 @@
     "type": "exchange",
     "description": "US equities dark; bond markets open. Settlement cycles roll to the next session.",
     "url": "https://www.nyse.com/markets/hours-calendars",
-    "tags": ["new york stock exchange", "exchange", "holiday"]
+    "tags": [
+      "new york stock exchange",
+      "exchange",
+      "holiday"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-10-08",
@@ -483,7 +1266,25 @@
     "type": "exchange",
     "description": "Revised halt-circuity bands live; expect more lock/limit states in the volatile names.",
     "url": "https://www.nasdaq.com/market-regulation",
-    "tags": ["nasdaq", "exchange", "luld"]
+    "tags": [
+      "nasdaq",
+      "exchange",
+      "luld"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Market holiday — Sports Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Sports Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   },
   {
     "date": "2026-10-15",
@@ -492,7 +1293,13 @@
     "type": "economics",
     "description": "The inflation print nobody clips; feeds the final-demand deflators custodians hedge on.",
     "url": "https://www.bls.gov/schedule/news_release/qspi.htm",
-    "tags": ["bls", "economics", "qspi", "inflation"]
+    "tags": [
+      "bls",
+      "economics",
+      "qspi",
+      "inflation"
+    ],
+    "status": "approved"
   },
   {
     "date": "2026-10-17",
@@ -501,7 +1308,38 @@
     "type": "exchange",
     "description": "Weekend maintenance; opening-auction parameters re-baselined ahead of the Q4 calendar.",
     "url": "https://www.deutsche-boerse.com/dbg-en/",
-    "tags": ["deutsche börse", "exchange", "maintenance"]
+    "tags": [
+      "deutsche börse",
+      "exchange",
+      "maintenance"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Release: Business Outlook Survey and Canadian Survey of Consumer Expectations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "11:30 (ET)\nThe Business Outlook Survey is a summary of interviews conducted by the Bank's regional offices with business leaders from about 100 firms, selected in accordance with the composition of Canada's gross domestic product. The Canadian Survey of Consumer Expectations is a quarterly survey aimed at measuring household views of inflation, the labour market and household finances, as well as topical issues of interest to the Bank of Canada.",
+    "url": "https://www.bankofcanada.ca/2026/10/release-business-outlook-survey-and-canadian-survey-of-consumer-expectations-october-19-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Interest Rate Announcement and Monetary Policy Report",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "09:45 (ET)On eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision. Four times a year, Governing Council presents the Monetary Policy Report: the Bank’s base-case projection for inflation and growth in the Canadian economy, and its assessment of risks.",
+    "url": "https://www.bankofcanada.ca/2026/10/interest-rate-announcement-and-monetary-policy-report-october-28-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-31",
@@ -510,6 +1348,272 @@
     "type": "exchange",
     "description": "Cut-off and announcement dates set; front-run management starts today for the big rebalance.",
     "url": "https://www.msci.com/index-reviews",
-    "tags": ["msci", "exchange", "index", "rebalance"]
+    "tags": [
+      "msci",
+      "exchange",
+      "index",
+      "rebalance"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Market holiday — Culture Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Culture Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Release: Market Participants Survey",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "10:30 (ET)\nThe Market Participants Survey is conducted quarterly. Bank of Canada staff reach out to a diverse set of participants in financial markets to gather their views on key macroeconomic and financial variables as well as on monetary policy.",
+    "url": "https://www.bankofcanada.ca/2026/11/release-market-participants-survey-november-9-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Publication: Summary of Deliberations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
+    "url": "https://www.bankofcanada.ca/2026/11/publication-summary-of-deliberations-november-10-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Market holiday — Labor Thanksgiving Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Labor Thanksgiving Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-12-09",
+    "title": "Interest Rate Announcement",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "09:45 (ET)\nOn eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision.",
+    "url": "https://www.bankofcanada.ca/2026/12/interest-rate-announcement-december-9-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-12-23",
+    "title": "Publication: Summary of Deliberations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
+    "url": "https://www.bankofcanada.ca/2026/12/publication-summary-of-deliberations-december-23-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-12-31",
+    "title": "Market holiday — Market Holiday",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Market Holiday. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-01-01",
+    "title": "Market holiday — New Year's Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for New Year's Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-01-02",
+    "title": "Market holiday — Market Holiday",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Market Holiday. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-01-03",
+    "title": "Market holiday — Market Holiday",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Market Holiday. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-01-11",
+    "title": "Market holiday — Coming of Age Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Coming of Age Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-02-11",
+    "title": "Market holiday — National Foundation Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for National Foundation Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-02-23",
+    "title": "Market holiday — Emperor's Birthday",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Emperor's Birthday. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-03-21",
+    "title": "Market holiday — Vernal Equinox",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Vernal Equinox. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-03-22",
+    "title": "Market holiday — Vernal Equinox (Mar. 21) observed",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Vernal Equinox (Mar. 21) observed. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-04-29",
+    "title": "Market holiday — Showa Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Showa Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-05-03",
+    "title": "Market holiday — Constitution Memorial Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Constitution Memorial Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-05-04",
+    "title": "Market holiday — Greenery Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Greenery Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-05-05",
+    "title": "Market holiday — Children's Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Children's Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-07-19",
+    "title": "Market holiday — Marine Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Marine Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   }
 ]

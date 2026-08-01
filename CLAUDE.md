@@ -7,8 +7,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Goldirham Whisper — a static Hugo site tracking obscure economic releases and
 exchange infrastructure dates ("dates that move markets first"). No build
 tooling beyond Hugo itself: fonts are loaded from a CDN, the main app is
-vanilla JS, the not-yet-unified `/event/`/`/search/`/`/about/` pages still
-load Tailwind and Alpine.js from CDN — there is no `package.json`, and no
+vanilla JS, and the one not-yet-unified page (`/about/`) still loads
+Tailwind and Alpine.js from CDN — there is no `package.json`, and no
 automated tests.
 
 ## Commands
@@ -67,34 +67,49 @@ data/manual_events.json ────┼──▶ scripts/aggregator.py ──▶
 
 ## Frontend architecture
 
-The main app — calendar, exchanges, economics, search, about — is one
-self-contained document, `layouts/partials/app.html` (vanilla JS, no
-framework; inline CSS design tokens; ambient canvas background). It's
-included from three thin Hugo templates, each passing which view should be
-active on load:
+The main app — calendar, exchanges, economics, search, and single-event
+detail — is one self-contained document, `layouts/partials/app.html`
+(vanilla JS, no framework; inline CSS design tokens; ambient canvas
+background). It's included from five thin Hugo templates, each passing
+which view should be active on load:
 
 - `layouts/index.html` → `{{ partial "app.html" (dict "view" "calendar" "page" .) }}`
 - `layouts/economics/list.html` → `... "view" "economics" ...`
 - `layouts/exchanges/list.html` → `... "view" "exchanges" ...`
+- `layouts/search/list.html` → `... "view" "search" ...`
+- `layouts/event/list.html` → `... "view" "calendar" ...` (there's no
+  separate "event" view — a single event is a modal overlay, not a route.
+  `/event/#slug` works because `boot()` checks `location.hash` on load and
+  calls `openModal(slug)` regardless of which of the five templates got it
+  there; the calendar just renders underneath. Visiting `/event/` with no
+  hash shows the plain calendar, not a 404 — that's a deliberate behavior
+  change from the old dedicated detail page.)
 
-All three render the *identical* app; only the initial `S.view` (and the
+All five render the *identical* app; only the initial `S.view` (and the
 server-rendered `<title>`/description/canonical, sourced from `.page.Title`
 etc.) differ. Client-side nav clicks (`data-act="nav"`) just flip `S.view`
 and re-render `#app` — no URL change, no page reload. Data loads once via a
 dynamic `import()` of `static/data/events-data.js` + `flags-data.js`
 (deferred into `boot()`), not from any Hugo template variable.
 
-**`/event/`, `/search/`, and `/about/` are not yet unified** — they still
-render a separate, older Alpine.js + Tailwind (CDN) implementation via
-`layouts/_default/baseof.html` + partials (`head`, `ticker`, `header`,
-`footer`, `data`, `store`) + `layouts/event/list.html`, `search/list.html`,
-`_default/single.html`. That implementation embeds `data/events.json`
+Known behavior change from the old `/search/` page: that version indexed
+events with Lunr.js (loaded from CDN) for fuzzy/ranked full-text search;
+`app.html`'s `searchResultsHTML()` instead does simple weighted substring
+matching (title/tags/source/description, no fuzzy matching). Good enough for
+~100 events; revisit if the dataset grows much larger.
+
+**Only `/about/` is not yet unified** — it still renders via
+`layouts/_default/single.html` + `layouts/_default/baseof.html` + partials
+(`head`, `ticker`, `header`, `footer`, `data`, `store`), an older Alpine.js +
+Tailwind (CDN) implementation. That implementation embeds `data/events.json`
 inline (`layouts/partials/data.html`) and uses its own Alpine store
-(`$store.gw`, `gwSearch()`, etc. in `layouts/partials/store.html`) —
-completely separate code from `app.html`. If asked to unify these too, add
-matching one-line wrappers around `app.html` the same way economics/exchanges
-were done, then confirm nothing else still depends on `_default/list.html`,
-`event/list.html`, or `search/list.html` before deleting them.
+(`$store.gw` in `layouts/partials/store.html`) — completely separate code
+from `app.html`. `about.md`'s content is prose (not an events view), so
+unifying it means either adding an `about` view/case to `app.html`'s
+router or leaving it as the one intentionally-different content page — worth
+asking which before doing it. If unified, confirm nothing else still depends
+on `baseof.html`/its partials before deleting them, since removing `/about/`'s
+usage would make all of it dead code.
 
 `hugo.toml` sets `[minify] disableHTML = true`; the comment there explains
 this was needed for the now-deleted DC-runtime SPA and could likely be

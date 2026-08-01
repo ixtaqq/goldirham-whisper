@@ -1,0 +1,98 @@
+{{ define "main" }}
+<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6" x-data="gwVenues()">
+
+  <header class="max-w-3xl">
+    <p class="font-mono text-[11px] text-dim"><span class="text-neon">~/calendar</span> / exchanges <span class="gw-cursor">▮</span></p>
+    <h1 class="mt-3 font-mono text-4xl font-extrabold text-white sm:text-5xl">
+      VENUE <span class="gw-glow-text text-neon">DOSSIERS</span>
+    </h1>
+    <p class="mt-3 text-sm leading-relaxed text-dim">
+      Every matching engine goes down. Every settlement system gets patched. Pick a venue to see its
+      maintenance windows, drills and expiry cycles — the dates desks forget until fills start lagging.
+    </p>
+  </header>
+
+  <div class="mt-8 grid items-start gap-6 lg:grid-cols-[360px_minmax(0,1fr)]">
+
+    {{/* -------- venue list -------- */}}
+    <div class="border border-white/10 bg-panel lg:sticky lg:top-20">
+      <div class="flex justify-between border-b border-white/10 px-4 py-2.5 font-mono text-[10px] tracking-[0.3em] text-dim">
+        <span>// VENUES</span><span x-text="venues.length + ' TRACKED'"></span>
+      </div>
+      <ul class="divide-y divide-white/[0.04] lg:max-h-[68vh] lg:overflow-y-auto gw-scroll">
+        <template x-for="v in venues" :key="v.source">
+          <li>
+            <button @click="select(v.source)"
+                    class="w-full border-l-2 px-4 py-3 text-left transition-colors duration-150"
+                    :class="selected === v.source ? 'border-neon bg-panel2' : 'border-transparent hover:bg-panel2/50'">
+              <div class="flex items-center gap-2">
+                <span class="text-base" x-text="v.flag"></span>
+                <span class="truncate font-mono text-[13px]" :class="selected === v.source ? 'text-neon' : 'text-ash'" x-text="v.source"></span>
+                <span class="ml-auto shrink-0 font-mono text-[10px] text-dim" x-text="v.upcoming + ' UP'"></span>
+              </div>
+              <div class="mt-1 font-mono text-[10px] text-dim/70"
+                   x-text="'NEXT: ' + (v.next ? gwFmtShort(v.next) : '— NONE SCHEDULED')"></div>
+            </button>
+          </li>
+        </template>
+      </ul>
+    </div>
+
+    {{/* -------- venue detail -------- */}}
+    <div id="venue-detail" class="scroll-mt-24">
+      <template x-if="!venue">
+        <div class="border border-dashed border-white/15 px-6 py-24 text-center font-mono">
+          <div class="text-3xl text-dim">⇠</div>
+          <p class="mt-3 text-sm tracking-[0.2em] text-dim">SELECT A VENUE TO OPEN ITS DOSSIER</p>
+        </div>
+      </template>
+
+      <template x-if="venue">
+        <section class="animate-rise border border-white/10 bg-panel">
+          <div class="border-b border-white/10 p-5 sm:p-6">
+            <div class="flex items-center gap-3">
+              <span class="text-3xl" x-text="venue.flag"></span>
+              <div>
+                <h2 class="font-mono text-2xl font-extrabold text-white" x-text="venue.source"></h2>
+                <div class="mt-0.5 font-mono text-[10px] tracking-[0.2em] text-dim">
+                  <span class="text-neon" x-text="venue.upcoming + ' UPCOMING'"></span> ·
+                  <span x-text="venue.total + ' TOTAL'"></span>
+                </div>
+              </div>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-dim" x-text="intro(venue.source)"></p>
+          </div>
+
+          <div class="border-b border-white/10 px-5 py-4 font-mono text-[10px] tracking-[0.3em] text-neon sm:px-6">// UPCOMING</div>
+          <ul class="divide-y divide-white/[0.04]">
+            <template x-for="e in venueEvents.upcoming" :key="e.slug">
+              <li>
+                <a :href="'/event/#' + e.slug" class="rowlink" style="grid-template-columns: 72px minmax(0,1fr) auto">
+                  <span class="font-mono text-[10px] text-neon" x-text="gwFmtShort(e.date)"></span>
+                  <span class="truncate font-mono text-[13px] text-ash transition-colors group-hover:text-white" x-text="e.title"></span>
+                  <span class="text-dim transition-all group-hover:translate-x-1 group-hover:text-neon">→</span>
+                </a>
+              </li>
+            </template>
+            <li x-show="!venueEvents.upcoming.length" class="px-5 py-4 font-mono text-[11px] text-dim/60">NOTHING ON THE WIRE.</li>
+          </ul>
+
+          <div class="border-y border-white/10 px-5 py-4 font-mono text-[10px] tracking-[0.3em] text-dim sm:px-6">// PAST TRAFFIC</div>
+          <ul class="divide-y divide-white/[0.04] opacity-60">
+            <template x-for="e in venueEvents.past" :key="e.slug">
+              <li>
+                <a :href="'/event/#' + e.slug" class="rowlink" style="grid-template-columns: 72px minmax(0,1fr) auto">
+                  <span class="font-mono text-[10px] text-dim" x-text="gwFmtShort(e.date)"></span>
+                  <span class="truncate font-mono text-[13px] text-dim transition-colors group-hover:text-ash" x-text="e.title"></span>
+                  <span class="text-dim/50">→</span>
+                </a>
+              </li>
+            </template>
+            <li x-show="!venueEvents.past.length" class="px-5 py-4 font-mono text-[11px] text-dim/60">NO ARCHIVED EVENTS.</li>
+          </ul>
+        </section>
+      </template>
+    </div>
+  </div>
+</div>
+{{ end }}

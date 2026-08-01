@@ -1,0 +1,41 @@
+<footer class="relative z-10 mt-20 border-t border-white/5">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
+
+    <div>
+      <a href="/" class="font-mono text-lg font-extrabold text-white">
+        <span class="text-neon gw-glow-text">GOLDIRHAM</span>_WHISPER<span class="gw-cursor">▮</span>
+      </a>
+      <p class="mt-3 max-w-xs text-[13px] leading-6 text-dim">
+        The under-the-radar economic releases and exchange infrastructure dates
+        that truly move markets. No more staring at the same CPI report as everyone else.
+      </p>
+    </div>
+
+    <div>
+      <div class="label-hh">MACHINE FEEDS</div>
+      <ul class="space-y-2 font-mono text-[12px]">
+        <li><a href="/events.json" class="text-ash transition-colors hover:text-neon">/events.json <span class="text-dim">— raw signal data</span></a></li>
+        <li><a href="/index.xml"   class="text-ash transition-colors hover:text-neon">/index.xml <span class="text-dim">— upcoming RSS</span></a></li>
+        <li><a href="/search/"     class="text-ash transition-colors hover:text-neon">/search <span class="text-dim">— full-text wire search</span></a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="label-hh">OPERATOR NOTES</div>
+      <ul class="space-y-2 text-[12px] leading-6 text-dim">
+        <li><kbd class="border border-white/15 bg-panel px-1.5 py-0.5 font-mono text-[10px] text-neon">/</kbd> focuses the nearest filter input.</li>
+        <li>All dates are all-day markers in the venue's home timezone.</li>
+        <li>Data is compiled from public bulletins and may lag the issuer.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-white/5">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-4 font-mono text-[10px] tracking-[0.15em] text-dim sm:px-6">
+      <span>© 2026 THE GOLDIRHAM WHISPER — NOT INVESTMENT ADVICE</span>
+      <span class="flex items-center gap-2" x-data="gwClock()">
+        <span class="gw-dot"></span> TERMINAL SESSION: ACTIVE · <span x-text="utc"></span> UTC
+      </span>
+    </div>
+  </div>
+</footer>

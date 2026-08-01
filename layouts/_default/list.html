@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{/* Fallback list renderer (unused by the main routes, kept for safety). */}}
+<div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+  <p class="font-mono text-[11px] text-dim"><span class="text-neon">~/calendar</span> / index <span class="gw-cursor">▮</span></p>
+  <h1 class="mt-3 font-mono text-3xl font-extrabold text-white">{{ .Title }}</h1>
+  <div class="prose-hh mt-6">{{ .Content }}</div>
+  <ul class="mt-8 divide-y divide-white/5">
+    {{ range .Pages }}
+      <li class="py-3"><a class="font-mono text-sm text-neon hover:underline underline-offset-4" href="{{ .RelPermalink }}">▸ {{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

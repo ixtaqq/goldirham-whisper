@@ -1,0 +1,7 @@
+{{- /*
+  Single source of truth: data/events.json
+  Embedded inline so every page hydrates with zero network hops.
+  The same file is republished verbatim at /events.json (EVENTSJSON output format)
+  and drives /index.xml via layouts/index.rss.xml.
+*/ -}}
+<script type="application/json" id="gw-events">{{ hugo.Data.events | jsonify | safeJS }}</script>

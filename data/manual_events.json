@@ -1,0 +1,31 @@
+[
+  {
+    "date": "2026-09-15",
+    "title": "Freightos Baltic Index (FBX) — weekly print",
+    "source": "Community",
+    "type": "economics",
+    "description": "Container-freight canary; a hidden input into shipping-cost inflation desks usually skip.",
+    "url": "https://fbx.freightos.com/",
+    "tags": [
+      "community",
+      "freight",
+      "shipping",
+      "economics"
+    ],
+    "status": "approved"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "ICC arbitration calendar — Q4 hearing schedule",
+    "source": "Community",
+    "type": "economics",
+    "description": "Dispute-resolution calendar used by commodities desks; hearing gaps hint at case-flow delays.",
+    "url": "https://iccwbo.org/",
+    "tags": [
+      "community",
+      "arbitration",
+      "legal"
+    ],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,32 @@
+name: Generate Shadow Trader Digest
+
+on:
+  schedule:
+    - cron: '0 10 * * SUN'   # Every Sunday at 10:00 UTC (data/events.json is refreshed every 6h by update-events.yml)
+  workflow_dispatch:          # Also allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run digest generator
+        run: python scripts/digest.py
+
+      - name: Commit and push RSS digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/digest.xml
+          git diff --staged --quiet || (git commit -m "Weekly Shadow Digest [skip ci]" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,28 @@
+baseURL = "/"
+locale = "en-US"
+title = "Goldirham Whisper"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+disableHugoGeneratorInject = true
+
+[params]
+  description = "Under-the-radar economic releases and exchange infrastructure dates that move markets first."
+  author = "The Goldirham Whisper"
+
+[minify]
+  # The SPA home page uses literal {{ }} binding syntax (DC runtime) — Hugo's
+  # template-aware HTML minifier would try to parse it. Everything else minifies.
+  disableHTML = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "EVENTSJSON"]
+
+[outputFormats.EVENTSJSON]
+  mediaType = "application/json"
+  baseName = "events"
+  isPlainText = true
+  notAlternative = true
+  noUgly = true

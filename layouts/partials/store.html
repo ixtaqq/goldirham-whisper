@@ -1,0 +1,448 @@
+<script>
+/* =====================================================================
+   GOLDIRHAM WHISPER — client runtime (Alpine store + components + helpers)
+   Data: embedded #gw-events JSON, with /events.json fetch as fallback.
+   ===================================================================== */
+
+/* ---------------- static maps ---------------- */
+
+/* Source-name → flag emoji. Order matters: specific patterns first. */
+const GW_FLAGS = [
+  ['nasdaq nordic','🇸🇪'], ['omx','🇸🇪'],
+  ['new york stock exchange','🇺🇸'], ['nyse','🇺🇸'], ['nasdaq','🇺🇸'],
+  ['cme','🇺🇸'], ['cboe','🇺🇸'], ['dtcc','🇺🇸'], ['msci','🇺🇸'],
+  ['ice futures','🇺🇸'], ['chicago board','🇺🇸'],
+  ['london stock exchange','🇬🇧'], ['lse','🇬🇧'],
+  ['euronext','🇪🇺'],
+  ['deutsche börse','🇩🇪'], ['deutsche borse','🇩🇪'], ['eurex','🇩🇪'],
+  ['tokyo stock exchange','🇯🇵'], ['jpx','🇯🇵'], ['ose','🇯🇵'],
+  ['singapore exchange','🇸🇬'], ['sgx','🇸🇬'],
+  ['asx','🇦🇺'],
+  ['hkex','🇭🇰'], ['hong kong','🇭🇰'],
+  ['shanghai','🇨🇳'], ['shenzhen','🇨🇳'], ['general administration','🇨🇳'], ['nbs','🇨🇳'], ['pboc','🇨🇳'],
+  ['korea exchange','🇰🇷'], ['krx','🇰🇷'],
+  ['tsx','🇨🇦'], ['tmx','🇨🇦'],
+  ['six','🇨🇭'],
+  ['borsa italiana','🇮🇹'],
+  ['iberclear','🇪🇸'], ['bme','🇪🇸'],
+  ['tadawul','🇸🇦'], ['saudi','🇸🇦'],
+  ['bovespa','🇧🇷'], ['b3','🇧🇷'], ['ibge','🇧🇷'],
+  ['bmv','🇲🇽'], ['inegi','🇲🇽'],
+  ['jse','🇿🇦'], ['idx','🇮🇩'], ['indonesia','🇮🇩'], ['twse','🇹🇼'], ['taiwan','🇹🇼'],
+  ['mospi','🇮🇳'], ['nse','🇮🇳'], ['bse india','🇮🇳'],
+  /* economics issuers */
+  ['bls','🇺🇸'], ['bureau of labor','🇺🇸'], ['federal reserve','🇺🇸'], ['fed','🇺🇸'],
+  ['bea','🇺🇸'], ['treasury','🇺🇸'], ['ism','🇺🇸'], ['s&p','🇺🇸'], ['sp global','🇺🇸'],
+  ['ecb','🇪🇺'], ['eurostat','🇪🇺'],
+  ['bank of japan','🇯🇵'], ['boj','🇯🇵'], ['statistics bureau of japan','🇯🇵'], ['ministry of finance japan','🇯🇵'],
+  ['destatis','🇩🇪'], ['ifo','🇩🇪'],
+  ['bank of england','🇬🇧'], ['mni','🇬🇧'],
+  ['rba','🇦🇺'], ['reserve bank of australia','🇦🇺'],
+];
+const GW_FLAG_DEFAULT = '🌐';
+function gwFlag(src) {
+  if (!src) return GW_FLAG_DEFAULT;
+  const s = String(src).toLowerCase();
+  for (const [k, f] of GW_FLAGS) { if (s.includes(k)) return f; }
+  return GW_FLAG_DEFAULT;
+}
+
+/* One-line venue dossiers for /exchanges/ (fallback text below). */
+const GW_INTROS = {
+  'Tokyo Stock Exchange':   'JPX flagship venue. The arrowhead matching engine and its derivatives sibling get patched on a published cadence — fills lag first, headlines later.',
+  'New York Stock Exchange':'The listing venue of record. Early closes and pillar-core upgrades move more dollar volume than most G7 data prints.',
+  'Nasdaq':                 'Cash equities plus the halt-circuitry benchmark (LULD). Protocol version bumps here ripple through every vendor feed within a quarter.',
+  'CME Group':              'The futures factory: Globex matching across rates, energy, metals and indices. Failover drills and expiry cycles set the global derivatives clock.',
+  'CBOE':                   'Home of the VIX complex and the monthly OPEX settlement rotation that pins the biggest single-stock gamma positions.',
+  'London Stock Exchange':  'SETS order book for the FTSE complex. Auction parameter changes here are the quiet prelude to every UK index rebalance.',
+  'Euronext':               'Seven markets on one Optiq core. Migrations roll country-by-country — Dublin today, Milan next quarter.',
+  'Deutsche Börse':         'Xetra/T7 platform for DAX flow. Release-train cutovers ship new volatility-auction parameters with every train.',
+  'Eurex':                  'European derivatives expiry engine. Monthly and quarterly fixings at 13:00 CET are the gamma events of the continent.',
+  'Singapore Exchange':     'SGX bridges the China A50 overnight session to the rest of the world — its maintenance windows are Asia\u2019s blind spot.',
+  'ASX':                    'Equities plus the multi-year CHESS replacement saga. Every industry rehearsal is a settlement-risk event for the whole street.',
+  'HKEX':                   'The China gateway. Typhoon signal closures and after-hours derivatives patches move the offshore RMB complex.',
+  'Shanghai Stock Exchange':'STAR Market rule changes and margin revisions — policy signals that reach global desks a full news cycle late.',
+  'Korea Exchange':         'The 8/15/20 circuit-breaker ladder and the most active retail options market on earth. Drill days are volatility days.',
+  'TSX':                    'Energy-and-materials benchmark venue, currently experimenting with extended sessions north of the US close.',
+  'Nasdaq Nordic':          'Stockholm/Helsinki books on the Nordic ITCH feeds. Protocol upgrades here quietly break stale vendor parsers.',
+  'SIX Swiss Exchange':     'Operator of the SARON reference-rate machinery — when SIX maintenance delays a fixing, CHF money markets feel it.',
+  'Borsa Italiana':         'Now on the Euronext stack, but the Milan after-hours session still keeps its own calendar quirks.',
+  'BME':                    'Iberclear settlement runs the Spanish book-entry system; its ISO 20022 migration is the quiet story of the year.',
+  'Saudi Exchange':         'Tadawul\u2019s Edaa clearing stack is young enough that every failover drill is a genuine infrastructure test.',
+  'B3 (Brasil)':            'Latin America\u2019s largest venue. Ibovespa rebalances concentrate astonishing volume into the closing auction.',
+  'DTCC':                   'The plumbing under US settlement itself. When DTCC patches, fails recycle and confirms run late across every custodian.',
+  'MSCI':                   'Not an exchange, but its index decisions move more passive capital than most exchanges list. Rebalance day is flow day.',
+  'ICE Futures U.S.':       'Softs and energy benchmarks. Contract roll advisories here reprice entire commodity curves mechanically.',
+};
+
+/* ---------------- tiny date/text utils ---------------- */
+const GW_MS_DAY = 86400000;
+const GW_MONTHS = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+const GW_DAYS   = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
+
+const gwToday = () => { const d = new Date(); d.setHours(0,0,0,0); return d; };
+const gwISO   = d => d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+const gwParse = iso => { const [y,m,d] = iso.split('-').map(Number); return new Date(y, m-1, d); };
+
+/* Must match Hugo's urlize() for ASCII titles — keeps /event/#<slug> deep links stable from RSS & tags. */
+function gwSlug(t) {
+  return String(t).toLowerCase().normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function gwDayNum(iso)  { return String(gwParse(iso).getDate()).padStart(2,'0'); }
+function gwFmtFull(iso)    { const d = gwParse(iso); return GW_DAYS[d.getDay()] + ' · ' + GW_MONTHS[d.getMonth()] + ' ' + d.getFullYear(); }
+function gwFmtLong(iso) { const d = gwParse(iso); return GW_DAYS[d.getDay()] + ' ' + gwDayNum(iso) + ' ' + GW_MONTHS[d.getMonth()] + ' ' + d.getFullYear(); }
+function gwFmtShort(iso)   { const d = gwParse(iso); return gwDayNum(iso) + ' ' + GW_MONTHS[d.getMonth()]; }
+const gwFmtTick = gwFmtShort;
+function isToday(iso)   { return iso === gwISO(gwToday()); }
+
+function gwDaysUntil(iso) { return Math.round((gwParse(iso) - gwToday()) / GW_MS_DAY); }
+function gwRelative(iso) {
+  const n = gwDaysUntil(iso);
+  if (n === 0)  return 'TODAY';
+  if (n === 1)  return 'TOMORROW';
+  if (n === -1) return 'YESTERDAY';
+  return n > 0 ? 'T+' + n + 'D' : 'T' + n + 'D';
+}
+
+function gwGroupByDate(list) {
+  const m = new Map();
+  for (const e of list) { if (!m.has(e.date)) m.set(e.date, []); m.get(e.date).push(e); }
+  return [...m.entries()].sort((a,b) => a[0] < b[0] ? -1 : 1).map(([date, items]) => ({ date, items }));
+}
+
+function gwEscapeHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function gwExcerpt(text, q, span = 80) {
+  text = text || '';
+  const i = q ? text.toLowerCase().indexOf(q.toLowerCase()) : -1;
+  if (i < 0) return text.slice(0, span*2) + (text.length > span*2 ? '…' : '');
+  const start = Math.max(0, i - span);
+  const end   = Math.min(text.length, i + q.length + span);
+  return (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+}
+
+/* ---------------- calendar export ---------------- */
+function gwGcalLink(ev) {
+  const s = ev.date.replace(/-/g, '');
+  const e = gwISO(new Date(gwParse(ev.date).getTime() + GW_MS_DAY)).replace(/-/g, '');
+  const p = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: ev.title + ' — ' + ev.source,
+    dates: s + '/' + e,
+    details: (ev.description || '') + '\n\nSource bulletin: ' + (ev.url || '') + '\nVia Goldirham Whisper',
+    sf: 'true', output: 'xml'
+  });
+  return 'https://calendar.google.com/calendar/render?' + p.toString();
+}
+
+function gwIcs(ev) {
+  const s = ev.date.replace(/-/g, '');
+  const e = gwISO(new Date(gwParse(ev.date).getTime() + GW_MS_DAY)).replace(/-/g, '');
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  const ics = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Goldirham Whisper//EN', 'CALSCALE:GREGORIAN',
+    'BEGIN:VEVENT',
+    'UID:' + gwSlug(ev.title) + '-' + ev.date + '@goldirhamwhisper.calendar',
+    'DTSTAMP:' + stamp,
+    'DTSTART;VALUE=DATE:' + s,
+    'DTEND;VALUE=DATE:' + e,
+    'SUMMARY:' + ev.title,
+    'DESCRIPTION:' + (ev.description || '').replace(/\n/g, '\\n'),
+    'URL:' + (ev.url || ''),
+    'END:VEVENT', 'END:VCALENDAR'
+  ].join('\r\n');
+  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = gwSlug(ev.title) + '.ics';
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(a.href);
+}
+
+/* ---------------- global Alpine store ---------------- */
+document.addEventListener('alpine:init', () => {
+  Alpine.store('gw', {
+    events: [],
+    ready: false,
+
+    async init() {
+      /* 1) instant hydration from the embedded JSON (no network hop) */
+      let raw = null;
+      try {
+        const el = document.getElementById('gw-events');
+        raw = el ? JSON.parse(el.textContent) : null;
+      } catch (e) { raw = null; }
+
+      /* 2) fallback: fetch the published raw feed */
+      if (!raw) {
+        try { const r = await fetch('/events.json'); if (r.ok) raw = await r.json(); } catch (e) {}
+      }
+      raw = Array.isArray(raw) ? raw : [];
+
+      const today = gwISO(gwToday());
+      this.events = raw
+        .map(e => ({ ...e, slug: gwSlug(e.title), flag: gwFlag(e.source), past: e.date < today }))
+        .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+      this.ready = true;
+    },
+
+    get upcoming() { const t = gwISO(gwToday()); return this.events.filter(e => e.date >= t); },
+    get past()     { const t = gwISO(gwToday()); return this.events.filter(e => e.date <  t).reverse(); },
+
+    /* unique exchange venues with counts + next date */
+    get venues() {
+      const m = {};
+      for (const e of this.events) {
+        if (e.type !== 'exchange') continue;
+        if (!m[e.source]) m[e.source] = { source: e.source, flag: gwFlag(e.source), total: 0, upcoming: 0, next: null };
+        m[e.source].total++;
+        if (!e.past) {
+          m[e.source].upcoming++;
+          if (!m[e.source].next || e.date < m[e.source].next) m[e.source].next = e.date;
+        }
+      }
+      return Object.values(m).sort((a, b) => b.total - a.total || a.source.localeCompare(b.source));
+    },
+
+    bySlug(s) { return this.events.find(e => e.slug === s); },
+  });
+});
+
+/* ---------------- components ---------------- */
+
+/* Homepage calendar board */
+function gwCalendar() {
+  return {
+    type: 'all', quick: 'upcoming', from: '', to: '', q: '', source: 'all', shown: 7,
+
+    init() {
+      const p = new URLSearchParams(location.search);
+      if (p.get('q'))      this.q = p.get('q');
+      if (p.get('type'))   this.type = p.get('type');
+      if (p.get('source')) this.source = p.get('source');
+      if (p.get('from'))   { this.from = p.get('from'); this.quick = 'custom'; }
+      if (p.get('to'))     { this.to = p.get('to');     this.quick = 'custom'; }
+      /* default window: today onward */
+      if (this.quick !== 'custom') this.from = gwISO(gwToday());
+
+      this.$watch('quick', v => {
+        const t = gwISO(gwToday());
+        if      (v === 'today')    { this.from = t; this.to = t; }
+        else if (v === 'week')     { this.from = t; this.to = gwISO(new Date(gwToday().getTime() + 6 * GW_MS_DAY)); }
+        else if (v === 'upcoming') { this.from = t; this.to = ''; }
+        else if (v === 'all')      { this.from = ''; this.to = ''; }
+      });
+    },
+
+    get filtered() {
+      const q = this.q.trim().toLowerCase();
+      return this.$store.gw.events.filter(e => {
+        if (this.type !== 'all' && e.type !== this.type) return false;
+        if (this.source !== 'all' && e.source !== this.source) return false;
+        if (this.from && e.date < this.from) return false;
+        if (this.to && e.date > this.to) return false;
+        if (q) {
+          const hay = (e.title + ' ' + e.source + ' ' + (e.tags || []).join(' ') + ' ' + (e.description || '')).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    },
+    get groups()  { return gwGroupByDate(this.filtered); },
+    get visible() { return this.groups.slice(0, this.shown); },
+    get sources() { return [...new Set(this.$store.gw.events.map(e => e.source))].sort(); },
+
+    more()  { this.shown += 7; },
+    reset() { this.type='all'; this.quick='upcoming'; this.from=gwISO(gwToday()); this.to=''; this.q=''; this.source='all'; this.shown=7; },
+    rel(date) { return gwRelative(date); },
+  };
+}
+
+/* Live countdown to the next upcoming signal */
+function gwCountdown() {
+  return {
+    now: Date.now(),
+    init() { setInterval(() => this.now = Date.now(), 1000); },
+    get next() { return this.$store.gw.upcoming[0] || null; },
+    get parts() {
+      if (!this.next) return null;
+      let s = Math.max(0, Math.floor((gwParse(this.next.date).getTime() - this.now) / 1000));
+      const d = Math.floor(s / 86400); s -= d * 86400;
+      const h = Math.floor(s / 3600);  s -= h * 3600;
+      const m = Math.floor(s / 60);    s -= m * 60;
+      return { d, h, m, s };
+    },
+  };
+}
+
+/* UTC clock (header + footer) */
+function gwClock() {
+  return {
+    now: new Date(),
+    init() { setInterval(() => this.now = new Date(), 1000); },
+    get utc() { return this.now.toISOString().slice(11, 19); },
+  };
+}
+
+/* Top ticker marquee */
+function gwTicker() {
+  return { get items() { return this.$store.gw.upcoming.slice(0, 16); } };
+}
+
+/* /event/#<slug> detail view */
+function gwDetail() {
+  return {
+    slug: '',
+    init() {
+      const read = () => {
+        const p = new URLSearchParams(location.search);
+        this.slug = (location.hash || '').replace(/^#\/?/, '') || p.get('id') || '';
+      };
+      read();
+      window.addEventListener('hashchange', read);
+      window.addEventListener('popstate', read);
+    },
+    get ev() { return this.slug ? this.$store.gw.bySlug(this.slug) : null; },
+    get sameSource() {
+      if (!this.ev) return [];
+      return this.$store.gw.events
+        .filter(e => e.source === this.ev.source && e.slug !== this.ev.slug)
+        .sort((a, b) => Math.abs(gwDaysUntil(a.date)) - Math.abs(gwDaysUntil(b.date)))
+        .slice(0, 6);
+    },
+    get sameDay() {
+      if (!this.ev) return [];
+      return this.$store.gw.events.filter(e => e.date === this.ev.date && e.slug !== this.ev.slug);
+    },
+    gcal() { return this.ev ? gwGcalLink(this.ev) : '#'; },
+    ics()  { if (this.ev) gwIcs(this.ev); },
+  };
+}
+
+/* /exchanges/ venue dossiers */
+function gwVenues() {
+  return {
+    selected: '',
+    init() {
+      const p = new URLSearchParams(location.search);
+      if (p.get('src')) this.selected = p.get('src');
+      else if (location.hash) this.selected = decodeURIComponent(location.hash.slice(1));
+    },
+    get venues() { return this.$store.gw.venues; },
+    get venue()  { return this.venues.find(v => v.source === this.selected) || null; },
+    get venueEvents() {
+      if (!this.venue) return { upcoming: [], past: [] };
+      const all = this.$store.gw.events.filter(e => e.type === 'exchange' && e.source === this.selected);
+      return { upcoming: all.filter(e => !e.past), past: all.filter(e => e.past) };
+    },
+    intro(src) {
+      return GW_INTROS[src] || 'No dossier on file yet — raw signal only. Venue events are logged as they hit the wire.';
+    },
+    select(src) {
+      this.selected = src;
+      history.replaceState(null, '', '#' + encodeURIComponent(src));
+      this.$nextTick(() => {
+        const el = document.getElementById('venue-detail');
+        if (el && window.innerWidth < 1024) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    },
+  };
+}
+
+/* /economics/ statistical wire */
+function gwEconomics() {
+  return {
+    q: '', includePast: false,
+    get items() {
+      const q = this.q.trim().toLowerCase();
+      let list = this.$store.gw.events.filter(e => e.type === 'economics');
+      if (!this.includePast) list = list.filter(e => !e.past);
+      if (q) list = list.filter(e =>
+        (e.title + ' ' + e.source + ' ' + (e.tags || []).join(' ') + ' ' + (e.description || '')).toLowerCase().includes(q));
+      return list;
+    },
+    get groups() { return gwGroupByDate(this.items); },
+    get weekCount() {
+      const t = gwToday().getTime(), end = t + 6 * GW_MS_DAY;
+      return this.$store.gw.events.filter(e => {
+        const d = gwParse(e.date).getTime();
+        return e.type === 'economics' && d >= t && d <= end;
+      }).length;
+    },
+  };
+}
+
+/* /search/ — Lunr full-text index */
+function gwSearch() {
+  return {
+    q: '', results: [], indexed: 0, idx: null,
+
+    init() {
+      const p = new URLSearchParams(location.search);
+      if (p.get('q')) this.q = p.get('q');
+      this.build();
+      if (this.q) this.run();
+      this.$watch('q', () => this.run());
+    },
+
+    build() {
+      if (typeof lunr === 'undefined' || !this.$store.gw.ready) {
+        setTimeout(() => this.build(), 120); return;
+      }
+      const docs = this.$store.gw.events;
+      this.idx = lunr(function () {
+        this.ref('slug');
+        this.field('title',       { boost: 10 });
+        this.field('tags',        { boost: 6 });
+        this.field('source',      { boost: 4 });
+        this.field('description');
+        this.field('type');
+        docs.forEach(d => this.add({ ...d, tags: (d.tags || []).join(' ') }));
+      });
+      this.indexed = docs.length;
+      if (this.q) this.run();
+    },
+
+    run() {
+      const q = this.q.trim();
+      if (!q || !this.idx) { this.results = []; return; }
+      let hits = [];
+      try { hits = this.idx.search(q); }
+      catch (e) { try { hits = this.idx.search(q + '*'); } catch (e2) { hits = []; } }
+      this.results = hits.slice(0, 30)
+        .map(h => { const ev = this.$store.gw.bySlug(h.ref); return ev ? { ev, score: h.score } : null; })
+        .filter(Boolean);
+    },
+
+    excerpt(ev) {
+      const first = this.q.trim().split(/\s+/)[0] || '';
+      return gwExcerpt(ev.description || ev.title, first);
+    },
+
+    /* escape then highlight query terms (used with x-html) */
+    hi(text) {
+      const esc = gwEscapeHtml(text || '');
+      const terms = this.q.trim().split(/\s+/)
+        .filter(t => t.length > 1)
+        .map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      if (!terms.length) return esc;
+      try { return esc.replace(new RegExp('(' + terms.join('|') + ')', 'gi'), '<mark>$1</mark>'); }
+      catch (e) { return esc; }
+    },
+  };
+}
+
+/* ---------------- global niceties ---------------- */
+
+/* "/" focuses the nearest filter input */
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && !/input|textarea|select/i.test(document.activeElement.tagName)) {
+    const t = document.querySelector('[data-searchable]');
+    if (t) { e.preventDefault(); t.focus(); }
+  }
+});
+</script>

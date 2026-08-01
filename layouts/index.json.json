@@ -1,0 +1,4 @@
+{{- /*
+  Raw feed at /events.json — verbatim copy of the data shard every page hydrates from.
+*/ -}}
+{{ hugo.Data.events | jsonify }}

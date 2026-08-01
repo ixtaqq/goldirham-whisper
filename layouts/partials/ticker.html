@@ -1,0 +1,20 @@
+{{/* Market wire — seamless marquee of the next 16 upcoming signals. Pauses on hover. */}}
+<div class="gw-ticker relative z-40 flex items-stretch overflow-hidden border-b border-white/5 bg-panel/70">
+  <div class="z-10 flex shrink-0 items-center gap-2 border-r border-white/10 bg-panel px-3 py-1.5 font-mono text-[10px] tracking-[0.28em] text-amber">
+    <span class="gw-dot" style="background:#ffb700"></span> WIRE
+  </div>
+  <div class="relative flex-1 overflow-hidden" x-data="gwTicker()" x-show="$store.gw.ready" x-cloak>
+    <div class="gw-ticker-track flex w-max items-center">
+      {{/* render the list twice so translateX(-50%) loops seamlessly */}}
+      <template x-for="(ev, i) in items.concat(items)" :key="i">
+        <a :href="'/event/#' + ev.slug"
+           class="flex items-center gap-2 whitespace-nowrap px-4 py-1.5 font-mono text-[11px] text-dim transition-colors hover:text-neon">
+          <span x-text="ev.flag"></span>
+          <span class="text-ash/80" x-text="ev.title"></span>
+          <span class="text-neon/70" x-text="'· ' + gwFmtTick(ev.date)"></span>
+          <span class="pl-4 text-dim/40">◆</span>
+        </a>
+      </template>
+    </div>
+  </div>
+</div>

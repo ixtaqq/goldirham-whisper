@@ -1,0 +1,45 @@
+{{- $p := .RelPermalink -}}
+<header class="sticky top-0 z-50 border-b border-white/5 bg-ink/85 backdrop-blur" x-data="{ mopen: false }">
+  <div class="mx-auto flex h-14 max-w-7xl items-center gap-4 px-4 sm:px-6">
+
+    {{/* Logo */}}
+    <a href="/" class="flex items-baseline font-mono font-extrabold tracking-tight text-white" @click="mopen=false">
+      <span class="gw-glow-text text-neon">GOLDIRHAM</span><span>_WHISPER</span><span class="gw-cursor">▮</span>
+    </a>
+
+    {{/* Desktop nav */}}
+    <nav class="hidden items-center font-mono text-[11px] tracking-[0.18em] md:flex">
+      <a href="/"          class="navlink {{ if eq $p "/" }}navlink-on{{ end }}">CALENDAR</a>
+      <a href="/exchanges/" class="navlink {{ if hasPrefix $p "/exchanges" }}navlink-on{{ end }}">EXCHANGES</a>
+      <a href="/economics/" class="navlink {{ if hasPrefix $p "/economics" }}navlink-on{{ end }}">ECONOMICS</a>
+      <a href="/search/"    class="navlink {{ if hasPrefix $p "/search" }}navlink-on{{ end }}">SEARCH</a>
+      <a href="/about/"     class="navlink {{ if hasPrefix $p "/about" }}navlink-on{{ end }}">ABOUT</a>
+    </nav>
+
+    {{/* Live UTC clock */}}
+    <div class="ml-auto hidden items-center gap-3 font-mono text-[11px] text-dim sm:flex" x-data="gwClock()">
+      <span class="flex items-center gap-1.5"><span class="gw-dot"></span><span class="text-neon">LIVE</span></span>
+      <span x-text="utc + ' UTC'"></span>
+    </div>
+
+    {{/* Mobile hamburger */}}
+    <button class="ml-auto flex h-9 w-9 items-center justify-center border border-white/10 text-ash transition-colors hover:border-neon/60 hover:text-neon sm:ml-0 md:hidden"
+            @click="mopen = !mopen" :aria-expanded="mopen" aria-label="Toggle menu">
+      <svg x-show="!mopen" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="square" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg x-show="mopen" x-cloak xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="square" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  {{/* Mobile menu */}}
+  <nav x-show="mopen" x-cloak
+       class="border-t border-white/5 bg-panel px-4 py-3 font-mono text-[12px] tracking-[0.18em] md:hidden">
+    <a href="/"          @click="mopen=false" class="block px-2 py-2.5 text-dim hover:bg-panel2 hover:text-neon">▸ CALENDAR</a>
+    <a href="/exchanges/" @click="mopen=false" class="block px-2 py-2.5 text-dim hover:bg-panel2 hover:text-neon">▸ EXCHANGES</a>
+    <a href="/economics/" @click="mopen=false" class="block px-2 py-2.5 text-dim hover:bg-panel2 hover:text-neon">▸ ECONOMICS</a>
+    <a href="/search/"    @click="mopen=false" class="block px-2 py-2.5 text-dim hover:bg-panel2 hover:text-neon">▸ SEARCH</a>
+    <a href="/about/"     @click="mopen=false" class="block px-2 py-2.5 text-dim hover:bg-panel2 hover:text-neon">▸ ABOUT</a>
+    <div class="mt-2 border-t border-white/5 px-2 pt-2 font-mono text-[10px] text-dim" x-data="gwClock()">
+      <span class="text-neon">●</span> SESSION ACTIVE · <span x-text="utc"></span> UTC
+    </div>
+  </nav>
+</header>

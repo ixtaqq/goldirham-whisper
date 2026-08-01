@@ -1,0 +1,11 @@
+# Hugo build output (Cloudflare Pages builds its own copy)
+/public/
+.hugo_build.lock
+
+# Python aggregator artifacts
+__pycache__/
+*.pyc
+
+# OS noise
+.DS_Store
+Thumbs.db

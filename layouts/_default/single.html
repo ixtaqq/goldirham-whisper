@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+  <p class="font-mono text-[11px] text-dim"><span class="text-neon">~/calendar</span> / {{ .File.BaseFileName }} <span class="gw-cursor">▮</span></p>
+  <h1 class="mt-3 font-mono text-4xl font-extrabold text-white sm:text-5xl">
+    {{ if eq .File.BaseFileName "about" }}ABOUT THE <span class="gw-glow-text text-neon">GOLDIRHAM WHISPER</span>{{ else }}{{ .Title }}{{ end }}
+  </h1>
+  <div class="prose-hh mt-8">{{ .Content }}</div>
+</div>
+{{ end }}

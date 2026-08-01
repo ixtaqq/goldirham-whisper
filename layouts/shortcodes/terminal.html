@@ -1,0 +1,13 @@
+{{- /*
+  {{< terminal >}} … {{< /terminal >}}
+  Renders a styled TTY snippet. Inner content is emitted verbatim (escaped).
+*/ -}}
+<div class="my-6 border border-white/10 bg-[#0d1512]">
+  <div class="flex items-center gap-1.5 border-b border-white/10 px-3 py-2">
+    <span class="h-2 w-2 rounded-full bg-[#ff5f56]"></span>
+    <span class="h-2 w-2 rounded-full bg-[#ffbd2e]"></span>
+    <span class="h-2 w-2 rounded-full bg-[#27c93f]"></span>
+    <span class="ml-2 font-mono text-[10px] tracking-[0.25em] text-dim">TTY — GOLDIRHAM WHISPER</span>
+  </div>
+  <pre class="overflow-x-auto px-4 py-3 font-mono text-[12px] leading-6 text-neon/90">{{ .Inner | strings.TrimSpace }}</pre>
+</div>

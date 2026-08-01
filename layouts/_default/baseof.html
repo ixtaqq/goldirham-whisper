@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="min-h-screen bg-ink text-ash font-sans antialiased selection:bg-neon selection:text-ink">
+
+  {{ partial "ticker.html" . }}
+  {{ partial "header.html" . }}
+
+  <main class="relative z-10">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{/* Single source of truth: data/events.json — embedded for instant hydration */}}
+  {{ partial "data.html" . }}
+  {{/* Alpine store + components + helpers (must register before Alpine boots) */}}
+  {{ partial "store.html" . }}
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+</body>
+</html>

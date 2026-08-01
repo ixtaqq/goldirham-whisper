@@ -1,0 +1,158 @@
+{{- $desc := .Description | default .Site.Params.description -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}Goldirham Whisper — Dates That Move Markets First{{ else }}{{ .Title }} · The Goldirham Whisper{{ end }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="theme-color" content="#0a0f0d">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+{{/* ---- Open Graph / Twitter ---- */}}
+<meta property="og:site_name" content="Goldirham Whisper">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · The Goldirham Whisper{{ end }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ $desc }}">
+
+{{/* ---- Machine feeds ---- */}}
+<link rel="alternate" type="application/rss+xml" title="Goldirham Whisper — Upcoming Signals" href="/index.xml">
+<link rel="alternate" type="application/json" title="Goldirham Whisper — Raw Events" href="/events.json">
+
+{{/* ---- Fonts (fontsource CDN): JetBrains Mono for data/display, Inter for body ---- */}}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@latest/latin-400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@latest/latin-500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@latest/latin-700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@latest/latin-800.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@latest/latin-400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@latest/latin-500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@latest/latin-600.css">
+
+{{/* ---- Tailwind (Play CDN). For production hardening, swap to the standalone CLI. ---- */}}
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink:    '#0a0f0d',  /* page background        */
+          panel:  '#111b18',  /* raised surfaces        */
+          panel2: '#16221e',  /* hover / selected rows  */
+          ash:    '#c0c0c0',  /* body text              */
+          dim:    '#6f8379',  /* secondary text         */
+          neon:   '#00ff88',  /* primary accent         */
+          amber:  '#ffb700',  /* warning / economics    */
+          blood:  '#ff5c5c',  /* alerts                 */
+        },
+        fontFamily: {
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+
+{{/* ---- Component classes (Play CDN supports @apply here) ---- */}}
+<style type="text/tailwindcss">
+  [x-cloak] { display: none !important; }
+
+  .chip      { @apply font-mono text-[10px] tracking-[0.18em] uppercase px-2.5 py-1.5 border border-white/10 text-dim transition-colors duration-150 hover:border-neon/50 hover:text-neon cursor-pointer select-none; }
+  .chip-on   { @apply border-neon/70 text-neon bg-neon/10 shadow-[0_0_14px_rgba(0,255,136,0.15)]; }
+
+  .badge     { @apply inline-block font-mono text-[9px] tracking-[0.22em] px-1.5 py-0.5 border whitespace-nowrap; }
+  .badge-ex  { @apply text-neon border-neon/40 bg-neon/5; }
+  .badge-ec  { @apply text-amber border-amber/40 bg-amber/5; }
+
+  .btn       { @apply inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase px-4 py-2.5 border transition-all duration-150 cursor-pointer; }
+  .btn-neon  { @apply border-neon/60 bg-neon/10 text-neon hover:bg-neon hover:text-ink hover:shadow-[0_0_26px_rgba(0,255,136,0.35)]; }
+  .btn-ghost { @apply border-white/15 text-ash hover:border-neon/60 hover:text-neon; }
+
+  .input-hh  { @apply w-full bg-ink border border-white/10 px-3 py-2.5 font-mono text-sm text-ash placeholder:text-dim/60 focus:border-neon/60 focus:outline-none focus:shadow-[0_0_0_1px_rgba(0,255,136,0.3)] transition-shadow; }
+  .label-hh  { @apply block font-mono text-[10px] tracking-[0.25em] uppercase text-dim mb-1.5; }
+
+  .rowlink   { @apply group relative grid items-center gap-x-4 gap-y-1 px-3 py-3 border-l-2 border-transparent transition-colors duration-150 hover:bg-panel2/70 hover:border-neon; }
+
+  .navlink        { @apply relative px-3 py-2 text-dim transition-colors duration-150 hover:text-neon; }
+  .navlink::after { content: ""; position: absolute; left: 3px; right: 100%; bottom: 4px; height: 1px; background: #00ff88; transition: right .2s ease; }
+  .navlink:hover::after { right: 3px; }
+  .navlink-on     { @apply text-neon; }
+  .navlink-on::after { right: 3px; }
+</style>
+
+{{/* ---- Ambient layer: phosphor grid, scanlines, keyframes ---- */}}
+<style>
+  :root { color-scheme: dark; }
+  html  { scroll-behavior: smooth; }
+
+  body {
+    background-color: #0a0f0d;
+    background-image:
+      radial-gradient(1100px 520px at 85% -10%, rgba(0,255,136,.06), transparent 60%),
+      radial-gradient(900px 420px at -10% 110%, rgba(255,183,0,.035), transparent 60%),
+      linear-gradient(rgba(0,255,136,.028) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,255,136,.028) 1px, transparent 1px);
+    background-size: auto, auto, 34px 34px, 34px 34px;
+    background-attachment: fixed;
+  }
+  /* CRT scanlines + vignette */
+  body::after {
+    content: ""; position: fixed; inset: 0; z-index: 70; pointer-events: none;
+    background:
+      repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 1px, transparent 1px 3px),
+      radial-gradient(ellipse at center, transparent 62%, rgba(0,0,0,.38));
+    opacity: .5;
+  }
+
+  ::selection { background: #00ff88; color: #04110a; }
+  :focus-visible { outline: 1px solid #00ff88; outline-offset: 2px; }
+  mark { background: rgba(0,255,136,.28); color: #e8fff2; padding: 0 .15em; }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: #0a0f0d; }
+  ::-webkit-scrollbar-thumb { background: #1a2721; border: 2px solid #0a0f0d; }
+  ::-webkit-scrollbar-thumb:hover { background: #24352d; }
+  .gw-scroll::-webkit-scrollbar { width: 6px; }
+  .gw-scroll::-webkit-scrollbar-thumb { background: #1d2b25; border: 0; }
+  .gw-scroll::-webkit-scrollbar-thumb:hover { background: rgba(0,255,136,.4); }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(.75) sepia(1) saturate(4) hue-rotate(90deg); cursor: pointer;
+  }
+
+  @keyframes gw-blink { 0%,55% { opacity: 1 } 56%,100% { opacity: 0 } }
+  .gw-cursor { animation: gw-blink 1.1s steps(1) infinite; color: #00ff88; }
+
+  @keyframes gw-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(0,255,136,.55); }
+    70%  { box-shadow: 0 0 0 6px rgba(0,255,136,0); }
+    100% { box-shadow: 0 0 0 0 rgba(0,255,136,0); }
+  }
+  .gw-dot { width: 6px; height: 6px; background: #00ff88; border-radius: 9999px; animation: gw-pulse 2s infinite; }
+
+  @keyframes gw-tick { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+  .gw-ticker-track { animation: gw-tick 75s linear infinite; }
+  .gw-ticker:hover .gw-ticker-track { animation-play-state: paused; }
+
+  @keyframes gw-rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+  .animate-rise { animation: gw-rise .5s cubic-bezier(.2,.7,.2,1) both; }
+
+  .gw-glow-text  { text-shadow: 0 0 14px rgba(0,255,136,.45); }
+  .gw-glow-amber { text-shadow: 0 0 14px rgba(255,183,0,.4); }
+
+  /* About page prose */
+  .prose-hh h2 { font-family: 'JetBrains Mono', monospace; color: #00ff88; font-size: 1.02rem; letter-spacing: .14em; text-transform: uppercase; margin: 2.6rem 0 .9rem; }
+  .prose-hh h2::before { content: "## "; color: rgba(0,255,136,.4); }
+  .prose-hh p  { margin: 0 0 1.1rem; line-height: 1.85; color: rgba(192,192,192,.92); }
+  .prose-hh ul { margin: 0 0 1.2rem 1.1rem; list-style: square; }
+  .prose-hh li { margin: .4rem 0; line-height: 1.75; color: rgba(192,192,192,.88); }
+  .prose-hh li::marker { color: #00ff88; }
+  .prose-hh a  { color: #00ff88; text-underline-offset: 3px; }
+  .prose-hh a:hover { text-decoration-thickness: 2px; }
+  .prose-hh strong { color: #fff; font-weight: 600; }
+  .prose-hh blockquote { border-left: 2px solid #00ff88; padding: .5rem 0 .5rem 1.1rem; color: #93a89e; font-style: italic; margin: 1.6rem 0; background: linear-gradient(90deg, rgba(0,255,136,.05), transparent); }
+  .prose-hh code { font-family: 'JetBrains Mono', monospace; background: #111b18; border: 1px solid rgba(255,255,255,.08); padding: .1rem .4rem; font-size: .85em; color: #ffb700; }
+</style>

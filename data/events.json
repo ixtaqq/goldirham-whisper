@@ -349,19 +349,6 @@
   },
   {
     "date": "2026-07-29",
-    "title": "The impact of hospitalisation for sepsis on employee earnings and employment status, England: April 2014 to December 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The change in employee earnings and employment after hospitalisation for sepsis, compared with 12 to 24 months before hospitalisation.",
-    "url": "https://www.ons.gov.uk/releases/theimpactofhospitalisationforsepsisonemployeeearningsandemploymentstatusenglandapril2014tomarch2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-29",
     "title": "FOMC — rate decision and projections",
     "source": "Federal Reserve",
     "type": "economics",
@@ -575,6 +562,19 @@
       "manufacturing"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 24 July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending24july2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-07",

@@ -308,32 +308,6 @@
   },
   {
     "date": "2026-07-29",
-    "title": "Workless households for regions across the UK: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual information at a local level about households and the adults and children living in them, by their economic activity status.",
-    "url": "https://www.ons.gov.uk/releases/worklesshouseholdsforregionsacrosstheuk2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-29",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 17 July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending17july2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-29",
     "title": "FOMC — rate decision and projections",
     "source": "Federal Reserve",
     "type": "economics",
@@ -581,6 +555,32 @@
     "type": "economics",
     "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
     "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending24july2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "title": "Business insights and impact on the UK economy: 6 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy6august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "title": "Economic activity and social change in the UK, real-time indicators: 6 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators6august2026",
     "tags": [
       "ons uk release calendar",
       "economics",

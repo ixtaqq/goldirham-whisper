@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "title": "Globex failover drill — derivatives match engine",
-    "source": "CME Group",
-    "type": "exchange",
-    "description": "DDoS-simulation rehearsal across the Globex core. Early-session slippage expected while trading-floor bars accept cloned connectivity.",
-    "url": "https://www.cmegroup.com/tools-information/holiday-calendar.html",
-    "tags": [
-      "cme group",
-      "exchange",
-      "failover",
-      "drill"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-07-07",
     "title": "Financial Policy Committee Record – July 2026",
     "source": "Bank of England",

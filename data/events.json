@@ -150,19 +150,6 @@
     ]
   },
   {
-    "date": "2026-07-20",
-    "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-07-21",
     "title": "July 2026 euro area bank lending survey",
     "source": "ECB Press Releases",
@@ -374,32 +361,6 @@
   },
   {
     "date": "2026-07-30",
-    "title": "Health state life expectancy estimates for Middle layer Super Output Areas, England and Wales: 2019 to 2023",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of health expectancy at birth for small area populations based on self-assessed health and self-assessed activity limitation.",
-    "url": "https://www.ons.gov.uk/releases/healthstatelifeexpectancyestimatesformiddlelayersuperoutputareasmsoasenglandandwales2019to2023",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
-    "title": "Comparing ONS UK economic growth data with diffusion indices: 2012 to 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Comparing ONS short-term UK economic data and S&amp;P Global Purchasing Managers’ Index surveys (PMI). These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/comparingonsukeconomicdatawithpurchasingmanagersindexsurveys2012to2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
     "title": "Personal income and outlays — PCE deflator",
     "source": "BEA",
     "type": "economics",
@@ -581,6 +542,45 @@
     "type": "economics",
     "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
     "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators6august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "title": "ECB publishes consolidated banking data for end-March 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "title": "Public service productivity, quarterly, UK: January to March 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "UK total public service productivity, inputs, and output, to provide a timely indicator of annual productivity estimates. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/publicserviceproductivityquarterlyukjanuarytomarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "title": "Gross domestic expenditure on research and development, UK: 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Research and development (R&amp;D) performed in the UK by businesses, higher education, government, and private non-profit organisations, with sources of funds for R&amp;D.",
+    "url": "https://www.ons.gov.uk/releases/grossdomesticexpenditureonresearchanddevelopmentuk2024",
     "tags": [
       "ons uk release calendar",
       "economics",

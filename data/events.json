@@ -1,46 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "title": "Minutes of the UK Money Markets Code Sub-Committee – June 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-08",
-    "title": "Statistical Notice 2026/07 -  Bank of England Levy: Notification Document Levy Year 2026/27",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
-    "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-08",
-    "title": "JOLTS — job openings survey",
-    "source": "BLS",
-    "type": "economics",
-    "description": "The quiet survey with the loud revisions. Watch the quits rate, not the opening headlines.",
-    "url": "https://www.bls.gov/jlt/",
-    "tags": [
-      "bls",
-      "economics",
-      "jolts",
-      "labor"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-07-10",
     "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
     "source": "SEC Press Releases",

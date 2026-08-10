@@ -279,19 +279,6 @@
   },
   {
     "date": "2026-07-30",
-    "title": "Economic activity and social change in the UK, real-time indicators: 30 July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators30july2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
     "title": "Personal income and outlays — PCE deflator",
     "source": "BEA",
     "type": "economics",
@@ -561,6 +548,19 @@
       "a50"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "Asymmetries in international trade in services, UK and international partner countries: 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of UK services asymmetries with bilateral partner countries, including a timeseries analysis of asymmetries from 2016 to 2024. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/uktradeinservicesasymmetriesbypartnercountryandservicetype",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-10",

@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-10",
-    "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission’s Office of Municipal Securities today announced it has updated its Registration of Municipal Advisors FAQs webpage to offer more clarity on municipal advisor registration and recordkeeping requirements.&nbsp;The…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-10",
-    "title": "SIFMU evening-cycle failover test",
-    "source": "DTCC",
-    "type": "exchange",
-    "description": "Nightly batch replication switched to the Chicago market center. Expect confirms to run late across every custodian.",
-    "url": "https://www.dtcc.com/",
-    "tags": [
-      "dtcc",
-      "exchange",
-      "failover",
-      "settlement"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-07-13",
     "title": "Minutes of the Money Market Committee meeting – June 2026",
     "source": "Bank of England",

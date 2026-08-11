@@ -1570,5 +1570,18 @@
       "exchange",
       "holiday"
     ]
+  },
+  {
+    "date": "2027-08-11",
+    "title": "Market holiday — Mountain Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Mountain Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   }
 ]

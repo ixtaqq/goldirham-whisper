@@ -81,19 +81,6 @@
     ]
   },
   {
-    "date": "2026-07-21",
-    "title": "July 2026 euro area bank lending survey",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-07-22",
     "title": "Flash consumer confidence",
     "source": "Eurostat",
@@ -266,19 +253,6 @@
   },
   {
     "date": "2026-07-30",
-    "title": "Business demography, quarterly, UK: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
-    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
     "title": "Personal income and outlays — PCE deflator",
     "source": "BEA",
     "type": "economics",
@@ -312,19 +286,6 @@
     "type": "economics",
     "description": "Starts and completions of new build dwellings in the UK, on a quarterly and annual basis, time series data.",
     "url": "https://www.ons.gov.uk/releases/indicatorsofhousebuildingukpermanentdwellingsstartedandcompletedbycountryjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-31",
-    "title": "Update on reinstating quarterly regional GDP estimates for England and Wales: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "First update on reinstating quarterly regional gross domestic product (GDP) estimates for England and Wales, including recent data and methods changes to produce seasonally adjusted current price estimates and a new indicative regional dataset and data catalogue. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/reinstatingquarterlyregionalgdpestimates",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -587,6 +548,45 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "In April 2026, 25 financial institutions active in the UK foreign exchange (FX) market participated in the semi-annual turnover survey for the Foreign Exchange Joint Standing Committee (FXJSC). The survey results are summarised below. Detailed tables for the April 2026 reporting period, linked below, are available separately.",
+    "url": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "title": "The impact of employment advisors in NHS Talking Therapies on benefits receipt, England: April 2014 to April 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The change in the probability of benefits receipt after receiving employment advisor support and psychological therapy, compared with the expected change from psychological therapy only.",
+    "url": "https://www.ons.gov.uk/releases/theimpactofemploymentadvisorsinnhstalkingtherapiesonbenefitsutilisationenglandapril2014tomarch2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Labour market transformation – update on progress and plans: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Labour market transformation overview, building on previous engagement on the Transformed Labour Force Survey.",
+    "url": "https://www.ons.gov.uk/releases/labourmarkettransformationupdateonprogressandplansaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
     ]
   },
   {

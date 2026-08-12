@@ -280,19 +280,6 @@
     ]
   },
   {
-    "date": "2026-07-31",
-    "title": "Indicators of house building, UK: permanent dwellings started and completed by country, July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Starts and completions of new build dwellings in the UK, on a quarterly and annual basis, time series data.",
-    "url": "https://www.ons.gov.uk/releases/indicatorsofhousebuildingukpermanentdwellingsstartedandcompletedbycountryjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-08-01",
     "title": "Official manufacturing PMI",
     "source": "China NBS",
@@ -602,6 +589,19 @@
       "cpi"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 31 July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending31july2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-12",

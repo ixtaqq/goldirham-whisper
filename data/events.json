@@ -477,6 +477,45 @@
   },
   {
     "date": "2026-08-13",
+    "title": "Business Investment in the UK: April to June 2026 provisional results",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of short-term indicators of investment in non-financial assets; business investment, and asset and sector breakdowns of total gross fixed capital formation",
+    "url": "https://www.ons.gov.uk/releases/businessinvestmentintheukapriltojune2026provisionalresults",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Experiences of NHS healthcare services in England: 13 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Patient experiences of accessing healthcare, from the ONS Health Insight Survey, funded by NHS England. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland13august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "title": "Economic activity and social change in the UK, real-time indicators: 13 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators13august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-13",
     "title": "Construction output in Great Britain: June 2026, new orders and Construction Output Price Indices, April to June 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -560,45 +599,6 @@
     "type": "economics",
     "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
     "url": "https://www.ons.gov.uk/releases/indexofservicesukjune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "UK trade: June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
-    "url": "https://www.ons.gov.uk/releases/uktradejune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "Index of Services, UK: June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
-    "url": "https://www.ons.gov.uk/releases/indexofservicesukjune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "GDP first quarterly estimate, UK: April to June 2026 timeseries",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the quarterly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukapriltojune2026timeseries",
     "tags": [
       "ons uk release calendar",
       "economics",

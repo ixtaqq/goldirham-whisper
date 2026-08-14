@@ -579,19 +579,6 @@
   },
   {
     "date": "2026-08-13",
-    "title": "Index of Services, UK: June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
-    "url": "https://www.ons.gov.uk/releases/indexofservicesukjune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
     "title": "Circuit-breaker ladder drill",
     "source": "Korea Exchange",
     "type": "exchange",
@@ -604,6 +591,19 @@
       "circuit breaker"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "Public opinions and social trends, Great Britain: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Social insights on daily life, including experiences of the cost of living and water use and restrictions, from the Opinions and Lifestyle Survey (OPN).",
+    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-15",

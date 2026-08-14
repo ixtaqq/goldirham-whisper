@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-07-14",
-    "title": "Quarterly Refunding — auction schedule",
-    "source": "US Treasury",
-    "type": "economics",
-    "description": "Note and bond auction salts set for the quarter. Dealer demand prints decide the long-end tone.",
-    "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives",
-    "tags": [
-      "us treasury",
-      "economics",
-      "debt",
-      "auction"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-07-16",
     "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
     "source": "SEC Press Releases",

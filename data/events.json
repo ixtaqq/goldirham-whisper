@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-07-17",
-    "title": "Monthly futures expiry — July fixings",
-    "source": "Eurex",
-    "type": "exchange",
-    "description": "Standard expiry cascade; watch the 13:00 CET settling auctions for gamma pinning.",
-    "url": "https://www.eurex.com/ex-en/",
-    "tags": [
-      "eurex",
-      "exchange",
-      "expiry"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-07-20",
     "title": "Market holiday — Marine Day",
     "source": "JPX / TSE",

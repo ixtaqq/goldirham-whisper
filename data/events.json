@@ -474,19 +474,6 @@
   },
   {
     "date": "2026-08-13",
-    "title": "GDP first quarterly estimate, UK: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "First quarterly estimate of gross domestic product (GDP). Contains current and constant price data on the value of goods and services to indicate the economic performance of the UK.",
-    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
     "title": "Circuit-breaker ladder drill",
     "source": "Korea Exchange",
     "type": "exchange",
@@ -557,6 +544,19 @@
       "flows"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Productivity flash estimate and overview, UK: April to June 2026 and January to March 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Productivity flash estimates for Quarter 2 (Apr to June) 2026, based on the GDP first quarterly estimate and labour market statistics, and productivity overview for Quarter 1 (Jan to Mar) 2026.",
+    "url": "https://www.ons.gov.uk/releases/productivityflashestimateandoverviewukapriltojune2026andjanuarytomarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-18",

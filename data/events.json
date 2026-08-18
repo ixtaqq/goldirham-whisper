@@ -487,58 +487,6 @@
   },
   {
     "date": "2026-08-13",
-    "title": "Index of Production, UK: June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/indexofproductionukjune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "GDP monthly estimate, UK: June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the monthly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "GDP monthly estimate, UK: June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Gross domestic product (GDP) measures the value of goods and services produced in the UK. It estimates the size of and growth in the economy.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
-    "title": "UK Trade: June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
-    "url": "https://www.ons.gov.uk/releases/uktradejune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-13",
     "title": "Circuit-breaker ladder drill",
     "source": "Korea Exchange",
     "type": "exchange",
@@ -609,6 +557,58 @@
       "flows"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Labour market statistics time series: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Large dataset which contains labour market statistics data time series.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "UK Labour Market: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "title": "Labour market in the regions of the UK: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-19",

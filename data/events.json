@@ -436,19 +436,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-08-14",
-    "title": "Public opinions and social trends, Great Britain: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Social insights on daily life, including experiences of the cost of living and water use and restrictions, from the Opinions and Lifestyle Survey (OPN).",
-    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-08-15",
     "title": "Functional maintenance — FIX gateway",
     "source": "Eurex",
@@ -520,12 +507,12 @@
     ]
   },
   {
-    "date": "2026-08-18",
-    "title": "Labour market statistics time series: August 2026",
+    "date": "2026-08-19",
+    "title": "Deaths registered monthly in England and Wales: July 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Large dataset which contains labour market statistics data time series.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesaugust2026",
+    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesjuly2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -533,12 +520,12 @@
     ]
   },
   {
-    "date": "2026-08-18",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: August 2026",
+    "date": "2026-08-19",
+    "title": "Regional gross disposable household income, UK: 1997 to 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
-    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukaugust2026",
+    "description": "Annual estimates of regional gross disposable household income (GDHI) for UK International Territorial Level (ITL) regions, local and combined authorities, and other economic regions.",
+    "url": "https://www.ons.gov.uk/releases/regionalgrossdisposablehouseholdincomeuk1997to2024",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -546,12 +533,12 @@
     ]
   },
   {
-    "date": "2026-08-18",
-    "title": "UK Labour Market: August 2026",
+    "date": "2026-08-19",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 7 August 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "url": "https://www.ons.gov.uk/releases/uklabourmarketaugust2026",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending7august2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -559,12 +546,25 @@
     ]
   },
   {
-    "date": "2026-08-18",
-    "title": "Labour market in the regions of the UK: August 2026",
+    "date": "2026-08-19",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: July 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukaugust2026",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Private rent and house prices, UK: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
+    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",

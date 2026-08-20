@@ -468,19 +468,6 @@
     ]
   },
   {
-    "date": "2026-08-18",
-    "title": "Productivity flash estimate and overview, UK: April to June 2026 and January to March 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Productivity flash estimates for Quarter 2 (Apr to June) 2026, based on the GDP first quarterly estimate and labour market statistics, and productivity overview for Quarter 1 (Jan to Mar) 2026.",
-    "url": "https://www.ons.gov.uk/releases/productivityflashestimateandoverviewukapriltojune2026andjanuarytomarch2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-08-19",
     "title": "Deaths registered monthly in England and Wales: July 2026",
     "source": "ONS UK Release Calendar",
@@ -534,71 +521,6 @@
   },
   {
     "date": "2026-08-19",
-    "title": "Private rent and house prices, UK: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Producer price inflation, UK: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Consumer price inflation, UK: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Consumer price inflation, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Producer price inflation, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series datasets connected to the Producer price inflation, UK: July 2026 bulletin",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
     "title": "Market outage drill — derivatives segment",
     "source": "NSE India",
     "type": "exchange",
@@ -611,6 +533,84 @@
       "outage"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "UK trade in goods by business characteristics: 2016 to 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Trade in goods data, including breakdown of imports and exports by Standard Industrial Classification, region (EU and non-EU), business size and by domestic and foreign ownership.",
+    "url": "https://www.ons.gov.uk/releases/uktradeingoodsbybusinesscharacteristics2016to2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Blue Book 2026: industry impact analysis",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Additional analysis on the industry impacts of the 2026 UK National Accounts methodological improvements and new survey and administrative information.",
+    "url": "https://www.ons.gov.uk/releases/bluebook2026industryimpactanalysis",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Economic activity and social change in the UK, real-time indicators: 20 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators20august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Material flow accounts 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Data on the UK's domestic extraction, imports and exports and flow of materials (biomass, minerals and fossil fuels), 1990 to 2024.",
+    "url": "https://www.ons.gov.uk/releases/materialflowaccounts2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Blue Book 2026: GDP impacts and main components",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual and quarterly impacts on the 2025 UK National Accounts from recent methodological improvements, and new survey and administrative information.",
+    "url": "https://www.ons.gov.uk/releases/bluebook2026gdpimpactsandexpenditurecomponents",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Business insights and impact on the UK economy: 20 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy20august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-20",

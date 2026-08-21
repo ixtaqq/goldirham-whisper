@@ -14,19 +14,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-07-23",
-    "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-07-24",
     "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
     "source": "ECB Press Releases",
@@ -549,19 +536,6 @@
   },
   {
     "date": "2026-08-20",
-    "title": "Business insights and impact on the UK economy: 20 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy20august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-20",
     "title": "LPR — one-year rate decision",
     "source": "PBoC",
     "type": "economics",
@@ -589,6 +563,32 @@
       "test"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "ECB Consumer Expectations Survey results – July 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Labour demand volumes by Standard Occupation Classification (SOC 2020), UK: January 2017 to July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "These tables contain the number of online job adverts split by local authority and occupation (SOC 2020).",
+    "url": "https://www.ons.gov.uk/releases/labourdemandvolumesbystandardoccupationclassificationsoc2020ukjanuary2017tojuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-21",

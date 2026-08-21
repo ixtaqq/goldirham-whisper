@@ -469,58 +469,6 @@
   },
   {
     "date": "2026-08-19",
-    "title": "Deaths registered monthly in England and Wales: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Regional gross disposable household income, UK: 1997 to 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual estimates of regional gross disposable household income (GDHI) for UK International Territorial Level (ITL) regions, local and combined authorities, and other economic regions.",
-    "url": "https://www.ons.gov.uk/releases/regionalgrossdisposablehouseholdincomeuk1997to2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 7 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending7august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-19",
     "title": "Market outage drill — derivatives segment",
     "source": "NSE India",
     "type": "exchange",
@@ -641,6 +589,58 @@
       "test"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Retail sales, Great Britain: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Public sector finances, UK: July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series datasets consistent with the Public sector finances, UK: July 2026 bulletin.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Retail Sales, Great Britain, July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Public sector finances, UK: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-21",

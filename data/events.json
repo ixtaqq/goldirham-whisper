@@ -418,19 +418,6 @@
   },
   {
     "date": "2026-08-20",
-    "title": "Economic activity and social change in the UK, real-time indicators: 20 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators20august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-20",
     "title": "LPR — one-year rate decision",
     "source": "PBoC",
     "type": "economics",
@@ -666,6 +653,19 @@
       "roll"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-25",
+    "title": "How a change in the Crime Survey for England and Wales questionnaire in April 2025 affected responses to questions on anti-social behaviour",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Findings from analysis to investigate whether increases in anti-social behaviour (ASB) are a result of changes to the questionnaire or are indicative of a genuine rise in these experiences.",
+    "url": "https://www.ons.gov.uk/releases/howachangeinthecrimesurveyforenglandandwalesquestionnaireinapril2025affectedresponsestoquestionsonantisocialbehaviour",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-26",

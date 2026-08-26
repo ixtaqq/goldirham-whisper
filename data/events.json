@@ -630,19 +630,6 @@
   },
   {
     "date": "2026-08-26",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
     "title": "Environmental economy business surveys development plan, UK",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -661,6 +648,19 @@
     "type": "economics",
     "description": "Relative risk of all-cause mortality and estimated deaths associated with the hottest and coldest days for regions of England, and Wales from 1988 to 2025.",
     "url": "https://www.ons.gov.uk/releases/climaterelatedmortalityenglandandwales1988to2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -392,32 +392,6 @@
   },
   {
     "date": "2026-08-20",
-    "title": "UK trade in goods by business characteristics: 2016 to 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Trade in goods data, including breakdown of imports and exports by Standard Industrial Classification, region (EU and non-EU), business size and by domestic and foreign ownership.",
-    "url": "https://www.ons.gov.uk/releases/uktradeingoodsbybusinesscharacteristics2016to2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-20",
-    "title": "Blue Book 2026: industry impact analysis",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Additional analysis on the industry impacts of the 2026 UK National Accounts methodological improvements and new survey and administrative information.",
-    "url": "https://www.ons.gov.uk/releases/bluebook2026industryimpactanalysis",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-20",
     "title": "LPR — one-year rate decision",
     "source": "PBoC",
     "type": "economics",
@@ -492,32 +466,6 @@
     "type": "economics",
     "description": "The time series datasets consistent with the Public sector finances, UK: July 2026 bulletin.",
     "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Retail Sales, Great Britain, July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Public sector finances, UK: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjuly2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -661,6 +609,58 @@
     "type": "economics",
     "description": "Findings from analysis to investigate whether increases in anti-social behaviour (ASB) are a result of changes to the questionnaire or are indicative of a genuine rise in these experiences.",
     "url": "https://www.ons.gov.uk/releases/howachangeinthecrimesurveyforenglandandwalesquestionnaireinapril2025affectedresponsestoquestionsonantisocialbehaviour",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Low carbon and renewable energy economy survey, research and development estimates, UK: 2020 to 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Research and development estimates of the UK's low carbon and renewable energy economy.",
+    "url": "https://www.ons.gov.uk/releases/lowcarbonandrenewableenergyeconomysurveyresearchanddevelopmentestimatesuk2020to2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Environmental economy business surveys development plan, UK",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Overview of our plans for the development of statistics collected by our environmental business surveys, including a timeline for this development.",
+    "url": "https://www.ons.gov.uk/releases/environmentaleconomybusinesssurveysdevelopmentplanuk",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Climate-related mortality, England and Wales: 1988 to 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Relative risk of all-cause mortality and estimated deaths associated with the hottest and coldest days for regions of England, and Wales from 1988 to 2025.",
+    "url": "https://www.ons.gov.uk/releases/climaterelatedmortalityenglandandwales1988to2025",
     "tags": [
       "ons uk release calendar",
       "economics",

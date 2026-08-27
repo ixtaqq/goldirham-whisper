@@ -435,32 +435,6 @@
   },
   {
     "date": "2026-08-21",
-    "title": "Retail sales, Great Britain: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Public sector finances, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series datasets consistent with the Public sector finances, UK: July 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-21",
     "title": "Monthly OPEX settlement",
     "source": "CBOE",
     "type": "exchange",
@@ -617,6 +591,19 @@
   },
   {
     "date": "2026-08-26",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-26",
     "title": "Environmental economy business surveys development plan, UK",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -643,19 +630,6 @@
   },
   {
     "date": "2026-08-26",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
     "title": "CHESS replacement — industry rehearsal 4",
     "source": "ASX",
     "type": "exchange",
@@ -668,6 +642,45 @@
       "chess"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Delay to the November 2026 RTGS standards release",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Bank of England statement",
+    "url": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Young people not in education, employment or training (NEET), UK: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of young people (aged 16 to 24 years) who are not in education, employment or training, by age and sex. These are official statistics.",
+    "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetukaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Economic activity and social change in the UK, real-time indicators: 27 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators27august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-08-27",

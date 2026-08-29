@@ -20,7 +20,6 @@ export const flagMap = {
   "Eurex": "🇩🇪",
   "Euronext": "🇪🇺",
   "Eurostat": "🇪🇺",
-  "Federal Reserve": "🇺🇸",
   "HKEX": "🇭🇰",
   "IBGE": "🇧🇷",
   "ICE Futures U.S.": "🇺🇸",

@@ -1,59 +1,5 @@
 [
   {
-    "date": "2026-07-30",
-    "title": "Minutes of the Meeting of the Court of Directors held on 4 June 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
-    "title": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
-    "title": "Digital euro app to incorporate highest accessibility standards",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-07-30",
-    "title": "Personal income and outlays — PCE deflator",
-    "source": "BEA",
-    "type": "economics",
-    "description": "Core PCE m/m. The inflation print desks actually hedge with before the headline reverts.",
-    "url": "https://www.bea.gov/data/income-saving/personal-income",
-    "tags": [
-      "bea",
-      "economics",
-      "pce",
-      "inflation"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-01",
     "title": "Official manufacturing PMI",
     "source": "China NBS",

@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "title": "Official manufacturing PMI",
-    "source": "China NBS",
-    "type": "economics",
-    "description": "August read leaks pre-session; the Caixin shadow lands Monday. Both matter for the industrial complex.",
-    "url": "http://www.stats.gov.cn/english/",
-    "tags": [
-      "china nbs",
-      "economics",
-      "pmi"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-01",
-    "title": "Arrowhead system — weekend patch validation",
-    "source": "Tokyo Stock Exchange",
-    "type": "exchange",
-    "description": "Rehearsal for the next release train. No fills in the 05:00-08:00 JST Saturday window.",
-    "url": "https://www.jpx.co.jp/english/corporate/news/index.html",
-    "tags": [
-      "tokyo stock exchange",
-      "exchange",
-      "maintenance",
-      "arrowhead"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-03",
     "title": "Appointment of Chair and Deputy Chair of the Enforcement Decision Making Committee (EDMC)",
     "source": "Bank of England",

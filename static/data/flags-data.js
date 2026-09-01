@@ -11,7 +11,6 @@ export const flagMap = {
   "Borsa Italiana": "🇮🇹",
   "CBOE": "🇺🇸",
   "CME Group": "🇺🇸",
-  "China NBS": "🇨🇳",
   "Community": "🌐",
   "DTCC": "🇺🇸",
   "Deutsche Börse": "🇩🇪",

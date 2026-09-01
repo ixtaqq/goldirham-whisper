@@ -400,19 +400,6 @@
   },
   {
     "date": "2026-08-24",
-    "title": "Redefining investment in digital infrastructure in the UK: 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of investment in digital infrastructure in the UK, using an expanded definition of infrastructure that includes selected intellectual property products and permits for the use of radio spectrum, alongside traditional physical infrastructure assets. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/redefininginvestmentindigitalinfrastructureintheuk2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-24",
     "title": "Ifo business climate",
     "source": "Ifo Institute",
     "type": "economics",
@@ -439,19 +426,6 @@
       "roll"
     ],
     "status": "approved"
-  },
-  {
-    "date": "2026-08-25",
-    "title": "How a change in the Crime Survey for England and Wales questionnaire in April 2025 affected responses to questions on anti-social behaviour",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Findings from analysis to investigate whether increases in anti-social behaviour (ASB) are a result of changes to the questionnaire or are indicative of a genuine rise in these experiences.",
-    "url": "https://www.ons.gov.uk/releases/howachangeinthecrimesurveyforenglandandwalesquestionnaireinapril2025affectedresponsestoquestionsonantisocialbehaviour",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
   },
   {
     "date": "2026-08-26",
@@ -683,6 +657,32 @@
       "inflation"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Mergers and acquisitions involving UK companies: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Transactions that result in a change of ultimate control of the target company and have a value of £1 million or more.",
+    "url": "https://www.ons.gov.uk/releases/mergersandacquisitionsinvolvingukcompaniesapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Mergers and Acquisitions involving UK companies: April to June 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Transactions that result in a change of ultimate control of the target company and have a value of £1 million or more.",
+    "url": "https://www.ons.gov.uk/releases/mergersandacquisitionsmainvolvingukcompaniesapriltojune2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-01",

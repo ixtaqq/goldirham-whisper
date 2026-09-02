@@ -429,58 +429,6 @@
   },
   {
     "date": "2026-08-26",
-    "title": "Low carbon and renewable energy economy survey, research and development estimates, UK: 2020 to 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Research and development estimates of the UK's low carbon and renewable energy economy.",
-    "url": "https://www.ons.gov.uk/releases/lowcarbonandrenewableenergyeconomysurveyresearchanddevelopmentestimatesuk2020to2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 14 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending14august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
-    "title": "Environmental economy business surveys development plan, UK",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Overview of our plans for the development of statistics collected by our environmental business surveys, including a timeline for this development.",
-    "url": "https://www.ons.gov.uk/releases/environmentaleconomybusinesssurveysdevelopmentplanuk",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
-    "title": "Climate-related mortality, England and Wales: 1988 to 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Relative risk of all-cause mortality and estimated deaths associated with the hottest and coldest days for regions of England, and Wales from 1988 to 2025.",
-    "url": "https://www.ons.gov.uk/releases/climaterelatedmortalityenglandandwales1988to2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-26",
     "title": "CHESS replacement — industry rehearsal 4",
     "source": "ASX",
     "type": "exchange",
@@ -724,6 +672,58 @@
       "margin"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Geographical variation in the prevalence of young people not in education, employment or training (NEET), England: March 2021",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Characteristics of young people (aged 16 to 24 years) who were not in education, employment, or training (NEET) in England in 2021, adjusted for individual and geographical differences.",
+    "url": "https://www.ons.gov.uk/releases/geographicalinequalitiesinyoungpeoplenotineducationemploymentortrainingneetenglandmarch2021",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Children's perceptions of crime and online safety in England and Wales: year ending February 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of children’s experiences and perceptions of safety online and in their daily lives, using data from the redesigned Children’s Crime Survey for England and Wales, an online survey of children aged 10 to 15 years.",
+    "url": "https://www.ons.gov.uk/releases/onlinechildrenscrimesurveyforenglandandwalesfirstfindingsfortheyearendingfebruary2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Characteristics of young people not in education, employment or training (NEET) who did not receive benefits, England: March 2021",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Sociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021.",
+    "url": "https://www.ons.gov.uk/releases/characteristicsofyoungpeoplenotineducationemploymentortrainingneetwhodonotclaimbenefitsenglandmarch2021",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Working and workless households in the UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The economic status of households in the UK, and the people living in them, where at least one person is aged 16 to 64 years. Taken from the Labour Force Survey.",
+    "url": "https://www.ons.gov.uk/releases/workingandworklesshouseholdsintheukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-02",

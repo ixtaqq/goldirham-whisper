@@ -23,7 +23,6 @@ export const flagMap = {
   "IBGE": "🇧🇷",
   "ICE Futures U.S.": "🇺🇸",
   "INEGI": "🇲🇽",
-  "ISM": "🇺🇸",
   "Ifo Institute": "🇩🇪",
   "JPX / TSE": "🇯🇵",
   "Korea Exchange": "🇰🇷",

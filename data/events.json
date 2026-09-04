@@ -442,19 +442,6 @@
   },
   {
     "date": "2026-08-27",
-    "title": "Young people not in education, employment or training (NEET), UK: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of young people (aged 16 to 24 years) who are not in education, employment or training, by age and sex. These are official statistics.",
-    "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetukaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-27",
     "title": "T+1 settlement testing — extended hours",
     "source": "DTCC",
     "type": "exchange",
@@ -477,32 +464,6 @@
     "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations",
     "tags": [
       "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-28",
-    "title": "Quarterly personal well-being statistics, August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Non-seasonally adjusted and seasonally adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK.",
-    "url": "https://www.ons.gov.uk/releases/quarterlypersonalwellbeingstatisticsaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-28",
-    "title": "Household Costs Indices for UK household groups: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Household Costs Indices, 12-month growth rates, expenditure shares and contributions for UK household groups and all-households.",
-    "url": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -718,6 +679,45 @@
     "type": "economics",
     "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
     "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy3september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Economic activity and social change in the UK, real-time indicators: 4 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators4september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Improving our travel and tourism statistics: September 2026 update",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "An article outlining our progress towards planned improvements to our travel and tourism statistics, including official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/improvingourtravelandtourismstatisticsseptember2026update",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 21 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending21august2026",
     "tags": [
       "ons uk release calendar",
       "economics",

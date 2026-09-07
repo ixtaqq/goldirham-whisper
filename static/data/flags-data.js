@@ -21,8 +21,6 @@ export const flagMap = {
   "Eurostat": "🇪🇺",
   "HKEX": "🇭🇰",
   "IBGE": "🇧🇷",
-  "ICE Futures U.S.": "🇺🇸",
-  "INEGI": "🇲🇽",
   "Ifo Institute": "🇩🇪",
   "JPX / TSE": "🇯🇵",
   "Korea Exchange": "🇰🇷",

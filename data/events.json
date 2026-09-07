@@ -1,47 +1,5 @@
 [
   {
-    "date": "2026-08-07",
-    "title": "ECB publishes consolidated banking data for end-March 2026",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-07",
-    "title": "Softs contract roll — cocoa, cotton, Coffee advent",
-    "source": "ICE Futures U.S.",
-    "type": "exchange",
-    "description": "Roll advisories reprice the curves mechanically; spreads widen into first-notice.",
-    "url": "https://www.theice.com/marketdata/reports",
-    "tags": [
-      "ice futures u.s.",
-      "exchange",
-      "roll",
-      "softs"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-07",
-    "title": "CPI — year-on-year print",
-    "source": "INEGI",
-    "type": "economics",
-    "description": "Mexican inflation with heavy Banxico path sensitivity; MXN proxy flow.",
-    "url": "https://www.inegi.org.mx/en/",
-    "tags": [
-      "inegi",
-      "economics",
-      "cpi"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-08",
     "title": "A50 daily price-limit calibration test",
     "source": "Singapore Exchange",

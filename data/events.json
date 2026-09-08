@@ -445,32 +445,6 @@
   },
   {
     "date": "2026-09-01",
-    "title": "Mergers and acquisitions involving UK companies: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Transactions that result in a change of ultimate control of the target company and have a value of £1 million or more.",
-    "url": "https://www.ons.gov.uk/releases/mergersandacquisitionsinvolvingukcompaniesapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-01",
-    "title": "Mergers and Acquisitions involving UK companies: April to June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Transactions that result in a change of ultimate control of the target company and have a value of £1 million or more.",
-    "url": "https://www.ons.gov.uk/releases/mergersandacquisitionsmainvolvingukcompaniesapriltojune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-01",
     "title": "Monetary policy decision",
     "source": "RBA",
     "type": "economics",
@@ -656,6 +630,32 @@
       "t7"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Admin-based household estimates for local authorities in England and Wales: 2021 to 2023",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Number of household estimates based on administrative data sources for 2021 to 2023. These estimates are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/adminbasedhouseholdestimatesforlocalauthoritiesinenglandandwales2021to2023",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Births in England and Wales: 2025 (final rates)",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Live births, stillbirths, maternities and fertility rates by factors including age, parents' country of birth, ethnicity, gestational age, and birthweight.",
+    "url": "https://www.ons.gov.uk/releases/birthsinenglandandwales2025finalrates",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-08",

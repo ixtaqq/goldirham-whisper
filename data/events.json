@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-08",
-    "title": "A50 daily price-limit calibration test",
-    "source": "Singapore Exchange",
-    "type": "exchange",
-    "description": "Intraday flag test on the SGX data-link; thin-book gaps possible at the 15:00 SGT window.",
-    "url": "https://www.sgx.com/securities/products",
-    "tags": [
-      "singapore exchange",
-      "exchange",
-      "test",
-      "a50"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-10",
     "title": "SETS opening-auction parameter update",
     "source": "London Stock Exchange",

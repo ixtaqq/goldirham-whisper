@@ -39,7 +39,6 @@ export const flagMap = {
   "SIX Swiss Exchange": "🇨🇭",
   "Saudi Exchange": "🇸🇦",
   "Shanghai Stock Exchange": "🇨🇳",
-  "Singapore Exchange": "🇸🇬",
   "TSX": "🇨🇦",
   "Tokyo Stock Exchange": "🇯🇵",
   "US Treasury": "🇺🇸"

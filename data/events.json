@@ -499,32 +499,6 @@
   },
   {
     "date": "2026-09-02",
-    "title": "Characteristics of young people not in education, employment or training (NEET) who did not receive benefits, England: March 2021",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Sociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021.",
-    "url": "https://www.ons.gov.uk/releases/characteristicsofyoungpeoplenotineducationemploymentortrainingneetwhodonotclaimbenefitsenglandmarch2021",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-02",
-    "title": "Working and workless households in the UK: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The economic status of households in the UK, and the people living in them, where at least one person is aged 16 to 64 years. Taken from the Labour Force Survey.",
-    "url": "https://www.ons.gov.uk/releases/workingandworklesshouseholdsintheukapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-02",
     "title": "ICC arbitration calendar — Q4 hearing schedule",
     "source": "Community",
     "type": "economics",
@@ -670,6 +644,32 @@
       "after-hours"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Relationship between musculoskeletal elective treatment waiting times and labour market outcomes, England: 2014 to 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Relationship between time waited for elective inpatient treatment for conditions of musculoskeletal pain and labour market outcomes.",
+    "url": "https://www.ons.gov.uk/releases/relationshipbetweenmusculoskeletalelectivetreatmentwaitingtimesandlabourmarketoutcomes",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 28 August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending28august2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-10",

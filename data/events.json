@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-10",
-    "title": "SETS opening-auction parameter update",
-    "source": "London Stock Exchange",
-    "type": "exchange",
-    "description": "New uncrossing percentages effective from this session's open.",
-    "url": "https://www.londonstockexchange.com/",
-    "tags": [
-      "london stock exchange",
-      "exchange",
-      "auction"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-11",
     "title": "Market holiday — Mountain Day",
     "source": "JPX / TSE",

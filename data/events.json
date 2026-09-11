@@ -445,58 +445,6 @@
     ]
   },
   {
-    "date": "2026-09-03",
-    "title": "Business insights and impact on the UK economy: 3 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy3september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-04",
-    "title": "Economic activity and social change in the UK, real-time indicators: 4 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators4september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-04",
-    "title": "Improving our travel and tourism statistics: September 2026 update",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "An article outlining our progress towards planned improvements to our travel and tourism statistics, including official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/improvingourtravelandtourismstatisticsseptember2026update",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-04",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 21 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending21august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-04",
     "title": "Ibovespa quarterly rebalance — effective",
     "source": "B3 (Brasil)",
@@ -527,32 +475,6 @@
   },
   {
     "date": "2026-09-08",
-    "title": "Admin-based household estimates for local authorities in England and Wales: 2021 to 2023",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of household estimates based on administrative data sources for 2021 to 2023. These estimates are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/adminbasedhouseholdestimatesforlocalauthoritiesinenglandandwales2021to2023",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-08",
-    "title": "Births in England and Wales: 2025 (final rates)",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Live births, stillbirths, maternities and fertility rates by factors including age, parents' country of birth, ethnicity, gestational age, and birthweight.",
-    "url": "https://www.ons.gov.uk/releases/birthsinenglandandwales2025finalrates",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-08",
     "title": "After-hours session parameter update",
     "source": "Borsa Italiana",
     "type": "exchange",
@@ -564,32 +486,6 @@
       "after-hours"
     ],
     "status": "approved"
-  },
-  {
-    "date": "2026-09-09",
-    "title": "Relationship between musculoskeletal elective treatment waiting times and labour market outcomes, England: 2014 to 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Relationship between time waited for elective inpatient treatment for conditions of musculoskeletal pain and labour market outcomes.",
-    "url": "https://www.ons.gov.uk/releases/relationshipbetweenmusculoskeletalelectivetreatmentwaitingtimesandlabourmarketoutcomes",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-09",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 28 August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending28august2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
   },
   {
     "date": "2026-09-10",
@@ -619,19 +515,6 @@
   },
   {
     "date": "2026-09-10",
-    "title": "Economic activity and social change in the UK, real-time indicators: 10 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators10september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-10",
     "title": "Governing Council meeting",
     "source": "ECB",
     "type": "economics",
@@ -643,6 +526,123 @@
       "rates"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Index of Production, UK: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "UK trade: July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
+    "url": "https://www.ons.gov.uk/releases/uktradejuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Construction output in Great Britain: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Short-term measures of output by the construction industry in July 2026.",
+    "url": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "GDP monthly estimate, UK: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Gross domestic product (GDP) measures the value of goods and services produced in the UK. It estimates the size of and growth in the economy.",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Index of Production, UK: July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukjuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Index of Services, UK: July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
+    "url": "https://www.ons.gov.uk/releases/indexofservicesukjuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "UK Trade: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
+    "url": "https://www.ons.gov.uk/releases/uktradejuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "GDP monthly estimate, UK: July 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Time series data as part of the monthly GDP publication.",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjuly2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "title": "Index of Services, UK: July 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
+    "url": "https://www.ons.gov.uk/releases/indexofservicesukjuly2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-12",

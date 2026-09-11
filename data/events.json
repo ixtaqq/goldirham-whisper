@@ -1,45 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "title": "Market holiday — Mountain Day",
-    "source": "JPX / TSE",
-    "type": "exchange",
-    "description": "JPX / TSE closed for Mountain Day. Settlement and expiry cycles roll to the next session.",
-    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-    "tags": [
-      "jpx / tse",
-      "exchange",
-      "holiday"
-    ]
-  },
-  {
-    "date": "2026-08-11",
-    "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "In April 2026, 25 financial institutions active in the UK foreign exchange (FX) market participated in the semi-annual turnover survey for the Foreign Exchange Joint Standing Committee (FXJSC). The survey results are summarised below. Detailed tables for the April 2026 reporting period, linked below, are available separately.",
-    "url": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-11",
-    "title": "IPCA — mid-month inflation",
-    "source": "IBGE",
-    "type": "economics",
-    "description": "Brazilian inflation acceleration gauge that sets Copom pricing.",
-    "url": "https://www.ibge.gov.br/en/",
-    "tags": [
-      "ibge",
-      "economics",
-      "cpi"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-12",
     "title": "August Index Review — announcement",
     "source": "MSCI",

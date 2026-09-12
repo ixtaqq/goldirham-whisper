@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "title": "August Index Review — announcement",
-    "source": "MSCI",
-    "type": "exchange",
-    "description": "Two-week add window before the effective date; track proforma float adjustments.",
-    "url": "https://www.msci.com/index-reviews",
-    "tags": [
-      "msci",
-      "exchange",
-      "index",
-      "rebalance"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-13",
     "title": "Circuit-breaker ladder drill",
     "source": "Korea Exchange",

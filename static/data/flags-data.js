@@ -22,7 +22,6 @@ export const flagMap = {
   "HKEX": "🇭🇰",
   "Ifo Institute": "🇩🇪",
   "JPX / TSE": "🇯🇵",
-  "Korea Exchange": "🇰🇷",
   "London Stock Exchange": "🇬🇧",
   "MNI": "🇬🇧",
   "MSCI": "🇺🇸",

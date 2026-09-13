@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "title": "Circuit-breaker ladder drill",
-    "source": "Korea Exchange",
-    "type": "exchange",
-    "description": "8/15/20% halt sequence tested on a live-style respawn. Drill days are volatility days.",
-    "url": "http://global.krx.co.kr/",
-    "tags": [
-      "korea exchange",
-      "exchange",
-      "drill",
-      "circuit breaker"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-15",
     "title": "Functional maintenance — FIX gateway",
     "source": "Eurex",

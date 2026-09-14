@@ -104,19 +104,6 @@
   },
   {
     "date": "2026-08-21",
-    "title": "ECB Consumer Expectations Survey results – July 2026",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-08-21",
     "title": "Monthly OPEX settlement",
     "source": "CBOE",
     "type": "exchange",
@@ -628,6 +615,19 @@
       "settlement"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission issued an order granting exemptive relief from certain Inline XBRL requirements adopted on Dec. 16, 2024. More specifically, the Commission is granting exemptive relief from filing or submitting the following in…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-15",

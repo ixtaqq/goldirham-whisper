@@ -444,19 +444,6 @@
   },
   {
     "date": "2026-09-10",
-    "title": "Experiences of NHS healthcare services in England: 10 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Patient experiences of accessing healthcare from the ONS Health Insight Survey, funded by NHS England. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland10september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-10",
     "title": "Governing Council meeting",
     "source": "ECB",
     "type": "economics",
@@ -522,71 +509,6 @@
     ]
   },
   {
-    "date": "2026-09-11",
-    "title": "Index of Production, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/indexofproductionukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "title": "Index of Services, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
-    "url": "https://www.ons.gov.uk/releases/indexofservicesukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "title": "UK Trade: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
-    "url": "https://www.ons.gov.uk/releases/uktradejuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "title": "GDP monthly estimate, UK: July 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the monthly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjuly2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "title": "Index of Services, UK: July 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
-    "url": "https://www.ons.gov.uk/releases/indexofservicesukjuly2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-12",
     "title": "Iberclear ISO 20022 cutover — phase 2",
     "source": "BME",
@@ -610,6 +532,110 @@
     "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
     "tags": [
       "sec press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Statistical Notice 2026/08 - Changes to the criteria for monthly form BT reporting",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+    "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-08",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Minutes of the Securities Lending Committee meeting – March 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Securities Lending Committee is a forum for market participants and authorities to discuss the UK securities lending market.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/march/minutes-of-the-securities-lending-committee-meeting-march-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Public sector employment, UK: June 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Seasonally adjusted and non-seasonally adjusted quarterly time series of UK public sector employment, containing the latest estimates.",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukjune2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Labour market in the regions of the UK: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "UK Labour market: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Public sector employment, UK: June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Quarterly estimates on a headcount and full-time equivalent basis by sector, industry and region.",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukjune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Labour market statistics time series: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Large dataset which contains labour market statistics data time series.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesseptember2026",
+    "tags": [
+      "ons uk release calendar",
       "economics",
       "economics"
     ]

@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "title": "Functional maintenance — FIX gateway",
-    "source": "Eurex",
-    "type": "exchange",
-    "description": "FIX session reboot 09:30-10:30 CET; inbound orders dropped during the window.",
-    "url": "https://www.eurex.com/ex-en/",
-    "tags": [
-      "eurex",
-      "exchange",
-      "maintenance",
-      "fix"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-16",
     "title": "CCASS weekend maintenance window",
     "source": "HKEX",

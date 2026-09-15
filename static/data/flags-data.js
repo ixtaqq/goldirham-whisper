@@ -16,7 +16,6 @@ export const flagMap = {
   "Deutsche Börse": "🇩🇪",
   "ECB": "🇪🇺",
   "ECB Press Releases": "🇪🇺",
-  "Eurex": "🇩🇪",
   "Euronext": "🇪🇺",
   "Eurostat": "🇪🇺",
   "HKEX": "🇭🇰",

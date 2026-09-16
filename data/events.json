@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-16",
-    "title": "CCASS weekend maintenance window",
-    "source": "HKEX",
-    "type": "exchange",
-    "description": "SCRIAPS settlement batch offline Sat 12:00-18:00 HKT; confirmations queue overnight.",
-    "url": "https://www.hkex.com.hk/Services/Clearing-and-Settlement/Frequency-of-CCASS-Services?sc_lang=en",
-    "tags": [
-      "hkex",
-      "exchange",
-      "maintenance",
-      "ccass"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-17",
     "title": "TIC data — international capital flows",
     "source": "US Treasury",

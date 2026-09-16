@@ -497,11 +497,11 @@
   },
   {
     "date": "2026-09-15",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: September 2026",
+    "title": "Labour market in the regions of the UK: September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
-    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukseptember2026",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukseptember2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -538,6 +538,19 @@
   },
   {
     "date": "2026-09-16",
+    "title": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission today proposed to rescind Rule 14a-8 under the Securities Exchange Act of 1934, which exceeds the scope of the Commission's statutory authority and intrudes into matters of state law.The Commission outlined…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-16",
     "title": "Relationship between time spent in emergency departments, employment, and hospitalisation, England: 2021 to 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -551,11 +564,11 @@
   },
   {
     "date": "2026-09-16",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 4 September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending4september2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -564,11 +577,11 @@
   },
   {
     "date": "2026-09-16",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 4 September 2026",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending4september2026",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -603,6 +616,19 @@
   },
   {
     "date": "2026-09-16",
+    "title": "Producer price inflation, UK: August 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series datasets connected to the Producer price inflation, UK: August 2026 bulletin",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukaugust2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-16",
     "title": "Producer price inflation, UK: August 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -621,19 +647,6 @@
     "type": "economics",
     "description": "Price indices percentage changes and weights for the different measures of consumer price inflation",
     "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Producer price inflation, UK: August 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series datasets connected to the Producer price inflation, UK: August 2026 bulletin",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukaugust2026timeseries",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -564,11 +564,11 @@
   },
   {
     "date": "2026-09-16",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 4 September 2026",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending4september2026",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -577,11 +577,11 @@
   },
   {
     "date": "2026-09-16",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 4 September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending4september2026",
     "tags": [
       "ons uk release calendar",
       "economics",

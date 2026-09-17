@@ -482,32 +482,6 @@
   },
   {
     "date": "2026-09-15",
-    "title": "Labour market in the regions of the UK: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-15",
-    "title": "Public sector employment, UK: June 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Seasonally adjusted and non-seasonally adjusted quarterly time series of UK public sector employment, containing the latest estimates.",
-    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukjune2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-15",
     "title": "Freightos Baltic Index (FBX) — weekly print",
     "source": "Community",
     "type": "economics",
@@ -600,12 +574,51 @@
     ]
   },
   {
-    "date": "2026-09-16",
-    "title": "Producer price inflation, UK: August 2026 time series",
+    "date": "2026-09-17",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Median house price and sales volume update, England and Wales: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The time series datasets connected to the Producer price inflation, UK: August 2026 bulletin",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukaugust2026timeseries",
+    "description": "Update to house prices and sales volume data to include Quarter 1 (Jan to Mar) 2025 and Quarter 1 (Jan to Mar) 2026, including breakdowns by different geographies, new and existing sales, and property types. Formerly HPSSAs.",
+    "url": "https://www.ons.gov.uk/releases/medianhousepriceandsalesvolumeupdate2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -613,12 +626,12 @@
     ]
   },
   {
-    "date": "2026-09-16",
-    "title": "Producer price inflation, UK: August 2026",
+    "date": "2026-09-17",
+    "title": "Component approach to measuring labour productivity, UK: 1997 to 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukaugust2026",
+    "description": "An assessment of the methods and impacts of a new component approach to labour productivity measurement in the UK.",
+    "url": "https://www.ons.gov.uk/releases/componentapproachtomeasuringlabourproductivitymethodsandimpactsuk1997to2024",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -626,12 +639,38 @@
     ]
   },
   {
-    "date": "2026-09-16",
-    "title": "Consumer price inflation, UK: August 2026",
+    "date": "2026-09-17",
+    "title": "Children and young people's perspectives on sharing their views and information with the UK government: March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukaugust2026",
+    "description": "Discovery findings from the Young Voices project, which explores perceptions about engaging with government-led research among 11- to 24-year-olds.",
+    "url": "https://www.ons.gov.uk/releases/childrenandyoungpeoplesperspectivesonsharingtheirviewsandinformationwiththeukgovernmentmarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Economic activity and social change in the UK, real-time indicators: 17 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators17september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Deaths registered monthly in England and Wales: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",

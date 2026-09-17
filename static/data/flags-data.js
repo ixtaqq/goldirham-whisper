@@ -36,7 +36,6 @@ export const flagMap = {
   "Saudi Exchange": "🇸🇦",
   "Shanghai Stock Exchange": "🇨🇳",
   "TSX": "🇨🇦",
-  "Tokyo Stock Exchange": "🇯🇵",
-  "US Treasury": "🇺🇸"
+  "Tokyo Stock Exchange": "🇯🇵"
 };
 export function flagFor(source) { return flagMap[source] || "🌐"; }

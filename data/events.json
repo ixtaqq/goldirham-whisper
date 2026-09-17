@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "title": "TIC data — international capital flows",
-    "source": "US Treasury",
-    "type": "economics",
-    "description": "Net foreign purchases of USTs; the hidden demand read for the long end.",
-    "url": "https://home.treasury.gov/data/tic-accounts",
-    "tags": [
-      "us treasury",
-      "economics",
-      "tic",
-      "flows"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-18",
     "title": "SEC Proposes New Regulation Crypto Assets",
     "source": "SEC Press Releases",

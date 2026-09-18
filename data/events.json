@@ -496,71 +496,6 @@
     ]
   },
   {
-    "date": "2026-09-16",
-    "title": "Relationship between time spent in emergency departments, employment, and hospitalisation, England: 2021 to 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The relationship between total time spent in emergency departments, post-discharge employment, and risk of hospitalisation.",
-    "url": "https://www.ons.gov.uk/releases/relationshipbetweentimespentinemergencydepartmentsemploymentandhospitalisationengland2021to2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 4 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending4september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Private rent and house prices, UK: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "title": "Consumer price inflation, UK: August 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukaugust2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-17",
     "title": "Transcript of the Governor's pooled broadcast interview given on 17 September 2026",
     "source": "Bank of England",
@@ -575,11 +510,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -601,11 +536,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -703,6 +638,84 @@
       "rates"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-18",
+    "title": "ECB Consumer Expectations Survey results – August 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Mortgage statistics, UK: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The number of mortgage sales and other mortgage statistics by UK local authority, from 2006 to 2025.",
+    "url": "https://www.ons.gov.uk/releases/mortgagestatisticsuk2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Beyond GDP insights, UK headline measures of National Well-being: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Exploring quality of life and progress beyond GDP in the UK, drawing on the new quarterly headline national well-being measures.",
+    "url": "https://www.ons.gov.uk/releases/beyondgdpinsightsukheadlinemeasuresofnationalwellbeingseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Public opinions and social trends, Great Britain: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Social insights on important issues facing the UK, water use and restrictions, and the cost of living, from the Opinions and Lifestyle Survey (OPN).",
+    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Retail sales, Great Britain: August 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainaugust2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Retail Sales; Great Britain: August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-18",

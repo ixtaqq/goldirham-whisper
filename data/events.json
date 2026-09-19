@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-19",
-    "title": "Market outage drill — derivatives segment",
-    "source": "NSE India",
-    "type": "exchange",
-    "description": "Simulated exchange-wide halt; brokers test disaster-recovery failover paths.",
-    "url": "https://www.nseindia.com/",
-    "tags": [
-      "nse india",
-      "exchange",
-      "drill",
-      "outage"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-20",
     "title": "LPR — one-year rate decision",
     "source": "PBoC",

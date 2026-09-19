@@ -23,7 +23,6 @@ export const flagMap = {
   "London Stock Exchange": "🇬🇧",
   "MNI": "🇬🇧",
   "MSCI": "🇺🇸",
-  "NSE India": "🇮🇳",
   "Nasdaq": "🇺🇸",
   "Nasdaq Nordic": "🇸🇪",
   "New York Stock Exchange": "🇺🇸",

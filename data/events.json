@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-08-20",
-    "title": "LPR — one-year rate decision",
-    "source": "PBoC",
-    "type": "economics",
-    "description": "PBoC loan-prime fixing; the 5-yr tenor trails the 1-yr. Watch the fix, not the presser.",
-    "url": "http://www.pbc.gov.cn/en/",
-    "tags": [
-      "pboc",
-      "economics",
-      "lpr",
-      "rates"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-20",
-    "title": "SARON fixing — delayed publication test",
-    "source": "SIX Swiss Exchange",
-    "type": "exchange",
-    "description": "Contingency drill: reference-rate print delayed 90 seconds to simulate a vendor scramble.",
-    "url": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange.html",
-    "tags": [
-      "six swiss exchange",
-      "exchange",
-      "saron",
-      "test"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-21",
     "title": "Monthly OPEX settlement",
     "source": "CBOE",
@@ -508,11 +478,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -521,11 +491,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -1221,6 +1191,19 @@
     "source": "JPX / TSE",
     "type": "exchange",
     "description": "JPX / TSE closed for Mountain Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-09-20",
+    "title": "Market holiday — Respect for the Aged Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Respect for the Aged Day. Settlement and expiry cycles roll to the next session.",
     "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
     "tags": [
       "jpx / tse",

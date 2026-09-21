@@ -1,50 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "title": "Monthly OPEX settlement",
-    "source": "CBOE",
-    "type": "exchange",
-    "description": "Zero-day expiry cycle; pinning risk concentrates in single-stock gamma.",
-    "url": "https://www.cboe.com/us/options/symboldir/expiration_calendar/",
-    "tags": [
-      "cboe",
-      "exchange",
-      "opex",
-      "expiry"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-21",
-    "title": "Flash composite PMI — eurozone services",
-    "source": "S&P Global",
-    "type": "economics",
-    "description": "First-estimate activity for the services block; the inflation-of-inputs subindex is the tell.",
-    "url": "https://www.pmi.spglobal.com/",
-    "tags": [
-      "s&p global",
-      "economics",
-      "pmi",
-      "eurozone"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-21",
-    "title": "MNI Chicago business barometer",
-    "source": "MNI",
-    "type": "economics",
-    "description": "Regional Fed-survey stand-in; an ISM-adjacent canary for the manufacturing complex.",
-    "url": "https://www.mni-indicators.com/",
-    "tags": [
-      "mni",
-      "economics",
-      "chicago",
-      "sentiment"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-22",
     "title": "Pillar core maintenance window",
     "source": "New York Stock Exchange",

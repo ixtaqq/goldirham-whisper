@@ -420,11 +420,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -433,11 +433,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -503,19 +503,6 @@
     "type": "economics",
     "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
     "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators17september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
-    "title": "Deaths registered monthly in England and Wales: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -682,6 +669,32 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Foreign Currency Reserves 2026 – Market Notice 21 September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Not for distribution, directly or indirectly, in or into the United States, Canada, Australia, Japan or any other jurisdiction where it is unlawful to distribute this announcement",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-21-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Measuring Artificial Intelligence in the UK Economy using a thematic account",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Measuring Artificial Intelligence in the UK Economy using a thematic account setting out what a thematic account is, the approach ONS is taking to compile an AI thematic account and how it helps in the measurement of the impact of artificial intelligence on the UK economy.",
+    "url": "https://www.ons.gov.uk/releases/measuringartificialintelligenceintheukeconomyusingathematicaccount",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
     ]
   },
   {

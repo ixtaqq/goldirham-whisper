@@ -403,19 +403,6 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
     "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
@@ -429,13 +416,13 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Median house price and sales volume update, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "source": "Bank of England",
     "type": "economics",
-    "description": "Update to house prices and sales volume data to include Quarter 1 (Jan to Mar) 2025 and Quarter 1 (Jan to Mar) 2026, including breakdowns by different geographies, new and existing sales, and property types. Formerly HPSSAs.",
-    "url": "https://www.ons.gov.uk/releases/medianhousepriceandsalesvolumeupdate2025",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
-      "ons uk release calendar",
+      "bank of england",
       "economics",
       "economics"
     ]
@@ -513,32 +500,6 @@
     "type": "economics",
     "description": "Social insights on important issues facing the UK, water use and restrictions, and the cost of living, from the Opinions and Lifestyle Survey (OPN).",
     "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Retail sales, Great Britain: August 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainaugust2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Retail Sales; Great Britain: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainaugust2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -717,6 +678,58 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Almost ten million people took part in ECB survey on new euro banknotes",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 11 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending11september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Divorces and dissolutions in England and Wales: 2024 and 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Divorce and civil partnership dissolution numbers and rates, by partnership type and duration of legal partnership.",
+    "url": "https://www.ons.gov.uk/releases/divorcesanddissolutionsinenglandandwales2024to2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Regional economic activity by gross domestic product, UK: 1998 to 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual estimates of economic activity by UK country, region and local area using gross domestic product (GDP). Estimates are available in current market prices and in chained volume measures and include a full industry breakdown of balanced regional gross value added (GVA(B)).",
+    "url": "https://www.ons.gov.uk/releases/regionaleconomicactivitybygrossdomesticproductuk1998to2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
     ]
   },
   {

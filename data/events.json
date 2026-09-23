@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "title": "Extended-session Saturday test",
-    "source": "TSX",
-    "type": "exchange",
-    "description": "Technology trial of the after-hours session window; no real trading printed.",
-    "url": "https://www.tmx.com/",
-    "tags": [
-      "tsx",
-      "exchange",
-      "test",
-      "extended hours"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-24",
     "title": "Ifo business climate",
     "source": "Ifo Institute",
@@ -1183,6 +1168,19 @@
     "source": "JPX / TSE",
     "type": "exchange",
     "description": "JPX / TSE closed for Respect for the Aged Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-09-23",
+    "title": "Market holiday — Autumnal Equinox",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Autumnal Equinox. Settlement and expiry cycles roll to the next session.",
     "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
     "tags": [
       "jpx / tse",

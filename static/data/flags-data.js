@@ -30,7 +30,6 @@ export const flagMap = {
   "SEC Press Releases": "🌐",
   "Saudi Exchange": "🇸🇦",
   "Shanghai Stock Exchange": "🇨🇳",
-  "TSX": "🇨🇦",
   "Tokyo Stock Exchange": "🇯🇵"
 };
 export function flagFor(source) { return flagMap[source] || "🌐"; }

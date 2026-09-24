@@ -348,6 +348,19 @@
   },
   {
     "date": "2026-09-17",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
     "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
@@ -366,19 +379,6 @@
     "type": "economics",
     "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
     "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -421,45 +421,6 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
     "tags": [
       "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Mortgage statistics, UK: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The number of mortgage sales and other mortgage statistics by UK local authority, from 2006 to 2025.",
-    "url": "https://www.ons.gov.uk/releases/mortgagestatisticsuk2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Beyond GDP insights, UK headline measures of National Well-being: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Exploring quality of life and progress beyond GDP in the UK, drawing on the new quarterly headline national well-being measures.",
-    "url": "https://www.ons.gov.uk/releases/beyondgdpinsightsukheadlinemeasuresofnationalwellbeingseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Public opinions and social trends, Great Britain: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Social insights on important issues facing the UK, water use and restrictions, and the cost of living, from the Opinions and Lifestyle Survey (OPN).",
-    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainaugust2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -697,6 +658,45 @@
     "type": "economics",
     "description": "Annual estimates of economic activity by UK country, region and local area using gross domestic product (GDP). Estimates are available in current market prices and in chained volume measures and include a full industry breakdown of balanced regional gross value added (GVA(B)).",
     "url": "https://www.ons.gov.uk/releases/regionaleconomicactivitybygrossdomesticproductuk1998to2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "title": "Economic activity and social change in the UK, real-time indicators: 24 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators24september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "title": "UK business; activity, size and location 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Business enterprises analysed by legal form, industry, region, turnover and employment size band.",
+    "url": "https://www.ons.gov.uk/releases/ukbusinessactivitysizeandlocation2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "title": "Business insights and impact on the UK economy: 24 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy24september2026",
     "tags": [
       "ons uk release calendar",
       "economics",

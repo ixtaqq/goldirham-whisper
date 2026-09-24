@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-08-24",
-    "title": "Ifo business climate",
-    "source": "Ifo Institute",
-    "type": "economics",
-    "description": "German sentiment thermometer; the expectations-vs-current gap is what repositioning trades on.",
-    "url": "https://www.ifo.de/en",
-    "tags": [
-      "ifo institute",
-      "economics",
-      "germany",
-      "ifo"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-24",
-    "title": "Globex quarterly roll — September list",
-    "source": "CME Group",
-    "type": "exchange",
-    "description": "New front-month list takes over Sunday; roll spreads bleed wide into settlement.",
-    "url": "https://www.cmegroup.com/trading/cme-group-holidays.html",
-    "tags": [
-      "cme group",
-      "exchange",
-      "roll"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-26",
     "title": "CHESS replacement — industry rehearsal 4",
     "source": "ASX",

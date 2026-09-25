@@ -348,11 +348,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -374,11 +374,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -496,19 +496,6 @@
     ]
   },
   {
-    "date": "2026-09-21",
-    "title": "Measuring Artificial Intelligence in the UK Economy using a thematic account",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Measuring Artificial Intelligence in the UK Economy using a thematic account setting out what a thematic account is, the approach ONS is taking to compile an AI thematic account and how it helps in the measurement of the impact of artificial intelligence on the UK economy.",
-    "url": "https://www.ons.gov.uk/releases/measuringartificialintelligenceintheukeconomyusingathematicaccount",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-22",
     "title": "Market holiday — Holiday",
     "source": "JPX / TSE",
@@ -543,45 +530,6 @@
     "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
     "tags": [
       "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Lived experiences of Roma people in England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Explores experiences of Roma people in England and Wales, including migration and settlement in the UK, access to services, identities and sense of belonging.",
-    "url": "https://www.ons.gov.uk/releases/livedexperiencesofromapeopleinenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Public sector finances, UK: August 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series datasets consistent with the Public sector finances, UK: August 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukaugust2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Public sector finances, UK: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukaugust2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -652,19 +600,6 @@
     ]
   },
   {
-    "date": "2026-09-23",
-    "title": "Regional economic activity by gross domestic product, UK: 1998 to 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual estimates of economic activity by UK country, region and local area using gross domestic product (GDP). Estimates are available in current market prices and in chained volume measures and include a full industry breakdown of balanced regional gross value added (GVA(B)).",
-    "url": "https://www.ons.gov.uk/releases/regionaleconomicactivitybygrossdomesticproductuk1998to2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-24",
     "title": "Economic activity and social change in the UK, real-time indicators: 24 September 2026",
     "source": "ONS UK Release Calendar",
@@ -716,6 +651,84 @@
       "gdp"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Minutes of the Market Participants Group meeting – 24 September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/september/market-participants-group-meeting-25-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Mortality by ethnic group following death certification reform, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Deaths by ethnic group, based on the ethnicity field introduced as part of death certification reform.",
+    "url": "https://www.ons.gov.uk/releases/mortalitybyethnicityfollowingdeathcertificationreformenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Mortality by pregnancy status following Death Certification Reform, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Analysis of pregnancy fields on the medical certificate of cause of death (MCCD) from deaths registered in 2025.",
+    "url": "https://www.ons.gov.uk/releases/mortalitybypregnancystatusfollowingdeathcertificationreformenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Death certification reform, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
+    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Deaths registered in England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Registered deaths by leading cause of death, age, sex, and selected underlying causes of death, and death occurrences, in England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredinenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Labour demand volumes by Standard Occupation Classification (SOC 2020), UK: January 2017 to August 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "These tables contain the number of online job adverts split by local authority and occupation (SOC 2020).",
+    "url": "https://www.ons.gov.uk/releases/labourdemandvolumesbystandardoccupationclassificationsoc2020ukjanuary2017toaugust2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-09-25",

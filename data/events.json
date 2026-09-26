@@ -652,19 +652,6 @@
   },
   {
     "date": "2026-09-25",
-    "title": "Death certification reform, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
-    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
     "title": "Mortality by ethnic group following death certification reform, England and Wales: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -683,6 +670,19 @@
     "type": "economics",
     "description": "Analysis of pregnancy fields on the medical certificate of cause of death (MCCD) from deaths registered in 2025.",
     "url": "https://www.ons.gov.uk/releases/mortalitybypregnancystatusfollowingdeathcertificationreformenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Death certification reform, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
+    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -11,7 +11,6 @@ export const flagMap = {
   "CBOE": "🇺🇸",
   "CME Group": "🇺🇸",
   "Community": "🌐",
-  "DTCC": "🇺🇸",
   "Deutsche Börse": "🇩🇪",
   "ECB": "🇪🇺",
   "ECB Press Releases": "🇪🇺",

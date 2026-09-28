@@ -264,19 +264,6 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
     "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
@@ -295,6 +282,19 @@
     "type": "economics",
     "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
     "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -490,32 +490,6 @@
     ]
   },
   {
-    "date": "2026-09-23",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 11 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending11september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-23",
-    "title": "Divorces and dissolutions in England and Wales: 2024 and 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Divorce and civil partnership dissolution numbers and rates, by partnership type and duration of legal partnership.",
-    "url": "https://www.ons.gov.uk/releases/divorcesanddissolutionsinenglandandwales2024to2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-24",
     "title": "Economic activity and social change in the UK, real-time indicators: 24 September 2026",
     "source": "ONS UK Release Calendar",
@@ -583,6 +557,19 @@
   },
   {
     "date": "2026-09-25",
+    "title": "Death certification reform, England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
+    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-25",
     "title": "Mortality by ethnic group following death certification reform, England and Wales: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -601,19 +588,6 @@
     "type": "economics",
     "description": "Analysis of pregnancy fields on the medical certificate of cause of death (MCCD) from deaths registered in 2025.",
     "url": "https://www.ons.gov.uk/releases/mortalitybypregnancystatusfollowingdeathcertificationreformenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Death certification reform, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
-    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -675,6 +649,32 @@
       "optiq"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Investigating non-response to the Labour Force Survey using administrative data",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Using Pay As You Earn data to identify and adjust for potential employment-related non-response to the Labour Force Survey. These are not official statistics.",
+    "url": "https://www.ons.gov.uk/releases/investigatingnonresponsetothelabourforcesurveyusingadministrativedata",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Physical energy flow accounts (PEFA) 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Physical energy flow accounts (PEFA) record the flows of energy from the environment to the economy, within the economy, and from the economy back to the environment.",
+    "url": "https://www.ons.gov.uk/releases/physicalenergyflowaccountspefa2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-01",

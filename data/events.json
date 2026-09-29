@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-08-29",
-    "title": "Tokyo CPI",
-    "source": "Bank of Japan",
-    "type": "economics",
-    "description": "Tokyo read as the national canary; services ex-fresh-food is the number that matters.",
-    "url": "https://www.boj.or.jp/en/statistics/pi/cpi/index.htm",
-    "tags": [
-      "bank of japan",
-      "economics",
-      "cpi"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-08-29",
-    "title": "Derivatives night-session system test",
-    "source": "Tokyo Stock Exchange",
-    "type": "exchange",
-    "description": "Occupancy trial for the night window on the OSE derivatives link.",
-    "url": "https://www.jpx.co.jp/english/derivatives/",
-    "tags": [
-      "tokyo stock exchange",
-      "exchange",
-      "test"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-08-31",
     "title": "Flash HICP estimate",
     "source": "Eurostat",
@@ -264,19 +236,6 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
     "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
@@ -295,6 +254,19 @@
     "type": "economics",
     "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
     "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",

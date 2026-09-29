@@ -25,7 +25,6 @@ export const flagMap = {
   "RBA": "🇦🇺",
   "SEC Press Releases": "🌐",
   "Saudi Exchange": "🇸🇦",
-  "Shanghai Stock Exchange": "🇨🇳",
-  "Tokyo Stock Exchange": "🇯🇵"
+  "Shanghai Stock Exchange": "🇨🇳"
 };
 export function flagFor(source) { return flagMap[source] || "🌐"; }

@@ -463,45 +463,6 @@
   },
   {
     "date": "2026-09-24",
-    "title": "Economic activity and social change in the UK, real-time indicators: 24 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators24september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "title": "UK business; activity, size and location 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Business enterprises analysed by legal form, industry, region, turnover and employment size band.",
-    "url": "https://www.ons.gov.uk/releases/ukbusinessactivitysizeandlocation2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "title": "Business insights and impact on the UK economy: 24 September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade, and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy24september2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-24",
     "title": "Updated Q2 GDP — annual data revision",
     "source": "BEA",
     "type": "economics",
@@ -523,71 +484,6 @@
     "url": "https://www.bankofengland.co.uk/minutes/2026/september/market-participants-group-meeting-25-september-2026",
     "tags": [
       "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Death certification reform, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Analysis of death registrations since death certification reform, including time taken to register death and cause of death.",
-    "url": "https://www.ons.gov.uk/releases/deathcertificationreformenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Mortality by ethnic group following death certification reform, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Deaths by ethnic group, based on the ethnicity field introduced as part of death certification reform.",
-    "url": "https://www.ons.gov.uk/releases/mortalitybyethnicityfollowingdeathcertificationreformenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Mortality by pregnancy status following Death Certification Reform, England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Analysis of pregnancy fields on the medical certificate of cause of death (MCCD) from deaths registered in 2025.",
-    "url": "https://www.ons.gov.uk/releases/mortalitybypregnancystatusfollowingdeathcertificationreformenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Deaths registered in England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Registered deaths by leading cause of death, age, sex, and selected underlying causes of death, and death occurrences, in England and Wales.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredinenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Labour demand volumes by Standard Occupation Classification (SOC 2020), UK: January 2017 to August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "These tables contain the number of online job adverts split by local authority and occupation (SOC 2020).",
-    "url": "https://www.ons.gov.uk/releases/labourdemandvolumesbystandardoccupationclassificationsoc2020ukjanuary2017toaugust2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -623,32 +519,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-09-28",
-    "title": "Investigating non-response to the Labour Force Survey using administrative data",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Using Pay As You Earn data to identify and adjust for potential employment-related non-response to the Labour Force Survey. These are not official statistics.",
-    "url": "https://www.ons.gov.uk/releases/investigatingnonresponsetothelabourforcesurveyusingadministrativedata",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-28",
-    "title": "Physical energy flow accounts (PEFA) 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Physical energy flow accounts (PEFA) record the flows of energy from the environment to the economy, within the economy, and from the economy back to the environment.",
-    "url": "https://www.ons.gov.uk/releases/physicalenergyflowaccountspefa2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-29",
     "title": "ECB amends monetary policy implementation guidelines as part of regular review",
     "source": "ECB Press Releases",
@@ -657,6 +527,149 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
     "tags": [
       "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Financial Policy Committee Record – September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.",
+    "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Quarterly economic commentary: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Economic commentary for the latest quarterly national accounts, prices and labour market indicators.",
+    "url": "https://www.ons.gov.uk/releases/quarterlyeconomiccommentaryapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Consumer trends, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Household final consumption expenditure (HHFCE) for the UK, as a measure of growth. Includes all spending on goods and services by members of UK households.",
+    "url": "https://www.ons.gov.uk/releases/consumertrendsukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 18 September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending18september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Business Investment in the UK: April to June 2026 revised results",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of short-term indicators of investment in non-financial assets; business investment, and asset and sector breakdowns of total gross fixed capital formation",
+    "url": "https://www.ons.gov.uk/releases/businessinvestmentintheukapriltojune2026revisedresults",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Balance of payments, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers and foreign assets and liabilities.",
+    "url": "https://www.ons.gov.uk/releases/balanceofpaymentsukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "GDP quarterly national accounts, UK: April to June 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Time series data as part of the quarterly GDP publication.",
+    "url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "UK Economic Accounts time series: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Detailed estimates of national product income and expenditure, UK sector accounts, and UK balance of payments.",
+    "url": "https://www.ons.gov.uk/releases/ukeconomicaccountstimeseriesapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "UK Economic Accounts: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provides detailed estimates of national product income and expenditure, UK sector accounts and UK balance of payments.",
+    "url": "https://www.ons.gov.uk/releases/ukeconomicaccountsapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Quarterly sector accounts, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A detailed breakdown of the components of sector accounts aggregates.",
+    "url": "https://www.ons.gov.uk/releases/quarterlysectoraccountsukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "title": "GDP quarterly national accounts, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
+    "url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
       "economics",
       "economics"
     ]

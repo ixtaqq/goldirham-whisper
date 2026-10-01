@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-08-31",
-    "title": "Flash HICP estimate",
-    "source": "Eurostat",
-    "type": "economics",
-    "description": "First-guess eurozone inflation; the core figure sets the ECB's tone for the next month.",
-    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators",
-    "tags": [
-      "eurostat",
-      "economics",
-      "hicp",
-      "inflation"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-01",
     "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
     "source": "SEC Press Releases",

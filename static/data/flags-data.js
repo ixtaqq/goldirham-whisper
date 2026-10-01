@@ -15,7 +15,6 @@ export const flagMap = {
   "ECB": "🇪🇺",
   "ECB Press Releases": "🇪🇺",
   "Euronext": "🇪🇺",
-  "Eurostat": "🇪🇺",
   "JPX / TSE": "🇯🇵",
   "London Stock Exchange": "🇬🇧",
   "MSCI": "🇺🇸",

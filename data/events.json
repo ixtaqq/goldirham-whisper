@@ -221,19 +221,6 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-17",
     "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
@@ -252,6 +239,19 @@
     "type": "economics",
     "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
     "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -595,12 +595,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "Balance of payments, UK: April to June 2026",
+    "date": "2026-10-01",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A measure of cross-border transactions between the UK and rest of the world. Includes trade, income, capital transfers and foreign assets and liabilities.",
-    "url": "https://www.ons.gov.uk/releases/balanceofpaymentsukapriltojune2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -608,12 +608,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "GDP quarterly national accounts, UK: April to June 2026 time series",
+    "date": "2026-10-01",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Time series data as part of the quarterly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2026timeseries",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -621,12 +621,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "UK Economic Accounts time series: April to June 2026",
+    "date": "2026-10-01",
+    "title": "Unexplained deaths in infancy, England and Wales: 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Detailed estimates of national product income and expenditure, UK sector accounts, and UK balance of payments.",
-    "url": "https://www.ons.gov.uk/releases/ukeconomicaccountstimeseriesapriltojune2026",
+    "description": "Annual data on sudden infant deaths in England and Wales and infant deaths for which the cause remained unascertained after a full investigation.",
+    "url": "https://www.ons.gov.uk/releases/unexplaineddeathsininfancyenglandandwales2024",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -634,12 +634,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "UK Economic Accounts: April to June 2026",
+    "date": "2026-10-01",
+    "title": "Funded occupational pension schemes in the UK: October 2025 to March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Provides detailed estimates of national product income and expenditure, UK sector accounts and UK balance of payments.",
-    "url": "https://www.ons.gov.uk/releases/ukeconomicaccountsapriltojune2026",
+    "description": "Financial Survey of Pension Schemes (FSPS) estimates including membership, income and expenditure, assets, and liabilities of pension schemes.",
+    "url": "https://www.ons.gov.uk/releases/fundedoccupationalpensionschemesintheukoctober2025tomarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -647,12 +647,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "Quarterly sector accounts, UK: April to June 2026",
+    "date": "2026-10-01",
+    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A detailed breakdown of the components of sector accounts aggregates.",
-    "url": "https://www.ons.gov.uk/releases/quarterlysectoraccountsukapriltojune2026",
+    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
+    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -660,12 +660,12 @@
     ]
   },
   {
-    "date": "2026-09-30",
-    "title": "GDP quarterly national accounts, UK: April to June 2026",
+    "date": "2026-10-01",
+    "title": "Children living in long-term workless households in the UK: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
-    "url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2026",
+    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
+    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
     "tags": [
       "ons uk release calendar",
       "economics",

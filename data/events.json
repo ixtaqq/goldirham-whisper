@@ -1,46 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission today proposed to update the rules and forms that apply to registered transfer agents.Transfer agents are a key component of the national clearance and settlement system. Transfer agents now perform a more diverse…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-01",
-    "title": "Monetary policy decision",
-    "source": "RBA",
-    "type": "economics",
-    "description": "Board cash-rate call; the statement's tightening bias is what FX hedges reprice.",
-    "url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
-    "tags": [
-      "rba",
-      "economics",
-      "rates"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-09-01",
-    "title": "Margin and circuit-breaker parameter update",
-    "source": "Shanghai Stock Exchange",
-    "type": "exchange",
-    "description": "New collateral rules effective for program accounts; broker risk engines re-jiggered overnight.",
-    "url": "http://english.sse.com.cn/",
-    "tags": [
-      "shanghai stock exchange",
-      "exchange",
-      "margin"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-02",
     "title": "ICC arbitration calendar — Q4 hearing schedule",
     "source": "Community",
@@ -609,11 +568,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -622,11 +581,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",

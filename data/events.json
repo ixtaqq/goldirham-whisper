@@ -541,11 +541,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -554,11 +554,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

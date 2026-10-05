@@ -1,4 +1,4 @@
 ---
 title: "Exchanges"
-description: "Venue dossiers — maintenance windows, drills and expiry cycles per exchange."
+description: "Exchange maintenance windows, system releases, holidays and expiry dates, listed by venue."
 ---

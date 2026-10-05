@@ -1,54 +1,57 @@
 ---
 title: "About"
-description: "The methodology behind the Goldirham Whisper — what it tracks, why it exists, and who it is for."
+description: "What Goldirham Whisper tracks, where the dates come from, and how to read an entry."
+layout: "about"
 ---
 
-Every matching engine goes down. Every settlement system gets patched. Every national statistical
-office has a quiet release nobody screenshotted. Goldirham Whisper logs those dates —
-and only those dates.
+Goldirham Whisper is a calendar of the dates that headline economic calendars leave out:
+exchange maintenance windows, trading-system releases, market holidays, expiry and roll dates,
+index reviews, and statistical releases below the headline tier.
 
-The mainstream calendar is a theatre of the obvious. CPI, payrolls, FOMC — by the time a release
-has a countdown app, its alpha is spent. The dates that actually force desks to reprice are the
-ones that happen *inside* the plumbing:
+## What is tracked
 
-{{< terminal >}}
-$ watch --feed live --type infrastructure
-  2026-08-22  NYSE            Pillar core maintenance window
-  2026-08-24  CME             Globex quarterly roll — Sep list
-  2026-08-28  Nasdaq Nordic   ITCH protocol header migration v3.1
-  2026-09-18  Eurex           Quarterly futures expiry — Sep fixings
-  2026-09-18  LSE             FTSE Russell quarterly rebalance
-  2026-10-01  Bank of Japan   Tankan — Q3 survey release
-{{< /terminal >}}
+- **Exchange operations.** Maintenance windows, system releases, test and failover days, holiday
+  closures and early closes, quarterly expiries and rolls, and changes to auction or price-band
+  parameters.
+- **Second-tier statistics.** Releases that rarely lead the news: services price indices,
+  business surveys, trade and capital-flow tables, central-bank publications, and the
+  supplementary tables that accompany bigger releases.
 
-Settlement batches, matching-engine releases, index rebalance effective dates, failover drills,
-expiry rotations, second-tier statistics. The infrastructure of price discovery, logged daily.
+The best-known releases, such as consumer prices, payrolls and most rate decisions, are largely
+left out. They are covered well elsewhere.
 
-## What gets tracked
+## Why
 
-- **Exchange infrastructure** — maintenance windows, system releases, test/drill days, holiday
-  and early-close schedules, quarter-end expiry and roll cycles, auction parameter changes.
-- **Second-tier economics** — the releases consensus desks skim past: TIC flows, regional Fed
-  surveys, factory orders, trade balances, purchasing-manager indices from secondary issuers.
+A maintenance window, a parameter change or a holiday closure seldom makes the news, but it
+changes how a market behaves on that day. The dates are public. They are scattered across
+exchange notices and release calendars, and this site collects them in one list.
 
-We deliberately skip the usual suspects. If Bloomberg runs a countdown ticker on it, we don't.
+## Where the dates come from
 
-## How the data gets here
+A script runs every six hours on GitHub Actions. It reads public calendars and RSS feeds that
+need no API key: the Japan Exchange Group holiday calendar, the ONS release calendar, and feeds
+from the Bank of England, the Bank of Canada, the ECB and the SEC. The central-bank and SEC feeds
+are filtered by keyword so that only statistical and market-structure items remain. Exchange
+notices without a usable feed are added by hand.
 
-A Python aggregator (`scripts/aggregator.py`) runs every six hours via GitHub Actions and pulls
-public, keyless iCal/RSS feeds straight from the venues and statistical agencies. Everything is
-normalised into a single `data/events.json` that this site renders with zero servers. The same
-file is published raw at `/events.json` and as RSS at `/index.xml`.
+Everything is merged into one file, which is also published as it is:
 
-Which means: no paywalls, no API keys, no corporate sponsors, no latency. And no excuses for the
-desk to say they never saw the maintenance window.
+- [/events.json](/events.json): every event, as JSON
+- [/index.xml](/index.xml): upcoming dates, as RSS
+- [/digest.xml](/digest.xml): a weekly digest, as RSS
 
-## Who this is for
+<p data-sources></p>
 
-Traders whose P&L eats the spread between news and reaction. Ops teams that have ever widened
-their gloves around a known 03:00 UTC window. Anyone who has ever watched a mispriced fill arrive
-because an exchange moved its auction parameters while the street slept.
+## Reading an entry
 
-This is not investment advice. It is a log of when the machinery is scheduled to move.
+Each entry is an all-day date in the home time zone of the exchange or issuer. Exchange dates
+are marked with a filled dot and economic releases with an open ring. The two-letter code is the
+country or region of the source; INTL marks sources without a country assigned. Every entry links
+to the notice it came from and can be added to Google Calendar or downloaded as an .ics file.
 
-— *The Goldirham Whisper*
+Issuers move and cancel dates, and this list can lag behind them. Check the source notice before
+relying on a date.
+
+## Not investment advice
+
+This is a reference calendar compiled from public information. It is not investment advice.

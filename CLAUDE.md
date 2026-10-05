@@ -6,10 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Goldirham Whisper — a static Hugo site tracking obscure economic releases and
 exchange infrastructure dates ("dates that move markets first"). No build
-tooling beyond Hugo itself: fonts are loaded from a CDN, the main app is
-vanilla JS, and the one not-yet-unified page (`/about/`) still loads
-Tailwind and Alpine.js from CDN — there is no `package.json`, and no
-automated tests.
+tooling beyond Hugo itself: fonts and the globe's d3-geo/topojson/world-atlas
+dependencies are loaded from jsDelivr, the app is vanilla JS — there is no
+`package.json`, and no automated tests.
 
 ## Commands
 
@@ -67,49 +66,58 @@ data/manual_events.json ────┼──▶ scripts/aggregator.py ──▶
 
 ## Frontend architecture
 
-The main app — calendar, exchanges, economics, search, and single-event
-detail — is one self-contained document, `layouts/partials/app.html`
-(vanilla JS, no framework; inline CSS design tokens; ambient canvas
-background). It's included from five thin Hugo templates, each passing
-which view should be active on load:
+The whole app — calendar, exchanges, economics, search, about, not-found and
+the single-event modal — is one self-contained document,
+`layouts/partials/app.html` (vanilla JS module, inline CSS design tokens).
+It's included from thin Hugo templates, each passing which view should be
+active on load:
 
 - `layouts/index.html` → `{{ partial "app.html" (dict "view" "calendar" "page" .) }}`
-- `layouts/economics/list.html` → `... "view" "economics" ...`
-- `layouts/exchanges/list.html` → `... "view" "exchanges" ...`
-- `layouts/search/list.html` → `... "view" "search" ...`
-- `layouts/event/list.html` → `... "view" "calendar" ...` (there's no
-  separate "event" view — a single event is a modal overlay, not a route.
-  `/event/#slug` works because `boot()` checks `location.hash` on load and
-  calls `openModal(slug)` regardless of which of the five templates got it
-  there; the calendar just renders underneath. Visiting `/event/` with no
-  hash shows the plain calendar, not a 404 — that's a deliberate behavior
-  change from the old dedicated detail page.)
+- `layouts/economics/list.html`, `layouts/exchanges/list.html`,
+  `layouts/search/list.html` → their own view
+- `layouts/_default/about.html` → `"about"` (selected by `layout: "about"` in
+  `content/about.md`)
+- `layouts/404.html` → `"notfound"`
+- `layouts/event/list.html` → `"calendar"` (a single event is a modal
+  overlay, not a route: `boot()` opens the modal for `location.hash`, so
+  `/event/#slug` and `/#slug` both work)
 
-All five render the *identical* app; only the initial `S.view` (and the
-server-rendered `<title>`/description/canonical, sourced from `.page.Title`
-etc.) differ. Client-side nav clicks (`data-act="nav"`) just flip `S.view`
-and re-render `#app` — no URL change, no page reload. Data loads once via a
-dynamic `import()` of `static/data/events-data.js` + `flags-data.js`
-(deferred into `boot()`), not from any Hugo template variable.
+Client-side nav (`data-act="nav"`) re-renders `#app` without a reload and
+uses `history.pushState`, so each view keeps a real URL and back/forward work
+(`popstate` handler). Data loads once via dynamic `import()` of
+`static/data/events-data.js` + `flags-data.js`, not from any Hugo template
+variable. The About view's prose is `content/about.md`, embedded on every
+page as `<template id="about-src">` so client-side nav can render it.
 
-Known behavior change from the old `/search/` page: that version indexed
-events with Lunr.js (loaded from CDN) for fuzzy/ranked full-text search;
-`app.html`'s `searchResultsHTML()` instead does simple weighted substring
-matching (title/tags/source/description, no fuzzy matching). Good enough for
-~100 events; revisit if the dataset grows much larger.
+Some generated slugs repeat across years; at load the app appends
+`-YYYY-MM-DD` to later duplicates so each row opens its own event. The real
+fix belongs in `aggregator.py`.
 
-**Only `/about/` is not yet unified** — it still renders via
-`layouts/_default/single.html` + `layouts/_default/baseof.html` + partials
-(`head`, `ticker`, `header`, `footer`, `data`, `store`), an older Alpine.js +
-Tailwind (CDN) implementation. That implementation embeds `data/events.json`
-inline (`layouts/partials/data.html`) and uses its own Alpine store
-(`$store.gw` in `layouts/partials/store.html`) — completely separate code
-from `app.html`. `about.md`'s content is prose (not an events view), so
-unifying it means either adding an `about` view/case to `app.html`'s
-router or leaving it as the one intentionally-different content page — worth
-asking which before doing it. If unified, confirm nothing else still depends
-on `baseof.html`/its partials before deleting them, since removing `/about/`'s
-usage would make all of it dead code.
+Flag emoji are never rendered (they show as bare letters on Windows):
+`countryCode()` turns `flags-data.js`'s emoji into ISO-2 codes ("US", "EU";
+🌐 → "INTL").
+
+Search (`searchResultsHTML()`) is weighted substring matching that requires
+every typed term — no fuzzy matching. Good enough for ~100 events.
+
+**Design tokens** (`--paper`, `--paper-2`, `--ink`, `--ink-2`, `--ink-3`,
+`--rule`, `--accent`, `--ex`, `--ec`) are defined on `:root` with dark
+values under `prefers-color-scheme: dark`. Exchange = filled dot in `--ex`,
+economics = hollow ring in `--ec`. Fonts: Newsreader (display), IBM Plex
+Sans (UI), IBM Plex Mono (dates/numbers), from jsDelivr @fontsource.
+
+**Globe** (`static/js/globe.js`): `mountGlobe(container, { events,
+onSelectPlace })` → `{ update, highlight, destroy }`. Canvas orthographic
+globe (d3-geo + topojson-client + world-atlas land-110m from jsDelivr) with
+one marker per city. `SOURCE_LOCATIONS` (built from the `CITIES` table) maps
+exact `event.source` strings to a city — a third hand-maintained
+source-keyed mapping alongside `GW_FLAGS`; a new source isn't plotted until
+it's added there. It reads the design tokens from computed style, injects
+its own `.gw-globe-*` styles, and renders a visually hidden button list for
+keyboard/screen-reader use. `app.html` mounts it only on the calendar view
+(`startGlobe()` / `stopGlobe()` around `render()`); selecting a place sets
+`S.place` and filters the agenda to that city's sources. If the module or
+its CDN imports fail, the slot hides and the agenda still works.
 
 `hugo.toml` sets `[minify] disableHTML = true`; the comment there explains
 this was needed for the now-deleted DC-runtime SPA and could likely be

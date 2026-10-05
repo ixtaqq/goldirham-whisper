@@ -1,4 +1,4 @@
 ---
 title: "Event"
-description: "Single signal record."
+description: "A single date from the Goldirham Whisper calendar of exchange and statistical release dates."
 ---

@@ -1,4 +1,4 @@
 ---
 title: "Economics"
-description: "Second-tier statistical wire — releases the consensus is not watching."
+description: "Second-tier statistical and central-bank release dates, grouped by day."
 ---

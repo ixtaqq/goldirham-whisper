@@ -660,6 +660,19 @@
   },
   {
     "date": "2026-10-12",
+    "title": "Market holiday — Sports Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Sports Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2026-10-12",
     "title": "Columbus Day — NYSE open, US bond market closed",
     "source": "New York Stock Exchange",
     "type": "exchange",
@@ -672,19 +685,6 @@
       "bond market"
     ],
     "status": "approved"
-  },
-  {
-    "date": "2026-10-12",
-    "title": "Market holiday — Sports Day",
-    "source": "JPX / TSE",
-    "type": "exchange",
-    "description": "JPX / TSE closed for Sports Day. Settlement and expiry cycles roll to the next session.",
-    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-    "tags": [
-      "jpx / tse",
-      "exchange",
-      "holiday"
-    ]
   },
   {
     "date": "2026-10-15",

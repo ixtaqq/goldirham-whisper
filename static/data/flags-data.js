@@ -3,7 +3,7 @@ export const flagMap = {
   "BEA": "🇺🇸",
   "BLS": "🇺🇸",
   "BME": "🇪🇸",
-  "Bank of Canada": "🌐",
+  "Bank of Canada": "🇨🇦",
   "Bank of England": "🇬🇧",
   "Bank of Japan": "🇯🇵",
   "Borsa Italiana": "🇮🇹",
@@ -19,8 +19,8 @@ export const flagMap = {
   "MSCI": "🇺🇸",
   "Nasdaq": "🇺🇸",
   "New York Stock Exchange": "🇺🇸",
-  "ONS UK Release Calendar": "🌐",
-  "SEC Press Releases": "🌐",
+  "ONS UK Release Calendar": "🇬🇧",
+  "SEC Press Releases": "🇺🇸",
   "Saudi Exchange": "🇸🇦"
 };
 export function flagFor(source) { return flagMap[source] || "🌐"; }

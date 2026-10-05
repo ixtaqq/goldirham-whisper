@@ -36,7 +36,7 @@ USER_AGENT = "GoldirhamWhisper/1.0 (calendar@example.com)"  # Be polite
 LOOKBACK_DAYS = 30
 LOOKAHEAD_DAYS = 365
 
-# Source-name substring patterns -> flag emoji (must mirror layouts/partials/store.html GW_FLAGS).
+# Source-name substring patterns -> flag emoji; export_spa_data() writes the resolved map to static/data/flags-data.js.
 GW_FLAGS = [
     ["nasdaq nordic", "\U0001F1F8\U0001F1EA"], ["omx", "\U0001F1F8\U0001F1EA"],
     ["new york stock exchange", "\U0001F1FA\U0001F1F8"], ["nyse", "\U0001F1FA\U0001F1F8"], ["nasdaq", "\U0001F1FA\U0001F1F8"],
@@ -51,7 +51,7 @@ GW_FLAGS = [
     ["hkex", "\U0001F1ED\U0001F1F0"], ["hong kong", "\U0001F1ED\U0001F1F0"],
     ["shanghai", "\U0001F1E8\U0001F1F3"], ["shenzhen", "\U0001F1E8\U0001F1F3"], ["general administration", "\U0001F1E8\U0001F1F3"], ["nbs", "\U0001F1E8\U0001F1F3"], ["pboc", "\U0001F1E8\U0001F1F3"],
     ["korea exchange", "\U0001F1F0\U0001F1F7"], ["krx", "\U0001F1F0\U0001F1F7"],
-    ["tsx", "\U0001F1E8\U0001F1E6"], ["tmx", "\U0001F1E8\U0001F1E6"],
+    ["tsx", "\U0001F1E8\U0001F1E6"], ["tmx", "\U0001F1E8\U0001F1E6"], ["bank of canada", "\U0001F1E8\U0001F1E6"], ["statistics canada", "\U0001F1E8\U0001F1E6"],
     ["six", "\U0001F1E8\U0001F1ED"],
     ["borsa italiana", "\U0001F1EE\U0001F1F9"],
     ["iberclear", "\U0001F1EA\U0001F1F8"], ["bme", "\U0001F1EA\U0001F1F8"],
@@ -61,11 +61,13 @@ GW_FLAGS = [
     ["jse", "\U0001F1FF\U0001F1E6"], ["idx", "\U0001F1EE\U0001F1E9"], ["indonesia", "\U0001F1EE\U0001F1E9"], ["twse", "\U0001F1F9\U0001F1FC"], ["taiwan", "\U0001F1F9\U0001F1FC"],
     ["mospi", "\U0001F1EE\U0001F1F3"], ["nse", "\U0001F1EE\U0001F1F3"], ["bse india", "\U0001F1EE\U0001F1F3"],
     ["bls", "\U0001F1FA\U0001F1F8"], ["bureau of labor", "\U0001F1FA\U0001F1F8"], ["federal reserve", "\U0001F1FA\U0001F1F8"], ["fed", "\U0001F1FA\U0001F1F8"],
+    ["sec press", "\U0001F1FA\U0001F1F8"], ["securities and exchange commission", "\U0001F1FA\U0001F1F8"],
     ["bea", "\U0001F1FA\U0001F1F8"], ["treasury", "\U0001F1FA\U0001F1F8"], ["ism", "\U0001F1FA\U0001F1F8"], ["s&p", "\U0001F1FA\U0001F1F8"], ["sp global", "\U0001F1FA\U0001F1F8"],
     ["ecb", "\U0001F1EA\U0001F1FA"], ["eurostat", "\U0001F1EA\U0001F1FA"],
     ["bank of japan", "\U0001F1EF\U0001F1F5"], ["boj", "\U0001F1EF\U0001F1F5"], ["statistics bureau of japan", "\U0001F1EF\U0001F1F5"], ["ministry of finance japan", "\U0001F1EF\U0001F1F5"],
     ["destatis", "\U0001F1E9\U0001F1EA"], ["ifo", "\U0001F1E9\U0001F1EA"],
     ["bank of england", "\U0001F1EC\U0001F1E7"], ["mni", "\U0001F1EC\U0001F1E7"],
+    ["ons uk", "\U0001F1EC\U0001F1E7"], ["office for national statistics", "\U0001F1EC\U0001F1E7"],
     ["rba", "\U0001F1E6\U0001F1FA"], ["reserve bank of australia", "\U0001F1E6\U0001F1FA"],
 ]
 GW_FLAG_DEFAULT = "\U0001F310"  # 🌐

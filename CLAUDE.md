@@ -59,10 +59,12 @@ data/manual_events.json ────┼──▶ scripts/aggregator.py ──▶
   work but need the `keywords` relevance filter (per-source in
   `config.yaml`) to strip HR/PR noise from real statistical content. Don't
   re-add a "obviously free" calendar URL without live-testing it first.
-- `GW_FLAGS` (source-name substring → flag emoji) exists in **two**
-  independent places that must be kept in sync by hand: `aggregator.py` and
-  the generated `static/data/flags-data.js`. There is no shared source of
-  truth for this mapping.
+- `GW_FLAGS` in `aggregator.py` (source-name substring → flag emoji, first
+  match wins) is the only source of truth for flags; `export_spa_data()`
+  resolves it into the generated `static/data/flags-data.js`. After editing
+  it, run `aggregator.py --export-only`. Avoid short patterns that hit
+  unrelated words (`ons` would match "options", `sec` "second") — use
+  distinctive phrases like `ons uk` or `sec press`.
 
 ## Frontend architecture
 

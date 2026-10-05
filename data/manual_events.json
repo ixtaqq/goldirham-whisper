@@ -791,16 +791,17 @@
     "status": "approved"
   },
   {
-    "date": "2026-10-07",
-    "title": "Columbus Day holiday — closed",
+    "date": "2026-10-12",
+    "title": "Columbus Day — NYSE open, US bond market closed",
     "source": "New York Stock Exchange",
     "type": "exchange",
-    "description": "US equities dark; bond markets open. Settlement cycles roll to the next session.",
+    "description": "Columbus Day is not an NYSE holiday, so US equities trade a normal session. SIFMA recommends a full close for US dollar fixed-income trading, and Federal Reserve banks are closed for the federal holiday.",
     "url": "https://www.nyse.com/markets/hours-calendars",
     "tags": [
       "new york stock exchange",
       "exchange",
-      "holiday"
+      "holiday",
+      "bond market"
     ],
     "status": "approved"
   },

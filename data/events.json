@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-04",
-    "title": "Ibovespa quarterly rebalance — effective",
-    "source": "B3 (Brasil)",
-    "type": "exchange",
-    "description": "Constituent weights lock at close; closing-auction volume spikes into the recast.",
-    "url": "https://www.b3.com.br/en_us/",
-    "tags": [
-      "b3 (brasil)",
-      "exchange",
-      "rebalance"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-05",
     "title": "T7 release train 12.0 — Xetra cutover",
     "source": "Deutsche Börse",

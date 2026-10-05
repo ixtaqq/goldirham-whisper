@@ -152,11 +152,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -165,11 +165,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -566,11 +566,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
+    "title": "Children living in long-term workless households in the UK: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
-    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
+    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
+    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -579,11 +579,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Children living in long-term workless households in the UK: 2025",
+    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
-    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
+    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
+    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -460,11 +460,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -473,11 +473,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -512,11 +512,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
+    "title": "Children living in long-term workless households in the UK: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
-    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
+    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
+    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -525,11 +525,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Children living in long-term workless households in the UK: 2025",
+    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
-    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
+    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
+    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -586,6 +586,19 @@
     "url": "https://www.ons.gov.uk/releases/averagehouseholdincomeukfinancialyearending2025",
     "tags": [
       "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Minutes of the UK Money Markets Code Sub-Committee – September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+    "tags": [
+      "bank of england",
       "economics",
       "economics"
     ]
@@ -688,32 +701,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-10-19",
-    "title": "Release: Business Outlook Survey and Canadian Survey of Consumer Expectations",
-    "source": "Bank of Canada",
-    "type": "economics",
-    "description": "11:30 (ET)\nThe Business Outlook Survey is a summary of interviews conducted by the Bank's regional offices with business leaders from about 100 firms, selected in accordance with the composition of Canada's gross domestic product. The Canadian Survey of Consumer Expectations is a quarterly survey aimed at measuring household views of inflation, the labour market and household finances, as well as topical issues of interest to the Bank of Canada.",
-    "url": "https://www.bankofcanada.ca/2026/10/release-business-outlook-survey-and-canadian-survey-of-consumer-expectations-october-19-2026/",
-    "tags": [
-      "bank of canada",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-28",
-    "title": "Interest Rate Announcement and Monetary Policy Report",
-    "source": "Bank of Canada",
-    "type": "economics",
-    "description": "09:45 (ET)On eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision. Four times a year, Governing Council presents the Monetary Policy Report: the Bank’s base-case projection for inflation and growth in the Canadian economy, and its assessment of risks.",
-    "url": "https://www.bankofcanada.ca/2026/10/interest-rate-announcement-and-monetary-policy-report-october-28-2026/",
-    "tags": [
-      "bank of canada",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-31",
     "title": "November index review — advance announcement",
     "source": "MSCI",
@@ -742,12 +729,12 @@
     ]
   },
   {
-    "date": "2026-11-09",
-    "title": "Release: Market Participants Survey",
+    "date": "2026-11-10",
+    "title": "Publication: Summary of Deliberations",
     "source": "Bank of Canada",
     "type": "economics",
-    "description": "10:30 (ET)\nThe Market Participants Survey is conducted quarterly. Bank of Canada staff reach out to a diverse set of participants in financial markets to gather their views on key macroeconomic and financial variables as well as on monetary policy.",
-    "url": "https://www.bankofcanada.ca/2026/11/release-market-participants-survey-november-9-2026/",
+    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
+    "url": "https://www.bankofcanada.ca/2026/11/publication-summary-of-deliberations-november-10-2026/",
     "tags": [
       "bank of canada",
       "economics",
@@ -755,12 +742,12 @@
     ]
   },
   {
-    "date": "2026-11-10",
-    "title": "Publication: Summary of Deliberations",
+    "date": "2026-11-20",
+    "title": "Release: Senior Loan Officer Survey",
     "source": "Bank of Canada",
     "type": "economics",
-    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
-    "url": "https://www.bankofcanada.ca/2026/11/publication-summary-of-deliberations-november-10-2026/",
+    "description": "10:30 (ET)\nThe Senior Loan Officer Survey collects information on the business-lending practices of Canadian financial institutions.",
+    "url": "https://www.bankofcanada.ca/2026/11/release-senior-loan-officer-survey-november-20-2026/",
     "tags": [
       "bank of canada",
       "economics",

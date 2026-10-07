@@ -137,11 +137,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -150,11 +150,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -612,6 +612,45 @@
     "url": "https://www.ons.gov.uk/releases/referencetablescomponentapproachtolabourproductivityuk1997to2024",
     "tags": [
       "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 16 June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England provides the Secretariat to the London Foreign Exchange Joint Standing Committee (FXJSC) Legal Sub-Committee. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-legal-sub-committee-meeting-16-june-26",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Minutes of the London FXJSC Operations Sub-Committee Meeting – 16 June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England chairs the London Foreign Exchange Joint Standing Committee (FXJSC) Operations and Legal Sub-Committees. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-operations-sub-committee-meeting-16-june-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Minutes of the London FXJSC Main Committee Meeting – 24 June 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Bank of England chairs the London Foreign Exchange Joint Standing Committee (FXJSC), which is a forum for discussion of the wholesale foreign exchange market. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-main-committee-meeting-24-june-2026",
+    "tags": [
+      "bank of england",
       "economics",
       "economics"
     ]

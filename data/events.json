@@ -486,45 +486,6 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Funded occupational pension schemes in the UK: October 2025 to March 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Financial Survey of Pension Schemes (FSPS) estimates including membership, income and expenditure, assets, and liabilities of pension schemes.",
-    "url": "https://www.ons.gov.uk/releases/fundedoccupationalpensionschemesintheukoctober2025tomarch2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "title": "Children living in long-term workless households in the UK: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual UK estimates of the number of children living in households where all adults have not worked for at least 12 months.",
-    "url": "https://www.ons.gov.uk/releases/childrenlivinginlongtermworklesshouseholdsintheuk2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "title": "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "National and subnational mid-year population estimates for the UK and its constituent countries by administrative area, age, and sex.",
-    "url": "https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-01",
     "title": "Tankan — Q3 survey",
     "source": "Bank of Japan",
     "type": "economics",
@@ -675,6 +636,45 @@
     "type": "economics",
     "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
     "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending25september2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Experiences of NHS healthcare services in England: 8 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Patient experiences of accessing healthcare from the ONS Health Insight Survey, funded by NHS England. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland8october2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Business insights and impact on the UK economy: 8 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

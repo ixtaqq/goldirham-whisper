@@ -123,11 +123,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -136,11 +136,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -433,11 +433,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -446,11 +446,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -630,11 +630,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Business insights and impact on the UK economy: 8 October 2026",
+    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -643,11 +643,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
+    "title": "Business insights and impact on the UK economy: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -667,6 +667,19 @@
       "luld"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions. The proposed amendments…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
+    "tags": [
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-09",

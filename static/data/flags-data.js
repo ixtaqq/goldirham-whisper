@@ -6,7 +6,6 @@ export const flagMap = {
   "Bank of Canada": "🇨🇦",
   "Bank of England": "🇬🇧",
   "Bank of Japan": "🇯🇵",
-  "Borsa Italiana": "🇮🇹",
   "CBOE": "🇺🇸",
   "CME Group": "🇺🇸",
   "Community": "🌐",

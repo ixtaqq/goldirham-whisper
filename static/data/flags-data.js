@@ -10,7 +10,6 @@ export const flagMap = {
   "CME Group": "🇺🇸",
   "Community": "🌐",
   "Deutsche Börse": "🇩🇪",
-  "ECB": "🇪🇺",
   "ECB Press Releases": "🇪🇺",
   "Euronext": "🇪🇺",
   "JPX / TSE": "🇯🇵",

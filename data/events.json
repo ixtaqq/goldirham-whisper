@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-10",
-    "title": "Governing Council meeting",
-    "source": "ECB",
-    "type": "economics",
-    "description": "Policy decision plus presser; the subtle repo-parameter shifts move more than the headline rate.",
-    "url": "https://www.ecb.europa.eu/press/govcdec/html/index.en.html",
-    "tags": [
-      "ecb",
-      "economics",
-      "rates"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-12",
     "title": "Iberclear ISO 20022 cutover — phase 2",
     "source": "BME",
@@ -433,11 +419,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -446,11 +432,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
+    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
+    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -630,11 +616,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Business insights and impact on the UK economy: 8 October 2026",
+    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -643,11 +629,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
+    "title": "Business insights and impact on the UK economy: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -1058,6 +1044,19 @@
     "source": "JPX / TSE",
     "type": "exchange",
     "description": "JPX / TSE closed for Autumnal Equinox. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
+  },
+  {
+    "date": "2027-10-11",
+    "title": "Market holiday — Sports Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Sports Day. Settlement and expiry cycles roll to the next session.",
     "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
     "tags": [
       "jpx / tse",

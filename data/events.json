@@ -338,19 +338,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-09-29",
-    "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-30",
     "title": "Financial Policy Committee Record – September 2026",
     "source": "Bank of England",
@@ -653,6 +640,19 @@
       "bond market"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Minutes of the Money Market Committee meeting – September 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-13",

@@ -2,7 +2,6 @@
 export const flagMap = {
   "BEA": "🇺🇸",
   "BLS": "🇺🇸",
-  "BME": "🇪🇸",
   "Bank of Canada": "🇨🇦",
   "Bank of England": "🇬🇧",
   "Bank of Japan": "🇯🇵",

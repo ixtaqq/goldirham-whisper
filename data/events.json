@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-09-12",
-    "title": "Iberclear ISO 20022 cutover — phase 2",
-    "source": "BME",
-    "type": "exchange",
-    "description": "Spanish book-entry migration continues; settlement confirm field names change overnight.",
-    "url": "https://www.bme.es/ing/",
-    "tags": [
-      "bme",
-      "exchange",
-      "iso20022",
-      "settlement"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-14",
     "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
     "source": "SEC Press Releases",
@@ -96,11 +81,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -122,11 +107,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -419,11 +404,11 @@
   },
   {
     "date": "2026-10-01",
-    "title": "Deaths of people experiencing homelessness in England and Wales: 2013 to 2025 registrations",
+    "title": "Economic activity and social change in the UK, real-time indicators: 1 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The number of deaths of people experiencing homelessness in England and Wales. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/deathsofhomelesspeopleinenglandandwales2025registrations",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators1october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -603,11 +588,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Business insights and impact on the UK economy: 8 October 2026",
+    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -616,11 +601,11 @@
   },
   {
     "date": "2026-10-08",
-    "title": "Economic activity and social change in the UK, real-time indicators: 8 October 2026",
+    "title": "Business insights and impact on the UK economy: 8 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8october2026",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy8october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

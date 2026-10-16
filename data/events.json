@@ -40,11 +40,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "Exchange of letters between the Governor and the Chancellor",
-    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
+    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -53,11 +53,11 @@
   },
   {
     "date": "2026-09-17",
-    "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+    "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
     "source": "Bank of England",
     "type": "economics",
-    "description": "This Market Notice outlines the Bank Executive’s approach to implementing the Monetary Policy Committee’s (MPC) decision to unwind the gilts held for monetary policy purposes in the Asset Purchase Facility (APF). As part of this, Bank APF auctions will be paused while the Bank reviews a model of selling gilts to the Government.",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026",
+    "description": "Exchange of letters between the Governor and the Chancellor",
+    "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026",
     "tags": [
       "bank of england",
       "economics",
@@ -602,58 +602,6 @@
   },
   {
     "date": "2026-10-15",
-    "title": "GDP monthly estimate, UK: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Gross domestic product (GDP) measures the value of goods and services produced in the UK. It estimates the size of and growth in the economy.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Index of Production, UK: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/indexofproductionukaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-15",
-    "title": "Gross Value Added industry weights time series dataset, consistent with Blue Book 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Update to the annual industry weights used within the output approach of GDP, consistent with Blue Book 2026 estimates published in the Quarterly National Accounts, on 30 September 2026.",
-    "url": "https://www.ons.gov.uk/releases/grossvalueaddedindustryweightstimeseriesdatasetconsistentwithbluebook2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-15",
-    "title": "GDP monthly estimate, UK: August 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the monthly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukaugust2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-15",
     "title": "Quarterly services price index",
     "source": "BLS",
     "type": "economics",
@@ -666,6 +614,58 @@
       "inflation"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Improving our travel and tourism statistics: October 2026 update",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "An article outlining our progress towards planned improvements to our travel and tourism statistics, including official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/improvingourtravelandtourismstatisticsjuly2026update",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Public opinions and social trends, Great Britain: attitudes to climate change and environmental issues, September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Social insights on daily life and events, including public attitudes towards climate change and the environment, from the Opinions and Lifestyle Survey (OPN).",
+    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Travel trends: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual estimates for overseas travel and tourism, including visits, spending, number of nights, and purpose of visit. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/traveltrends2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Deaths registered monthly in England and Wales: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-17",

@@ -468,19 +468,6 @@
   },
   {
     "date": "2026-10-15",
-    "title": "UK Trade: August 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
-    "url": "https://www.ons.gov.uk/releases/uktradeaugust2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-15",
     "title": "Quarterly services price index",
     "source": "BLS",
     "type": "economics",
@@ -572,6 +559,19 @@
       "maintenance"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Quarterly suicide death registrations in England: 2001 to 2025 registrations and Quarter 1 (Jan to Mar) to Quarter 2 (Apr to June) 2026 provisional data",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional rate and number of suicide deaths registered in England per quarter. Includes 2001 to 2025 registrations and provisional data for Quarter 1 (Jan to Mar)   to Quarter 2 (Apr to June) 2026. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/quarterlysuicidedeathregistrationsinengland2001to2025registrationsandquarter1jantomartoquarter2aprtojune2026provisionaldata",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-10-31",

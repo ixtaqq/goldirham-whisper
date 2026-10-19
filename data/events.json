@@ -1,47 +1,5 @@
 [
   {
-    "date": "2026-09-18",
-    "title": "Minutes of the Transaction and Post-trade Reporting Harmonisation Taskforce - July 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Transaction and Post-trade Reporting Harmonisation Taskforce, through its three working groups, will help inform the design of the Bank and FCA’s long-term approach to harmonising UK MiFIR, UK EMIR and UK SFTR reporting requirements",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/july/minutes-of-the-transaction-and-post-trade-reporting-harmonisation-taskforce-july-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "title": "FTSE Russell quarterly index rebalance — effective",
-    "source": "London Stock Exchange",
-    "type": "exchange",
-    "description": "Constituent and float changes lock at close; tracking flows concentrate in the final auction.",
-    "url": "https://www.londonstockexchange.com/indices",
-    "tags": [
-      "london stock exchange",
-      "exchange",
-      "rebalance"
-    ],
-    "status": "approved"
-  },
-  {
-    "date": "2026-09-18",
-    "title": "Monthly OPEX settlement",
-    "source": "CBOE",
-    "type": "exchange",
-    "description": "Biggest OPEX of the quarter; the quarterly piece pops the month's biggest pins.",
-    "url": "https://www.cboe.com/us/options/",
-    "tags": [
-      "cboe",
-      "exchange",
-      "opex",
-      "expiry"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-19",
     "title": "Edaa clearing failover drill",
     "source": "Saudi Exchange",

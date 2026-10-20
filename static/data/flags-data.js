@@ -14,7 +14,6 @@ export const flagMap = {
   "Nasdaq": "🇺🇸",
   "New York Stock Exchange": "🇺🇸",
   "ONS UK Release Calendar": "🇬🇧",
-  "SEC Press Releases": "🇺🇸",
-  "Saudi Exchange": "🇸🇦"
+  "SEC Press Releases": "🇺🇸"
 };
 export function flagFor(source) { return flagMap[source] || "🌐"; }

@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-09-19",
-    "title": "Edaa clearing failover drill",
-    "source": "Saudi Exchange",
-    "type": "exchange",
-    "description": "Realistic clearing-outage simulation across the Tadawul stack. Young platforms test hardest.",
-    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/home",
-    "tags": [
-      "saudi exchange",
-      "exchange",
-      "drill",
-      "clearing"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-21",
     "title": "Market holiday — Respect for the Aged Day",
     "source": "JPX / TSE",

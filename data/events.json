@@ -415,58 +415,6 @@
     ]
   },
   {
-    "date": "2026-10-16",
-    "title": "Improving our travel and tourism statistics: October 2026 update",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "An article outlining our progress towards planned improvements to our travel and tourism statistics, including official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/improvingourtravelandtourismstatisticsjuly2026update",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Public opinions and social trends, Great Britain: attitudes to climate change and environmental issues, September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Social insights on daily life and events, including public attitudes towards climate change and the environment, from the Opinions and Lifestyle Survey (OPN).",
-    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Travel trends: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual estimates for overseas travel and tourism, including visits, spending, number of nights, and purpose of visit. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/traveltrends2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-16",
-    "title": "Deaths registered monthly in England and Wales: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-17",
     "title": "Xetra auction calibration — maintenance",
     "source": "Deutsche Börse",
@@ -494,19 +442,6 @@
     ]
   },
   {
-    "date": "2026-10-19",
-    "title": "Quarterly suicide death registrations in England: 2001 to 2025 registrations and Quarter 1 (Jan to Mar) to Quarter 2 (Apr to June) 2026 provisional data",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional rate and number of suicide deaths registered in England per quarter. Includes 2001 to 2025 registrations and provisional data for Quarter 1 (Jan to Mar)   to Quarter 2 (Apr to June) 2026. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/quarterlysuicidedeathregistrationsinengland2001to2025registrationsandquarter1jantomartoquarter2aprtojune2026provisionaldata",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-20",
     "title": "Labour market in the regions of the UK: October 2026",
     "source": "ONS UK Release Calendar",
@@ -520,12 +455,12 @@
     ]
   },
   {
-    "date": "2026-10-20",
-    "title": "UK Labour Market: October 2026",
+    "date": "2026-10-21",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 9 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "url": "https://www.ons.gov.uk/releases/uklabourmarketoctober2026",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending9october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -533,12 +468,12 @@
     ]
   },
   {
-    "date": "2026-10-20",
-    "title": "Labour market statistics time series: October 2026",
+    "date": "2026-10-21",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Large dataset which contains labour market statistics data time series.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesoctober2026",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityseptember2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -546,12 +481,12 @@
     ]
   },
   {
-    "date": "2026-10-20",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: October 2026",
+    "date": "2026-10-21",
+    "title": "Private rent and house prices, UK: October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
-    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukoctober2026",
+    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
+    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukoctober2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -559,12 +494,77 @@
     ]
   },
   {
-    "date": "2026-10-20",
-    "title": "Labour Force Survey quality update: October 2026",
+    "date": "2026-10-21",
+    "title": "Producer price inflation, UK: September 2026 including services, July to September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Assessment of Labour Force Survey data quality, including the impact of recent changes on the statistics, response levels and rates, and respondent characteristics.",
-    "url": "https://www.ons.gov.uk/releases/labourforcesurveyqualityupdateoctober2026",
+    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices). Also including quarterly estimates monitoring the changes in received prices for selected services provided by UK businesses.",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2026includingservicesjulytoseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Public sector finances, UK: September 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series datasets consistent with the Public sector finances, UK: September 2026 bulletin.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukseptember2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Consumer price inflation, UK: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Public sector finances, UK: September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Producer price inflation, UK: September 2026, including services, July to September 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series datasets connected to the Producer price inflation, UK: September 2026 including services, July to September 2026 bulletin.",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2026includingservicesjulytoseptember2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Consumer price inflation, UK: September 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026timeseries",
     "tags": [
       "ons uk release calendar",
       "economics",

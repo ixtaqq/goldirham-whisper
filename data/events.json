@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-09-21",
-    "title": "Market holiday — Respect for the Aged Day",
-    "source": "JPX / TSE",
-    "type": "exchange",
-    "description": "JPX / TSE closed for Respect for the Aged Day. Settlement and expiry cycles roll to the next session.",
-    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-    "tags": [
-      "jpx / tse",
-      "exchange",
-      "holiday"
-    ]
-  },
-  {
-    "date": "2026-09-21",
-    "title": "Foreign Currency Reserves 2026 – Market Notice 21 September 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "Not for distribution, directly or indirectly, in or into the United States, Canada, Australia, Japan or any other jurisdiction where it is unlawful to distribute this announcement",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-21-september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-22",
     "title": "Market holiday — Holiday",
     "source": "JPX / TSE",

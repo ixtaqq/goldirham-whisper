@@ -469,11 +469,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "The nature of violent crime appendix tables: year ending March 2026",
+    "title": "Offences involving the use of weapons data tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Data from the Crime Survey for England and Wales (CSEW) on violence with and without injury, and harassment, and police recorded crime on violence against the person and sexual offences.",
-    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeappendixtablesyearendingmarch2026",
+    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics.",
+    "url": "https://www.ons.gov.uk/releases/offencesinvolvingtheuseofweaponsdatatablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -482,11 +482,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Offences involving the use of weapons data tables: year ending March 2026",
+    "title": "The nature of violent crime appendix tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics.",
-    "url": "https://www.ons.gov.uk/releases/offencesinvolvingtheuseofweaponsdatatablesyearendingmarch2026",
+    "description": "Data from the Crime Survey for England and Wales (CSEW) on violence with and without injury, and harassment, and police recorded crime on violence against the person and sexual offences.",
+    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeappendixtablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",

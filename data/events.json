@@ -416,19 +416,6 @@
     ]
   },
   {
-    "date": "2026-10-20",
-    "title": "Labour market in the regions of the UK: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-21",
     "title": "Deaths registered weekly in England and Wales, provisional: week ending 9 October 2026",
     "source": "ONS UK Release Calendar",
@@ -442,12 +429,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: September 2026",
+    "date": "2026-10-22",
+    "title": "Fraud and computer misuse in England and Wales appendix tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityseptember2026",
+    "description": "Annual data from the Crime Survey for England and Wales (CSEW) including demographic and offence type breakdowns and time series data.",
+    "url": "https://www.ons.gov.uk/releases/fraudandcomputermisuseinenglandandwalesappendixtablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -455,12 +442,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Private rent and house prices, UK: October 2026",
+    "date": "2026-10-22",
+    "title": "Employee earnings in the UK: 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukoctober2026",
+    "description": "Measures of employee earnings, using data from the Annual Survey for Hours and Earnings (ASHE).\n\nThis release consists of 3 bulletins:\n\n####Employee earnings in the UK: 2026\n\nMeasures of employee earnings, using data from the Annual Survey for Hours and Earnings (ASHE).\n\n####Low and high pay in the UK: 2026\n\nThe distribution of hourly earnings of high-paid and low-paid jobs and jobs paid below the National Minimum Wage, using data from the Annual Survey for Hours and Earnings (ASHE).\n\n####Gender",
+    "url": "https://www.ons.gov.uk/releases/employeeearningsintheuk2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -468,12 +455,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Producer price inflation, UK: September 2026 including services, July to September 2026",
+    "date": "2026-10-22",
+    "title": "Crime in England and Wales: year ending June 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices). Also including quarterly estimates monitoring the changes in received prices for selected services provided by UK businesses.",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2026includingservicesjulytoseptember2026",
+    "description": "Crime against households and people aged 16 years and over, using data from police recorded crime and the Crime Survey for England and Wales (CSEW).",
+    "url": "https://www.ons.gov.uk/releases/crimeinenglandandwalesyearendingjune2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -481,12 +468,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Public sector finances, UK: September 2026 time series",
+    "date": "2026-10-22",
+    "title": "The nature of violent crime appendix tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The time series datasets consistent with the Public sector finances, UK: September 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukseptember2026timeseries",
+    "description": "Data from the Crime Survey for England and Wales (CSEW) on violence with and without injury, and harassment, and police recorded crime on violence against the person and sexual offences.",
+    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeappendixtablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -494,12 +481,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Consumer price inflation, UK: September 2026",
+    "date": "2026-10-22",
+    "title": "Offences involving the use of weapons data tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics.",
+    "url": "https://www.ons.gov.uk/releases/offencesinvolvingtheuseofweaponsdatatablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -507,12 +494,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Public sector finances, UK: September 2026",
+    "date": "2026-10-22",
+    "title": "Time use in the UK: 2025 and 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukseptember2026",
+    "description": "Average daily time spent by adults on activities including paid work, unpaid household work, unpaid care, travel and entertainment. These are official statistics in development. The release contains two datasets: Wave 9 (2025) and Wave 10 (2026).",
+    "url": "https://www.ons.gov.uk/releases/timeuseintheuk",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -520,12 +507,12 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Producer price inflation, UK: September 2026, including services, July to September 2026 time series",
+    "date": "2026-10-22",
+    "title": "Property crime tables, England and Wales: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The time series datasets connected to the Producer price inflation, UK: September 2026 including services, July to September 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2026includingservicesjulytoseptember2026timeseries",
+    "description": "Annual data from the Crime Survey for England and Wales (CSEW) and metal theft offences recorded by the police, including demographic and offence type breakdowns and time series data.",
+    "url": "https://www.ons.gov.uk/releases/propertycrimetablesenglandandwalesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -533,12 +520,25 @@
     ]
   },
   {
-    "date": "2026-10-21",
-    "title": "Consumer price inflation, UK: September 2026 time series",
+    "date": "2026-10-22",
+    "title": "Business insights and impact on the UK economy: 22 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026timeseries",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy22october2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Economic activity and social change in the UK, real-time indicators: 22 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators22october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

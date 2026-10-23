@@ -1,44 +1,5 @@
 [
   {
-    "date": "2026-09-22",
-    "title": "Market holiday — Holiday",
-    "source": "JPX / TSE",
-    "type": "exchange",
-    "description": "JPX / TSE closed for Holiday. Settlement and expiry cycles roll to the next session.",
-    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-    "tags": [
-      "jpx / tse",
-      "exchange",
-      "holiday"
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "title": "Foreign Currency Reserves 2026 – Market Notice 22 September 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "Not for distribution, directly or indirectly, in or into the United States, Canada, Australia, Japan or any other jurisdiction where it is unlawful to distribute this announcement",
-    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-22-september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission today censured New York-based broker dealer OTC Link LLC and ordered it to pay a $575,000 civil penalty for longstanding violations of Regulation Systems Compliance and Integrity (SCI).According to the SEC’s settled…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-09-23",
     "title": "Market holiday — Autumnal Equinox",
     "source": "JPX / TSE",
@@ -469,11 +430,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Offences involving the use of weapons data tables: year ending March 2026",
+    "title": "The nature of violent crime appendix tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics.",
-    "url": "https://www.ons.gov.uk/releases/offencesinvolvingtheuseofweaponsdatatablesyearendingmarch2026",
+    "description": "Data from the Crime Survey for England and Wales (CSEW) on violence with and without injury, and harassment, and police recorded crime on violence against the person and sexual offences.",
+    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeappendixtablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -482,11 +443,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "The nature of violent crime appendix tables: year ending March 2026",
+    "title": "Offences involving the use of weapons data tables: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Data from the Crime Survey for England and Wales (CSEW) on violence with and without injury, and harassment, and police recorded crime on violence against the person and sexual offences.",
-    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeappendixtablesyearendingmarch2026",
+    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics.",
+    "url": "https://www.ons.gov.uk/releases/offencesinvolvingtheuseofweaponsdatatablesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",

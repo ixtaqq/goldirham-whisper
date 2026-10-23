@@ -378,11 +378,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Time use in the UK: 2025 and 2026",
+    "title": "Property crime tables, England and Wales: year ending March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Average daily time spent by adults on activities including paid work, unpaid household work, unpaid care, travel and entertainment. These are official statistics in development. The release contains two datasets: Wave 9 (2025) and Wave 10 (2026).",
-    "url": "https://www.ons.gov.uk/releases/timeuseintheuk",
+    "description": "Annual data from the Crime Survey for England and Wales (CSEW) and metal theft offences recorded by the police, including demographic and offence type breakdowns and time series data.",
+    "url": "https://www.ons.gov.uk/releases/propertycrimetablesenglandandwalesyearendingmarch2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -391,11 +391,11 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Fraud and computer misuse in England and Wales appendix tables: year ending March 2026",
+    "title": "Business insights and impact on the UK economy: 22 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Annual data from the Crime Survey for England and Wales (CSEW) including demographic and offence type breakdowns and time series data.",
-    "url": "https://www.ons.gov.uk/releases/fraudandcomputermisuseinenglandandwalesappendixtablesyearendingmarch2026",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy22october2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -411,6 +411,19 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
     "tags": [
       "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+    "tags": [
+      "sec press releases",
       "economics",
       "economics"
     ]

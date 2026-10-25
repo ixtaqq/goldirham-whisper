@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-09-24",
-    "title": "Updated Q2 GDP — annual data revision",
-    "source": "BEA",
-    "type": "economics",
-    "description": "Annual vintage revision; component recasts quietly move trend-growth calls.",
-    "url": "https://www.bea.gov/data/gdp/gross-domestic-product",
-    "tags": [
-      "bea",
-      "economics",
-      "gdp"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-25",
     "title": "Minutes of the Market Participants Group meeting – 24 September 2026",
     "source": "Bank of England",

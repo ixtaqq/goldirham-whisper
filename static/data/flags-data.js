@@ -4,7 +4,6 @@ export const flagMap = {
   "Bank of Canada": "🇨🇦",
   "Bank of England": "🇬🇧",
   "Bank of Japan": "🇯🇵",
-  "CME Group": "🇺🇸",
   "Deutsche Börse": "🇩🇪",
   "ECB Press Releases": "🇪🇺",
   "Euronext": "🇪🇺",

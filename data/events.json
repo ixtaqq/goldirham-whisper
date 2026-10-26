@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "title": "Minutes of the Market Participants Group meeting – 24 September 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/september/market-participants-group-meeting-25-september-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "title": "Quarterly SOQ settlement — energy and metals",
-    "source": "CME Group",
-    "type": "exchange",
-    "description": "Final cash-settlement prints set the calendar-quarter benchmark for the complex.",
-    "url": "https://www.cmegroup.com/markets/energy.html",
-    "tags": [
-      "cme group",
-      "exchange",
-      "soq",
-      "settlement"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-26",
     "title": "Optiq migration — Borsa Italiana completes",
     "source": "Euronext",

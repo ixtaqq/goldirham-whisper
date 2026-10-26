@@ -362,6 +362,19 @@
   },
   {
     "date": "2026-10-23",
+    "title": "UK trade, quarterly goods and services: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Quarterly estimates of total trade, trade in goods, and trade in services by country.",
+    "url": "https://www.ons.gov.uk/releases/uktradequarterlygoodsandservicesapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-23",
     "title": "Construction statistics, Great Britain: 2025",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -380,19 +393,6 @@
     "type": "economics",
     "description": "These tables contain the number of online job adverts split by different geographies and occupation (SOC 2020).",
     "url": "https://www.ons.gov.uk/releases/labourdemandvolumesbystandardoccupationclassificationsoc2020ukjanuary2017toseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "UK trade, quarterly goods and services: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Quarterly estimates of total trade, trade in goods, and trade in services by country.",
-    "url": "https://www.ons.gov.uk/releases/uktradequarterlygoodsandservicesapriltojune2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -460,6 +460,19 @@
     "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026timeseries",
     "tags": [
       "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+    "tags": [
+      "ecb press releases",
       "economics",
       "economics"
     ]

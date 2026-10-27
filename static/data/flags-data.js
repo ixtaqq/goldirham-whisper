@@ -6,7 +6,6 @@ export const flagMap = {
   "Bank of Japan": "🇯🇵",
   "Deutsche Börse": "🇩🇪",
   "ECB Press Releases": "🇪🇺",
-  "Euronext": "🇪🇺",
   "JPX / TSE": "🇯🇵",
   "MSCI": "🇺🇸",
   "Nasdaq": "🇺🇸",

@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "title": "Optiq migration — Borsa Italiana completes",
-    "source": "Euronext",
-    "type": "exchange",
-    "description": "Last country lands on the unified Optiq core; watch for cross-venue latency blips at the open.",
-    "url": "https://www.euronext.com/en/about-us/business-model",
-    "tags": [
-      "euronext",
-      "exchange",
-      "migration",
-      "optiq"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-09-30",
     "title": "Financial Policy Committee Record – September 2026",
     "source": "Bank of England",

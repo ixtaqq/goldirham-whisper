@@ -294,32 +294,6 @@
     ]
   },
   {
-    "date": "2026-10-22",
-    "title": "Property crime tables, England and Wales: year ending March 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual data from the Crime Survey for England and Wales (CSEW) and metal theft offences recorded by the police, including demographic and offence type breakdowns and time series data.",
-    "url": "https://www.ons.gov.uk/releases/propertycrimetablesenglandandwalesyearendingmarch2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Business insights and impact on the UK economy: 22 October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy22october2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-23",
     "title": "ECB Consumer Expectations Survey results – September 2026",
     "source": "ECB Press Releases",
@@ -471,6 +445,32 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
     "tags": [
       "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 16 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending16october2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Greenhouse gas emissions, UK: provisional estimates, 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Measuring the contribution of the environment to the economy, the impact of economic activity on the environment, and society’s response to environmental issues.",
+    "url": "https://www.ons.gov.uk/releases/greenhousegasemissionsukprovisionalestimates2025",
+    "tags": [
+      "ons uk release calendar",
       "economics",
       "economics"
     ]

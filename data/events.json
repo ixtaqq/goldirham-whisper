@@ -132,19 +132,6 @@
     ]
   },
   {
-    "date": "2026-10-07",
-    "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-08",
     "title": "LULD threshold refresh — new Tier 2 bands",
     "source": "Nasdaq",
@@ -398,32 +385,6 @@
     ]
   },
   {
-    "date": "2026-10-23",
-    "title": "Retail sales, Great Britain: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Retail sales, Great Britain: September 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-26",
     "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
     "source": "ECB Press Releases",
@@ -469,6 +430,32 @@
     "type": "economics",
     "description": "Measuring the contribution of the environment to the economy, the impact of economic activity on the environment, and society’s response to environmental issues.",
     "url": "https://www.ons.gov.uk/releases/greenhousegasemissionsukprovisionalestimates2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Business demography, quarterly, UK: July to September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
+    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

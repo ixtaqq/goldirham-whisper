@@ -307,84 +307,6 @@
     ]
   },
   {
-    "date": "2026-10-23",
-    "title": "UK trade, quarterly goods and services: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Quarterly estimates of total trade, trade in goods, and trade in services by country.",
-    "url": "https://www.ons.gov.uk/releases/uktradequarterlygoodsandservicesapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Construction statistics, Great Britain: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Statistics on the construction industry, including value of output, new orders by sector, number of firms and total employment, insolvencies and construction Output Price Indices.",
-    "url": "https://www.ons.gov.uk/releases/constructionstatisticsgreatbritain2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Labour demand volumes by Standard Occupation Classification (SOC 2020), UK: January 2017 to September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "These tables contain the number of online job adverts split by different geographies and occupation (SOC 2020).",
-    "url": "https://www.ons.gov.uk/releases/labourdemandvolumesbystandardoccupationclassificationsoc2020ukjanuary2017toseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Estimates of the very old, including centenarians, UK: 2002 to 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual mid-year population estimates of people aged 90 years and over by sex and single year of age to 105 years and over, and comparisons between UK countries.",
-    "url": "https://www.ons.gov.uk/releases/estimatesoftheveryoldincludingcentenariansuk2002to2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Indicators of house building, UK: permanent dwellings started and completed by country: Q2 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Starts and completions of new build dwellings in the UK, on a quarterly and annual basis, time series data.",
-    "url": "https://www.ons.gov.uk/releases/indicatorsofhousebuildingukpermanentdwellingsstartedandcompletedbycountryq22026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "title": "UK trade in services by partner country: April to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Trade in services data, including a breakdown of exports and imports by country and geographical region, EU and non-EU. Official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/uktradeinservicesbypartnercountryapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-26",
     "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
     "source": "ECB Press Releases",
@@ -406,32 +328,6 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
     "tags": [
       "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-28",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 16 October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending16october2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-28",
-    "title": "Greenhouse gas emissions, UK: provisional estimates, 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Measuring the contribution of the environment to the economy, the impact of economic activity on the environment, and society’s response to environmental issues.",
-    "url": "https://www.ons.gov.uk/releases/greenhousegasemissionsukprovisionalestimates2025",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -476,12 +372,25 @@
     ]
   },
   {
-    "date": "2026-10-29",
-    "title": "Business demography, quarterly, UK: July to September 2026",
+    "date": "2026-10-30",
+    "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Input-output supply and use tables – summary tables: 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
-    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
+    "description": "Estimates of industry inputs and outputs, product supply and demand, and gross value added (GVA) for the UK. Supply and use tables for 1997 to 2024.",
+    "url": "https://www.ons.gov.uk/releases/inputoutputsupplyandusetablessummarytables2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -489,12 +398,116 @@
     ]
   },
   {
-    "date": "2026-10-29",
-    "title": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
+    "date": "2026-10-30",
+    "title": "Quarterly neonatal deaths in England and Wales, provisional: January 2019 to March 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
+    "description": "Quarterly neonatal deaths and mortality rates by gestational age, age of mother, ethnicity, and area deprivation, for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/quarterlyneonataldeathsinenglandandwalesprovisionaljanuary2019tomarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Supply and Use of products and industry GVA, UK: 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "UK economic timeseries data of important components of supply and use by product or by industry, including output, consumption, gross value added (GVA), imports and exports. This dataset is now classed as Official Statistics in Development.",
+    "url": "https://www.ons.gov.uk/releases/supplyanduseofproductsandindustrygvaukexperimental2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Quarterly births in England and Wales, provisional: January to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Quarterly live births, stillbirths, maternities and stillbirth rates by gestational age, age of mother, ethnicity, and area deprivation, for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/quarterlybirthsinenglandandwalesprovisional",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Supply and use tables data sources catalogue: 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A list of the data sources used to compile the supply and use tables. This also includes how this data is sourced, the area of National Accounts that use it and the transaction it feeds into.",
+    "url": "https://www.ons.gov.uk/releases/supplyandusetablesdatasourcescatalogue2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "UK Balance of Payments, The Pink Book: 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "An annual review of cross-border transactions on the UK’s balance of payments, including the current account, financial account, and the international investment stock position.",
+    "url": "https://www.ons.gov.uk/releases/ukbalanceofpaymentsthepinkbook2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Gross fixed capital formation deflator catalogue",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "This catalogue provides an overview of the deflators used within Gross Fixed Capital Formation (GFCF).",
+    "url": "https://www.ons.gov.uk/releases/grossfixedcapitalformationdeflatorcatalogue",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "UK National Accounts, The Blue Book: 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "National accounts statistics including national and sector accounts, industrial analyses and environmental accounts.",
+    "url": "https://www.ons.gov.uk/releases/uknationalaccountsthebluebook2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Annual gross fixed capital formation by industry and asset: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Annual estimates of gross fixed capital formation (investment) by industry and asset, in current prices and chained volume measures, consistent with the UK National Accounts.",
+    "url": "https://www.ons.gov.uk/releases/annualgrossfixedcapitalformationbyindustryandassetoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Classification of Products by Activity 2008 (CPA) to Classification of Individual Consumption according to Purpose 1999 (COICOP) converter for household final consumption expenditure: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The CPA to COCIOP converter is designed to enable users to shift between domestic household consumption data classified on a Classification of Products by Activity 2008 (CPA) to a Classification of Individual Consumption according to Purpose 1999 (COICOP) and vice versa.",
+    "url": "https://www.ons.gov.uk/releases/cpatocoicopconverterforhouseholdfinalconsumptionexpenditure",
     "tags": [
       "ons uk release calendar",
       "economics",

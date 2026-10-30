@@ -477,11 +477,11 @@
   },
   {
     "date": "2026-10-29",
-    "title": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
+    "title": "Business demography, quarterly, UK: July to September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
+    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
+    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -490,11 +490,11 @@
   },
   {
     "date": "2026-10-29",
-    "title": "Business demography, quarterly, UK: July to September 2026",
+    "title": "Economic activity and social change in the UK, real-time indicators: 29 October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Official statistics in development on business births and deaths from the Inter-Departmental Business Register with high-level breakdowns by industry and region.",
-    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2026",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators29october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

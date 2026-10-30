@@ -373,6 +373,19 @@
   },
   {
     "date": "2026-10-30",
+    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
     "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
     "source": "ECB Press Releases",
     "type": "economics",
@@ -380,6 +393,19 @@
     "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
     "tags": [
       "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+    "tags": [
+      "sec press releases",
       "economics",
       "economics"
     ]

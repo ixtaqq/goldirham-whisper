@@ -1,46 +1,5 @@
 [
   {
-    "date": "2026-10-01",
-    "title": "Minutes of the Meeting of the Court of Directors held on 16 July 2026",
-    "source": "Bank of England",
-    "type": "economics",
-    "description": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-    "url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-16-july-2026",
-    "tags": [
-      "bank of england",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "title": "Tankan — Q3 survey",
-    "source": "Bank of Japan",
-    "type": "economics",
-    "description": "Large-manufacturer diffusion index; the quietest tier-1 sentiment print of the year.",
-    "url": "https://www.boj.or.jp/en/statistics/outline/exp/tk/index.htm",
-    "tags": [
-      "bank of japan",
-      "economics",
-      "tankan",
-      "sentiment"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-10-02",
     "title": "Appointment of members of the Enforcement Decision Making Committee (EDMC)",
     "source": "Bank of England",

@@ -448,19 +448,6 @@
     ]
   },
   {
-    "date": "2026-10-30",
-    "title": "Classification of Products by Activity 2008 (CPA) to Classification of Individual Consumption according to Purpose 1999 (COICOP) converter for household final consumption expenditure: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The CPA to COCIOP converter is designed to enable users to shift between domestic household consumption data classified on a Classification of Products by Activity 2008 (CPA) to a Classification of Individual Consumption according to Purpose 1999 (COICOP) and vice versa.",
-    "url": "https://www.ons.gov.uk/releases/cpatocoicopconverterforhouseholdfinalconsumptionexpenditure",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-31",
     "title": "November index review — advance announcement",
     "source": "MSCI",
@@ -474,6 +461,32 @@
       "rebalance"
     ],
     "status": "approved"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Avoidable mortality in England and Wales: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Deaths from causes considered treatable or preventable given timely and effective healthcare or public health interventions, in those aged under 75 years.",
+    "url": "https://www.ons.gov.uk/releases/avoidablemortalityinenglandandwales2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
   },
   {
     "date": "2026-11-03",

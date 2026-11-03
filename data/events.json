@@ -799,5 +799,18 @@
       "exchange",
       "holiday"
     ]
+  },
+  {
+    "date": "2027-11-03",
+    "title": "Market holiday — Culture Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Culture Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
+    ]
   }
 ]

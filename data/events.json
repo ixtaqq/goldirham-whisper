@@ -409,45 +409,6 @@
     ]
   },
   {
-    "date": "2026-10-30",
-    "title": "Gross fixed capital formation deflator catalogue",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "This catalogue provides an overview of the deflators used within Gross Fixed Capital Formation (GFCF).",
-    "url": "https://www.ons.gov.uk/releases/grossfixedcapitalformationdeflatorcatalogue",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-30",
-    "title": "UK National Accounts, The Blue Book: 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "National accounts statistics including national and sector accounts, industrial analyses and environmental accounts.",
-    "url": "https://www.ons.gov.uk/releases/uknationalaccountsthebluebook2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-30",
-    "title": "Annual gross fixed capital formation by industry and asset: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Annual estimates of gross fixed capital formation (investment) by industry and asset, in current prices and chained volume measures, consistent with the UK National Accounts.",
-    "url": "https://www.ons.gov.uk/releases/annualgrossfixedcapitalformationbyindustryandassetoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-31",
     "title": "November index review — advance announcement",
     "source": "MSCI",
@@ -499,6 +460,45 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 23 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending23october2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Deaths related to drug poisoning in England and Wales: 2025 registrations",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Deaths related to drug poisoning in England and Wales from 1993 to 2025, by cause of death, sex, age and substances involved in the death.",
+    "url": "https://www.ons.gov.uk/releases/deathsrelatedtodrugpoisoninginenglandandwales2025registrations",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Update on Transformation of Research and Development Statistics",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Final update on the transformation of research and development statistics.",
+    "url": "https://www.ons.gov.uk/releases/updateontransformationofresearchanddevelopmentstatisitcs",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
     ]
   },
   {

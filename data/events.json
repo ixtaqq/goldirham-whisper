@@ -464,19 +464,6 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
-    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-05",
     "title": "Experiences of NHS healthcare services in England: 5 November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -503,11 +490,11 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Business insights and impact on the UK economy: 5 November 2026",
+    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
+    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
+    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -515,14 +502,14 @@
     ]
   },
   {
-    "date": "2026-11-10",
-    "title": "Publication: Summary of Deliberations",
-    "source": "Bank of Canada",
+    "date": "2026-11-05",
+    "title": "Business insights and impact on the UK economy: 5 November 2026",
+    "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
-    "url": "https://www.bankofcanada.ca/2026/11/publication-summary-of-deliberations-november-10-2026/",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
     "tags": [
-      "bank of canada",
+      "ons uk release calendar",
       "economics",
       "economics"
     ]

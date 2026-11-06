@@ -305,32 +305,6 @@
     ]
   },
   {
-    "date": "2026-10-30",
-    "title": "Input-output supply and use tables – summary tables: 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of industry inputs and outputs, product supply and demand, and gross value added (GVA) for the UK. Supply and use tables for 1997 to 2024.",
-    "url": "https://www.ons.gov.uk/releases/inputoutputsupplyandusetablessummarytables2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-30",
-    "title": "Quarterly neonatal deaths in England and Wales, provisional: January 2019 to March 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Quarterly neonatal deaths and mortality rates by gestational age, age of mother, ethnicity, and area deprivation, for England and Wales.",
-    "url": "https://www.ons.gov.uk/releases/quarterlyneonataldeathsinenglandandwalesprovisionaljanuary2019tomarch2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-31",
     "title": "November index review — advance announcement",
     "source": "MSCI",
@@ -495,6 +469,45 @@
     "type": "economics",
     "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
     "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "title": "ECB publishes consolidated banking data for end-June 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Public service productivity, quarterly, UK: April to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "UK total public service productivity, inputs, and output, to provide a short-term, timely indicator of annual productivity estimates. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/publicserviceproductivityquarterlyukapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Developing  population estimates by ethnicity for England and Wales",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Research into methods for producing annual population estimates by ethnic group and results from testing against Census 2021. This is a research publication and does not present official statistics.",
+    "url": "https://www.ons.gov.uk/releases/developingadminbasedethnicitystatisticsforenglandandwales",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-10-08",
-    "title": "LULD threshold refresh — new Tier 2 bands",
-    "source": "Nasdaq",
-    "type": "exchange",
-    "description": "Revised halt-circuity bands live; expect more lock/limit states in the volatile names.",
-    "url": "https://www.nasdaq.com/market-regulation",
-    "tags": [
-      "nasdaq",
-      "exchange",
-      "luld"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-10-09",
     "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
     "source": "SEC Press Releases",
@@ -386,19 +372,6 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
-    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-05",
     "title": "Experiences of NHS healthcare services in England: 5 November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -417,6 +390,19 @@
     "type": "economics",
     "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
     "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators5november2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
+    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
     "tags": [
       "ons uk release calendar",
       "economics",

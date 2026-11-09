@@ -359,11 +359,11 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
+    "title": "Experiences of NHS healthcare services in England: 5 November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
-    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
+    "description": "Patient experiences of accessing healthcare from the ONS Health Insight Survey, funded by NHS England. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland5november2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -372,11 +372,11 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Experiences of NHS healthcare services in England: 5 November 2026",
+    "title": "Business insights and impact on the UK economy: 5 November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Patient experiences of accessing healthcare from the ONS Health Insight Survey, funded by NHS England. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/experiencesofnhshealthcareservicesinengland5november2026",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -398,11 +398,11 @@
   },
   {
     "date": "2026-11-05",
-    "title": "Business insights and impact on the UK economy: 5 November 2026",
+    "title": "Local sites and numbers of employees linked to companies involved in international trade in services by subnational areas of the UK: 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy5november2026",
+    "description": "Estimates of the count of local units and employees linked to businesses involved in exporting and importing services for International Territorial Level (ITL) 1 and ITL3, including non-EU and EU split.",
+    "url": "https://www.ons.gov.uk/releases/localsitesandnumbersofemployeeslinkedtocompaniesinvolvedininternationaltradeinservicesbysubnationalareasoftheuk2024",
     "tags": [
       "ons uk release calendar",
       "economics",

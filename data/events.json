@@ -135,19 +135,6 @@
     ]
   },
   {
-    "date": "2026-10-26",
-    "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-27",
     "title": "October 2026 euro area bank lending survey",
     "source": "ECB Press Releases",
@@ -267,19 +254,6 @@
     ]
   },
   {
-    "date": "2026-11-02",
-    "title": "Avoidable mortality in England and Wales: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Deaths from causes considered treatable or preventable given timely and effective healthcare or public health interventions, in those aged under 75 years.",
-    "url": "https://www.ons.gov.uk/releases/avoidablemortalityinenglandandwales2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-03",
     "title": "Market holiday — Culture Day",
     "source": "JPX / TSE",
@@ -312,32 +286,6 @@
     "type": "economics",
     "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
     "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending23october2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-04",
-    "title": "Deaths related to drug poisoning in England and Wales: 2025 registrations",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Deaths related to drug poisoning in England and Wales from 1993 to 2025, by cause of death, sex, age and substances involved in the death.",
-    "url": "https://www.ons.gov.uk/releases/deathsrelatedtodrugpoisoninginenglandandwales2025registrations",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-04",
-    "title": "Update on Transformation of Research and Development Statistics",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Final update on the transformation of research and development statistics.",
-    "url": "https://www.ons.gov.uk/releases/updateontransformationofresearchanddevelopmentstatisitcs",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -442,6 +390,45 @@
     "type": "economics",
     "description": "Research into methods for producing annual population estimates by ethnic group and results from testing against Census 2021. This is a research publication and does not present official statistics.",
     "url": "https://www.ons.gov.uk/releases/developingadminbasedethnicitystatisticsforenglandandwales",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Research update on population estimates by country of birth for England and Wales",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Development and quality assurance of an admin-based country of birth dataset for 2021, using Driver and Vehicle Licensing Agency (DVLA) and NHS data. These are not official statistics.",
+    "url": "https://www.ons.gov.uk/releases/researchupdateonpopulationestimatesbycountryofbirthforenglandandwales2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Sociodemographic inequalities in premature mortality, England and Wales: March 2021 to December 2023",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "All cause premature mortality rates for adults aged 18 to 74 years by ethnic group, highest qualification, National Statistics Socioeconomic Classification, and deprivation quintile, for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/sociodemographicinequalitiesinprematuremortalityenglandandwalesmarch2021todecember2023",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Admin-based household estimates by size for local authorities in England and Wales: 2021",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Household estimates by size based on administrative data sources for 2021.",
+    "url": "https://www.ons.gov.uk/releases/adminbasedhouseholdestimatesbysizeforlocalauthoritiesinenglandandwales2021",
     "tags": [
       "ons uk release calendar",
       "economics",

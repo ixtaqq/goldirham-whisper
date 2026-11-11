@@ -385,11 +385,11 @@
   },
   {
     "date": "2026-11-10",
-    "title": "Sociodemographic inequalities in premature mortality, England and Wales: March 2021 to December 2023",
+    "title": "Research update on population estimates by country of birth for England and Wales",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "All cause premature mortality rates for adults aged 18 to 74 years by ethnic group, highest qualification, National Statistics Socioeconomic Classification, and deprivation quintile, for England and Wales.",
-    "url": "https://www.ons.gov.uk/releases/sociodemographicinequalitiesinprematuremortalityenglandandwalesmarch2021todecember2023",
+    "description": "Development and quality assurance of an admin-based country of birth dataset for 2021, using Driver and Vehicle Licensing Agency (DVLA) and NHS data. These are not official statistics.",
+    "url": "https://www.ons.gov.uk/releases/researchupdateonpopulationestimatesbycountryofbirthforenglandandwales2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -398,11 +398,11 @@
   },
   {
     "date": "2026-11-10",
-    "title": "Research update on population estimates by country of birth for England and Wales",
+    "title": "Sociodemographic inequalities in premature mortality, England and Wales: March 2021 to December 2023",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Development and quality assurance of an admin-based country of birth dataset for 2021, using Driver and Vehicle Licensing Agency (DVLA) and NHS data. These are not official statistics.",
-    "url": "https://www.ons.gov.uk/releases/researchupdateonpopulationestimatesbycountryofbirthforenglandandwales2026",
+    "description": "All cause premature mortality rates for adults aged 18 to 74 years by ethnic group, highest qualification, National Statistics Socioeconomic Classification, and deprivation quintile, for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/sociodemographicinequalitiesinprematuremortalityenglandandwalesmarch2021todecember2023",
     "tags": [
       "ons uk release calendar",
       "economics",

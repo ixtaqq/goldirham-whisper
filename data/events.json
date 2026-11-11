@@ -267,19 +267,6 @@
     ]
   },
   {
-    "date": "2026-11-04",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 23 October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending23october2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-05",
     "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
     "source": "Bank of England",
@@ -416,6 +403,19 @@
     "type": "economics",
     "description": "Household estimates by size based on administrative data sources for 2021.",
     "url": "https://www.ons.gov.uk/releases/adminbasedhouseholdestimatesbysizeforlocalauthoritiesinenglandandwales2021",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 30 October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending30october2026",
     "tags": [
       "ons uk release calendar",
       "economics",

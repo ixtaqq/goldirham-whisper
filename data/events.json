@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-10-12",
-    "title": "Market holiday — Sports Day",
-    "source": "JPX / TSE",
-    "type": "exchange",
-    "description": "JPX / TSE closed for Sports Day. Settlement and expiry cycles roll to the next session.",
-    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-    "tags": [
-      "jpx / tse",
-      "exchange",
-      "holiday"
-    ]
-  },
-  {
-    "date": "2026-10-12",
-    "title": "Columbus Day — NYSE open, US bond market closed",
-    "source": "New York Stock Exchange",
-    "type": "exchange",
-    "description": "Columbus Day is not an NYSE holiday, so US equities trade a normal session. SIFMA recommends a full close for US dollar fixed-income trading, and Federal Reserve banks are closed for the federal holiday.",
-    "url": "https://www.nyse.com/markets/hours-calendars",
-    "tags": [
-      "new york stock exchange",
-      "exchange",
-      "holiday",
-      "bond market"
-    ],
-    "status": "approved"
-  },
-  {
     "date": "2026-10-13",
     "title": "Minutes of the Money Market Committee meeting – September 2026",
     "source": "Bank of England",

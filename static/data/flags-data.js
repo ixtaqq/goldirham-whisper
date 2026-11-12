@@ -7,7 +7,6 @@ export const flagMap = {
   "ECB Press Releases": "🇪🇺",
   "JPX / TSE": "🇯🇵",
   "MSCI": "🇺🇸",
-  "New York Stock Exchange": "🇺🇸",
   "ONS UK Release Calendar": "🇬🇧",
   "SEC Press Releases": "🇺🇸"
 };

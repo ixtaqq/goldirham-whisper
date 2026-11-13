@@ -344,19 +344,6 @@
   },
   {
     "date": "2026-11-12",
-    "title": "GDP first quarterly estimate, UK: July to September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "First quarterly estimate of gross domestic product (GDP). Contains current and constant price data on the value of goods and services to indicate the economic performance of the UK.",
-    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
     "title": "GDP monthly estimate, UK: September 2026 time series",
     "source": "ONS UK Release Calendar",
     "type": "economics",
@@ -369,12 +356,38 @@
     ]
   },
   {
-    "date": "2026-11-12",
-    "title": "Index of Production, UK: September 2026 time series",
+    "date": "2026-11-13",
+    "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Joint media release",
+    "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Imports and exports of services by country, by modes of supply, UK: 2024",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Movements in the volume of production for the UK production industries: manufacturing, mining and quarrying, energy supply, and water and waste management. Figures are seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/indexofproductionukseptember2026timeseries",
+    "description": "Country breakdown of trade in services values by mode of supply (imports and exports). Countries include only total services data, while regions include top-level Extended Balance of Payments Services (EBOPS) breakdown.",
+    "url": "https://www.ons.gov.uk/releases/importsandexportsofservicesbycountrybymodesofsupplyuk2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Short-term lets through online collaborative economy platforms, UK: July 2023 to June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Number of guest nights, nights, and stays for short-term lets offered via online collaborative economy platforms from July 2023 to June 2026.",
+    "url": "https://www.ons.gov.uk/releases/shorttermletsthroughonlinecollaborativeeconomyplatformsukjuly2023tojune2026",
     "tags": [
       "ons uk release calendar",
       "economics",

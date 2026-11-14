@@ -344,11 +344,11 @@
   },
   {
     "date": "2026-11-12",
-    "title": "GDP monthly estimate, UK: September 2026 time series",
+    "title": "GDP first quarterly estimate, UK: July to September 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Time series data as part of the monthly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2026timeseries",
+    "description": "First quarterly estimate of gross domestic product (GDP). Contains current and constant price data on the value of goods and services to indicate the economic performance of the UK.",
+    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026",
     "tags": [
       "ons uk release calendar",
       "economics",

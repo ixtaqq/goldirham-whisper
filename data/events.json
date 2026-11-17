@@ -197,97 +197,6 @@
     ]
   },
   {
-    "date": "2026-11-12",
-    "title": "Economic activity and social change in the UK, real-time indicators: 12 November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators12november2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "Business Investment in the UK: July to September 2026 provisional results",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates of short-term indicators of investment in non-financial assets; business investment, and asset and sector breakdowns of total gross fixed capital formation",
-    "url": "https://www.ons.gov.uk/releases/businessinvestmentintheukjulytoseptember2026provisionalresults",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "GDP first quarterly estimate, UK: July to September 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the quarterly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "Index of Services, UK: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Monthly movements in  gross value added for the service industries which overall account for around 79% of UK Gross Domestic Product (GDP).",
-    "url": "https://www.ons.gov.uk/releases/indexofservicesukseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "GDP monthly estimate, UK: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Gross domestic product (GDP) measures the value of goods and services produced in the UK. It estimates the size of and growth in the economy.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "UK Trade: September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Total value of UK exports and imports of goods and services in current prices, chained volume measures and implied deflators.",
-    "url": "https://www.ons.gov.uk/releases/uktradeseptember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-12",
-    "title": "GDP monthly estimate, UK: September 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Time series data as part of the monthly GDP publication.",
-    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-13",
     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
     "source": "Bank of England",
@@ -333,6 +242,97 @@
     "type": "economics",
     "description": "Number of guest nights, nights, and stays for short-term lets offered via online collaborative economy platforms from July 2023 to June 2026.",
     "url": "https://www.ons.gov.uk/releases/shorttermletsthroughonlinecollaborativeeconomyplatformsukjuly2023tojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Labour productivity, UK: July to September 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Labour productivity estimates for Quarter 3 (July to Sept) 2026, based on the GDP first quarterly estimate and labour market statistics.",
+    "url": "https://www.ons.gov.uk/releases/productivityflashestimateandoverviewukjulytoseptember2026andapriltojune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Deaths registered monthly in England and Wales: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Quarterly personal well-being statistics: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Non-seasonally adjusted and seasonally adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK.",
+    "url": "https://www.ons.gov.uk/releases/quarterlypersonalwellbeingstatisticsq22026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Labour market in the regions of the UK: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheuknovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "UK Labour Market: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketnovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Labour market statistics time series: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Large dataset which contains labour market statistics data time series.",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesnovember2026",
     "tags": [
       "ons uk release calendar",
       "economics",

@@ -66,32 +66,6 @@
   },
   {
     "date": "2026-10-30",
-    "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-30",
-    "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-10-30",
     "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
     "source": "SEC Press Releases",
     "type": "economics",
@@ -184,19 +158,6 @@
     ]
   },
   {
-    "date": "2026-11-12",
-    "title": "Business insights and impact on the UK subnational single-site economy: November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Estimates from the voluntary fortnightly business survey (BICS) on financial performance, prices and workforce. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheuksubnationalsinglesiteeconomynovember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-13",
     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
     "source": "Bank of England",
@@ -218,32 +179,6 @@
     "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
     "tags": [
       "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-13",
-    "title": "Imports and exports of services by country, by modes of supply, UK: 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Country breakdown of trade in services values by mode of supply (imports and exports). Countries include only total services data, while regions include top-level Extended Balance of Payments Services (EBOPS) breakdown.",
-    "url": "https://www.ons.gov.uk/releases/importsandexportsofservicesbycountrybymodesofsupplyuk2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-13",
-    "title": "Short-term lets through online collaborative economy platforms, UK: July 2023 to June 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of guest nights, nights, and stays for short-term lets offered via online collaborative economy platforms from July 2023 to June 2026.",
-    "url": "https://www.ons.gov.uk/releases/shorttermletsthroughonlinecollaborativeeconomyplatformsukjuly2023tojune2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -288,12 +223,25 @@
     ]
   },
   {
-    "date": "2026-11-17",
-    "title": "Labour market in the regions of the UK: November 2026",
+    "date": "2026-11-18",
+    "title": "Boris Vujčić: Financial Stability Review - November 2026",
+    "source": "ECB Press Releases",
+    "type": "economics",
+    "description": "",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+    "tags": [
+      "ecb press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheuknovember2026",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityoctober2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -301,12 +249,12 @@
     ]
   },
   {
-    "date": "2026-11-17",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2026",
+    "date": "2026-11-18",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 6 November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS).",
-    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2026",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending6november2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -314,12 +262,12 @@
     ]
   },
   {
-    "date": "2026-11-17",
-    "title": "UK Labour Market: November 2026",
+    "date": "2026-11-18",
+    "title": "Private rent and house prices, UK: November 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "url": "https://www.ons.gov.uk/releases/uklabourmarketnovember2026",
+    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
+    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesuknovember2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -327,12 +275,51 @@
     ]
   },
   {
-    "date": "2026-11-17",
-    "title": "Labour market statistics time series: November 2026",
+    "date": "2026-11-18",
+    "title": "Producer price inflation, UK: October 2026",
     "source": "ONS UK Release Calendar",
     "type": "economics",
-    "description": "Large dataset which contains labour market statistics data time series.",
-    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesnovember2026",
+    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Consumer price inflation, UK: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "<p>Price indices percentage changes and weights for the different measures of consumer price inflation.</p>\n<p><a href=\"https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindicescpiandretailpricesindexrpiitemindicesandpricequotes\">Consumer prices consumption segment indices and price quotes dataset</a></p>\n<p>Detailed lower level indices, price quote data, and further microdata outputs supporting CPI, CPIH and RPI statistics. These supporting data are not accredited of",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Consumer price inflation, UK: October 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Producer price inflation, UK: October 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series dataset connected to the Producer price inflation, UK: October 2026 bulletin.",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2026timeseries",
     "tags": [
       "ons uk release calendar",
       "economics",

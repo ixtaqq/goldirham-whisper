@@ -171,58 +171,6 @@
     ]
   },
   {
-    "date": "2026-11-17",
-    "title": "Labour productivity, UK: July to September 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Labour productivity estimates for Quarter 3 (July to Sept) 2026, based on the GDP first quarterly estimate and labour market statistics.",
-    "url": "https://www.ons.gov.uk/releases/productivityflashestimateandoverviewukjulytoseptember2026andapriltojune2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-17",
-    "title": "Deaths registered monthly in England and Wales: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Number of deaths registered each month by area of usual residence for England and Wales, by region, county, health authorities, local and unitary authority, and London borough.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-17",
-    "title": "Quarterly personal well-being statistics: November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Non-seasonally adjusted and seasonally adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK.",
-    "url": "https://www.ons.gov.uk/releases/quarterlypersonalwellbeingstatisticsq22026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Setting the scenario: Monetary policy communications in uncertain times",
-    "source": "Bank of Canada",
-    "type": "economics",
-    "description": "Deputy Governor Toni Gravelle talks about the importance of central bank communications in uncertain times and how scenarios help the Bank consider different paths for the economy and inflation.",
-    "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/",
-    "tags": [
-      "bank of canada",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-18",
     "title": "Boris Vujčić: Financial Stability Review - November 2026",
     "source": "ECB Press Releases",
@@ -320,6 +268,71 @@
     "type": "economics",
     "description": "The time series dataset connected to the Producer price inflation, UK: October 2026 bulletin.",
     "url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
+    "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Quarterly Financial Report - Third Quarter 2026",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "Quarterly Financial Report - Third Quarter 2026 - For the period ended September 30, 2026",
+    "url": "https://www.bankofcanada.ca/2026/11/quarterly-financial-report-third-quarter-2026/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Economic activity and social change in the UK, real-time indicators: 19 November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators19november2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Business demography, UK: 2025",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "This statistical bulletin contains headline figures and commentary from the Business Demography 2025 publication. This product includes births, deaths and survivals of UK enterprises. The active stock of businesses is also shown, so that birth and death rates can be calculated.",
+    "url": "https://www.ons.gov.uk/releases/businessdemography2025",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Business insights and impact on the UK economy: 19 November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy19november2026",
     "tags": [
       "ons uk release calendar",
       "economics",

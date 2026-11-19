@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-19",
-    "title": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission announced today that it will host a roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence (SI) and related risks and costs.“In the age of SI, high-quality…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-22",
     "title": "Minutes of the Securities Lending Committee meeting – September 2026",
     "source": "Bank of England",
@@ -218,6 +205,19 @@
     "url": "https://www.ons.gov.uk/releases/quarterlypersonalwellbeingstatisticsq22026",
     "tags": [
       "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Setting the scenario: Monetary policy communications in uncertain times",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "Deputy Governor Toni Gravelle talks about the importance of central bank communications in uncertain times and how scenarios help the Bank consider different paths for the economy and inflation.",
+    "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/",
+    "tags": [
+      "bank of canada",
       "economics",
       "economics"
     ]

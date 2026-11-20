@@ -210,71 +210,6 @@
     ]
   },
   {
-    "date": "2026-11-18",
-    "title": "Private rent and house prices, UK: November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesuknovember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Producer price inflation, UK: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Consumer price inflation, UK: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "<p>Price indices percentage changes and weights for the different measures of consumer price inflation.</p>\n<p><a href=\"https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindicescpiandretailpricesindexrpiitemindicesandpricequotes\">Consumer prices consumption segment indices and price quotes dataset</a></p>\n<p>Detailed lower level indices, price quote data, and further microdata outputs supporting CPI, CPIH and RPI statistics. These supporting data are not accredited of",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Consumer price inflation, UK: October 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Producer price inflation, UK: October 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series dataset connected to the Producer price inflation, UK: October 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-19",
     "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
     "source": "Bank of England",
@@ -335,6 +270,71 @@
     "url": "https://www.bankofcanada.ca/2026/11/release-senior-loan-officer-survey-november-20-2026/",
     "tags": [
       "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Public opinions and social trends, Great Britain: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Social insights on daily life and events, including important issues facing the UK, from the Opinions and Lifestyle Survey (OPN).",
+    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Retail sales, Great Britain: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Retail sales, Great Britain: October 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026timeseries",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Public sector finances, UK: October 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Public sector finances, UK: October 2026 time series",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "The time series datasets consistent with the Public sector finances, UK: October 2026 bulletin.",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2026timeseries",
+    "tags": [
+      "ons uk release calendar",
       "economics",
       "economics"
     ]

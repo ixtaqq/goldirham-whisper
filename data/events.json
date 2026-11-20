@@ -263,13 +263,26 @@
   },
   {
     "date": "2026-11-20",
-    "title": "Release: Senior Loan Officer Survey",
-    "source": "Bank of Canada",
+    "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+    "source": "SEC Press Releases",
     "type": "economics",
-    "description": "10:30 (ET)\nThe Senior Loan Officer Survey collects information on the business-lending practices of Canadian financial institutions.",
-    "url": "https://www.bankofcanada.ca/2026/11/release-senior-loan-officer-survey-november-20-2026/",
+    "description": "The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
     "tags": [
-      "bank of canada",
+      "sec press releases",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+    "source": "SEC Press Releases",
+    "type": "economics",
+    "description": "The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+    "tags": [
+      "sec press releases",
       "economics",
       "economics"
     ]
@@ -350,32 +363,6 @@
       "jpx / tse",
       "exchange",
       "holiday"
-    ]
-  },
-  {
-    "date": "2026-12-09",
-    "title": "Interest Rate Announcement",
-    "source": "Bank of Canada",
-    "type": "economics",
-    "description": "09:45 (ET)\nOn eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision.",
-    "url": "https://www.bankofcanada.ca/2026/12/interest-rate-announcement-december-9-2026/",
-    "tags": [
-      "bank of canada",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-12-23",
-    "title": "Publication: Summary of Deliberations",
-    "source": "Bank of Canada",
-    "type": "economics",
-    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
-    "url": "https://www.bankofcanada.ca/2026/12/publication-summary-of-deliberations-december-23-2026/",
-    "tags": [
-      "bank of canada",
-      "economics",
-      "economics"
     ]
   },
   {
@@ -574,6 +561,19 @@
     ]
   },
   {
+    "date": "2027-09-08",
+    "title": "Interest Rate Announcement",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "09:45 (ET)\nOn eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision.",
+    "url": "https://www.bankofcanada.ca/2027/09/interest-rate-announcement-september-8-2027/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
     "date": "2027-09-20",
     "title": "Market holiday — Respect for the Aged Day",
     "source": "JPX / TSE",
@@ -584,6 +584,19 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2027-09-22",
+    "title": "Publication: Summary of Deliberations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
+    "url": "https://www.bankofcanada.ca/2027/09/publication-summary-of-deliberations-september-22-2027/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
     ]
   },
   {
@@ -613,6 +626,32 @@
     ]
   },
   {
+    "date": "2027-10-18",
+    "title": "Release: Business Outlook Survey and Canadian Survey of Consumer Expectations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "11:30 (ET) \nThe Business Outlook Survey is a summary of interviews conducted by the Bank's regional offices with business leaders from about 100 firms, selected in accordance with the composition of Canada's gross domestic product.The Canadian Survey of Consumer Expectations is a quarterly survey aimed at measuring household views of inflation, the labour market and household finances, as well as topical issues of interest to the Bank of Canada.",
+    "url": "https://www.bankofcanada.ca/2027/10/release-business-outlook-survey-and-canadian-survey-of-consumer-expectations-october-18-2027/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2027-10-27",
+    "title": "Interest Rate Announcement and Monetary Policy Report",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "09:45 (ET)\nOn eight scheduled dates each year, the Bank of Canada announces the setting for the overnight rate target in a press release explaining the factors behind the decision. Four times a year, Governing Council presents the Monetary Policy Report: the Bank’s base-case projection for inflation and growth in the Canadian economy, and its assessment of risks.",
+    "url": "https://www.bankofcanada.ca/2027/10/interest-rate-announcement-and-monetary-policy-report-october-27-2027/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
+    ]
+  },
+  {
     "date": "2027-11-03",
     "title": "Market holiday — Culture Day",
     "source": "JPX / TSE",
@@ -623,6 +662,19 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2027-11-10",
+    "title": "Publication: Summary of Deliberations",
+    "source": "Bank of Canada",
+    "type": "economics",
+    "description": "13:30 (ET)\nA summary of monetary policy deliberations by the Governing Council for the policy decision that was announced two weeks earlier.",
+    "url": "https://www.bankofcanada.ca/2027/11/publication-summary-of-deliberations-november-10-2027/",
+    "tags": [
+      "bank of canada",
+      "economics",
+      "economics"
     ]
   }
 ]

@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-23",
-    "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
-    "source": "SEC Press Releases",
-    "type": "economics",
-    "description": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
-    "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
-    "tags": [
-      "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-10-29",
     "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
     "source": "Bank of England",
@@ -662,6 +649,19 @@
       "bank of canada",
       "economics",
       "economics"
+    ]
+  },
+  {
+    "date": "2027-11-23",
+    "title": "Market holiday — Labor Thanksgiving Day",
+    "source": "JPX / TSE",
+    "type": "exchange",
+    "description": "JPX / TSE closed for Labor Thanksgiving Day. Settlement and expiry cycles roll to the next session.",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "tags": [
+      "jpx / tse",
+      "exchange",
+      "holiday"
     ]
   }
 ]

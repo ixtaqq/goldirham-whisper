@@ -54,19 +54,6 @@
     "status": "approved"
   },
   {
-    "date": "2026-11-02",
-    "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-03",
     "title": "Market holiday — Culture Day",
     "source": "JPX / TSE",
@@ -158,32 +145,6 @@
     ]
   },
   {
-    "date": "2026-11-18",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-18",
-    "title": "Deaths registered weekly in England and Wales, provisional: week ending 6 November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
-    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending6november2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-19",
     "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
     "source": "Bank of England",
@@ -216,19 +177,6 @@
     "type": "economics",
     "description": "This statistical bulletin contains headline figures and commentary from the Business Demography 2025 publication. This product includes births, deaths and survivals of UK enterprises. The active stock of businesses is also shown, so that birth and death rates can be calculated.",
     "url": "https://www.ons.gov.uk/releases/businessdemography2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-19",
-    "title": "Business insights and impact on the UK economy: 19 November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The impact of challenges facing the economy and other events on UK businesses, including financial performance, workforce, trade and business resilience.",
-    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy19november2026",
     "tags": [
       "ons uk release calendar",
       "economics",
@@ -337,6 +285,45 @@
       "jpx / tse",
       "exchange",
       "holiday"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "title": "New insights on labour market dynamics from UK Linked Employer-Employee Data (LEED)",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "New measures of job hires, separations and job-to-job flows from LEED, linking payroll and ONS business data. These are Official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/insightsonuklabourmarketdynamismfromlinkedemployeremployeedata2014to2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Inclusive income and wealth, UK quality and methods guide",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "What the inclusive income and wealth statistics cover, how we produce them, and their quality and comparability. Includes definitions and latest, past and upcoming changes.",
+    "url": "https://www.ons.gov.uk/releases/inclusiveincomeandwealthukqualityandmethodsguide",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Labour market transformation – update on progress and plans: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Labour market transformation overview, building on previous engagement on the transformed Labour Force Survey and the labour market administrative data project.",
+    "url": "https://www.ons.gov.uk/releases/labourmarkettransformationupdateonprogressandplansnovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
     ]
   },
   {

@@ -158,32 +158,6 @@
     ]
   },
   {
-    "date": "2026-11-19",
-    "title": "Economic activity and social change in the UK, real-time indicators: 19 November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
-    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators19november2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-19",
-    "title": "Business demography, UK: 2025",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "This statistical bulletin contains headline figures and commentary from the Business Demography 2025 publication. This product includes births, deaths and survivals of UK enterprises. The active stock of businesses is also shown, so that birth and death rates can be calculated.",
-    "url": "https://www.ons.gov.uk/releases/businessdemography2025",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-20",
     "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
     "source": "SEC Press Releases",
@@ -262,19 +236,6 @@
     ]
   },
   {
-    "date": "2026-11-20",
-    "title": "Public sector finances, UK: October 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "The time series datasets consistent with the Public sector finances, UK: October 2026 bulletin.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-23",
     "title": "Market holiday — Labor Thanksgiving Day",
     "source": "JPX / TSE",
@@ -320,6 +281,45 @@
     "type": "economics",
     "description": "Labour market transformation overview, building on previous engagement on the transformed Labour Force Survey and the labour market administrative data project.",
     "url": "https://www.ons.gov.uk/releases/labourmarkettransformationupdateonprogressandplansnovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Household satellite account, UK: 2024 (and provisional 2025) estimates",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Measures the value of unpaid adult and childcare, household housing services, nutrition, clothing and laundry, transport and volunteering.",
+    "url": "https://www.ons.gov.uk/releases/householdsatelliteaccountuk2024andprovisional2025estimates",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "title": "UK trade in services by industry, country and service type, 2016 to 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Breakdown of exports and imports of UK trade in services by industry, country and service type on a balance of payments basis. Data are subject to disclosure control.",
+    "url": "https://www.ons.gov.uk/releases/uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Regional and subregional labour productivity, UK: 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Regional and subregional output per hour worked and output per job performance levels. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/regionalandsubregionallabourproductivityuk2024",
     "tags": [
       "ons uk release calendar",
       "economics",

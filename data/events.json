@@ -93,19 +93,6 @@
     ]
   },
   {
-    "date": "2026-11-06",
-    "title": "ECB publishes consolidated banking data for end-June 2026",
-    "source": "ECB Press Releases",
-    "type": "economics",
-    "description": "",
-    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
-    "tags": [
-      "ecb press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-13",
     "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
     "source": "Bank of England",
@@ -179,58 +166,6 @@
     "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
     "tags": [
       "sec press releases",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-20",
-    "title": "Public opinions and social trends, Great Britain: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Social insights on daily life and events, including important issues facing the UK, from the Opinions and Lifestyle Survey (OPN).",
-    "url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-20",
-    "title": "Retail sales, Great Britain: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-20",
-    "title": "Retail sales, Great Britain: October 2026 time series",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026timeseries",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-20",
-    "title": "Public sector finances, UK: October 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
-    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2026",
-    "tags": [
-      "ons uk release calendar",
       "economics",
       "economics"
     ]
@@ -320,6 +255,58 @@
     "type": "economics",
     "description": "Regional and subregional output per hour worked and output per job performance levels. These are official statistics in development.",
     "url": "https://www.ons.gov.uk/releases/regionalandsubregionallabourproductivityuk2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Domestic abuse in England and Wales overview: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Figures on domestic abuse from the Crime Survey for England and Wales, police recorded crime, and other organisations.",
+    "url": "https://www.ons.gov.uk/releases/domesticabuseinenglandandwalesoverviewnovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Stalking: findings from the Crime Survey for England and Wales, March 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Stalking experienced by women and men, including numbers, type and personal characteristics, based upon annual findings from the Crime Survey for England and Wales.",
+    "url": "https://www.ons.gov.uk/releases/stalkingfindingsfromthecrimesurveyforenglandandwalesmarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Harassment: findings from the Crime Survey for England and Wales, year ending March 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates on the experiences and nature of harassment based upon annual findings from the Crime Survey for England and Wales",
+    "url": "https://www.ons.gov.uk/releases/harassmentfindingsfromthecrimesurveyforenglandandwalesyearendingmarch2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 13 November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending13november2026",
     "tags": [
       "ons uk release calendar",
       "economics",

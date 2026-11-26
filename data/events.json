@@ -184,84 +184,6 @@
     ]
   },
   {
-    "date": "2026-11-23",
-    "title": "New insights on labour market dynamics from UK Linked Employer-Employee Data (LEED)",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "New measures of job hires, separations and job-to-job flows from LEED, linking payroll and ONS business data. These are Official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/insightsonuklabourmarketdynamismfromlinkedemployeremployeedata2014to2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-23",
-    "title": "Inclusive income and wealth, UK quality and methods guide",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "What the inclusive income and wealth statistics cover, how we produce them, and their quality and comparability. Includes definitions and latest, past and upcoming changes.",
-    "url": "https://www.ons.gov.uk/releases/inclusiveincomeandwealthukqualityandmethodsguide",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-23",
-    "title": "Labour market transformation – update on progress and plans: November 2026",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Labour market transformation overview, building on previous engagement on the transformed Labour Force Survey and the labour market administrative data project.",
-    "url": "https://www.ons.gov.uk/releases/labourmarkettransformationupdateonprogressandplansnovember2026",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-24",
-    "title": "Household satellite account, UK: 2024 (and provisional 2025) estimates",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Measures the value of unpaid adult and childcare, household housing services, nutrition, clothing and laundry, transport and volunteering.",
-    "url": "https://www.ons.gov.uk/releases/householdsatelliteaccountuk2024andprovisional2025estimates",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-24",
-    "title": "UK trade in services by industry, country and service type, 2016 to 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Breakdown of exports and imports of UK trade in services by industry, country and service type on a balance of payments basis. Data are subject to disclosure control.",
-    "url": "https://www.ons.gov.uk/releases/uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
-    "date": "2026-11-24",
-    "title": "Regional and subregional labour productivity, UK: 2024",
-    "source": "ONS UK Release Calendar",
-    "type": "economics",
-    "description": "Regional and subregional output per hour worked and output per job performance levels. These are official statistics in development.",
-    "url": "https://www.ons.gov.uk/releases/regionalandsubregionallabourproductivityuk2024",
-    "tags": [
-      "ons uk release calendar",
-      "economics",
-      "economics"
-    ]
-  },
-  {
     "date": "2026-11-25",
     "title": "Domestic abuse in England and Wales overview: November 2026",
     "source": "ONS UK Release Calendar",
@@ -307,6 +229,123 @@
     "type": "economics",
     "description": "Provisional number of deaths registered in England and Wales in the latest weeks.",
     "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending13november2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Payments systems Memorandum of Understanding",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Bank of England, PRA, FCA and PSR review Memorandum of Understanding in relation to payment systems in the UK",
+    "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+    "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Financial Policy Committee Record – November 2026",
+    "source": "Bank of England",
+    "type": "economics",
+    "description": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.",
+    "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+    "tags": [
+      "bank of england",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Provisional population estimate for the UK: mid-2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Provisional mid-year estimate of the total population of the UK.",
+    "url": "https://www.ons.gov.uk/releases/provisionalpopulationestimatefortheukmid2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Economic activity and social change in the UK, real-time indicators: 26 November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators26november2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Long-term international migration, provisional: year ending June 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of UK long-term international migration, year ending June 2012 to year ending June 2026. These are official statistics in development. Long-term refers to people entering or leaving the UK for a period of at least 12 months.",
+    "url": "https://www.ons.gov.uk/releases/longterminternationalmigrationprovisionalyearendingjune2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "UK Input-output analysis tool: 2019 to 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "New interactive tool showing the use of different products by UK industries, and accompanying guidance. \n\nThe tool shows which industries are the most significant users of a selected product, and which products are required to make other goods and services in the UK economy.  The tool contains data from 2019 to 2024. All the data in the tool are consistent with the Input Output analysis tables of that year.",
+    "url": "https://www.ons.gov.uk/releases/ukinputoutputanalysistool2019to2024",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Young people not in education, employment or training (NEET), UK: November 2026",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Estimates of young people (aged 16 to 24 years) who are not in education, employment or training, by age and sex. These are official statistics in development.",
+    "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetuknovember2026",
+    "tags": [
+      "ons uk release calendar",
+      "economics",
+      "economics"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "UK Input-output analytical tables: 2024",
+    "source": "ONS UK Release Calendar",
+    "type": "economics",
+    "description": "Industry by industry, product by product and further analysis tables derived from the annual Supply and Use Tables (SUTs).",
+    "url": "https://www.ons.gov.uk/releases/ukinputoutputanalyticaltables2024",
     "tags": [
       "ons uk release calendar",
       "economics",
